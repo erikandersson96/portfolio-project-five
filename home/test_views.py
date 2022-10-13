@@ -1,0 +1,17 @@
+"""
+Home app test for Views
+"""
+from django.test import TestCase
+from django.urls import reverse
+
+
+class TestViews(TestCase):
+    """ Unit test for Home app Views """
+
+    def test_home_is_resolved(self):
+        """ Test home page renders correct page """
+
+        url = reverse('home')
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'home/index.html')
