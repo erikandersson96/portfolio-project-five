@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('media/hero_image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: white;
+    font-family: 'Lato';
+}
+
+/* From Bulma as in CI video, Boutique Ado */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+/* Change color to white where now black etc and correct colors when background is black. Delete this comment then. */
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+/* Change color to white and correct colors when background is black. Delete this comment then. */
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
+    background: #222;
+    color: white;
+}
+
+/* change to text-white when background is set to black, and change color to white. Delete this comment then. */
+.text-white {
+    color: #000 !important;
+}
+
+/* change to border-white when background is set to black, and change color to white. Delete this comment then. */
+.border-black {
+    border: 1px solid black !important;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
