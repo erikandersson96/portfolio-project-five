@@ -51,8 +51,8 @@ body {
 .btn-dark:hover,
 .btn-dark:active,
 .btn-dark:focus {
-    background: white;
-    color: #222;
+    background: rgb(242, 214, 57);
+    color: black;
 }
 
 /* change to text-white when background is set to black, and change color to white. Delete this comment then. */
@@ -63,6 +63,11 @@ body {
 /* change to border-white when background is set to black, and change color to white. Delete this comment then. */
 .border-white {
     border: 1px solid white !important;
+}
+
+.nav-link-hover:hover {
+    background: rgb(242, 214, 57);
+    color: black;
 }
 
 /* -------------------------------- Media Queries */
