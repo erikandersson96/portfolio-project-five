@@ -21,6 +21,11 @@ body {
 
 .logo-font {
     font-family: 'Comforter+Brush' !important;
+    color: #fff;
+}
+
+.logo-font:hover {
+    color: rgb(242, 214, 57);
 }
 
 .main-logo-link {
