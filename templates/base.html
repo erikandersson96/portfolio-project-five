@@ -37,6 +37,17 @@
   <body>
     <!-- PAGE HEADER -->
     <header class="container-fluid fixed-top">
+      <div id="discount-banner" class="row text-center">
+        <div class="col text-white">
+          <h4 class="logo-font my-1">
+            {% if request.user.is_authenticated %}
+              Free shipping worldwide!
+            {% else %}
+             Free shipping worldwide! Sign Up for the Newsletter and get 10% off first purchase!
+            {% endif %}
+          </h4>
+        </div>
+      </div>
       <!-- Delete bg-white here when background is set to black. Delete this comment then. -->
       <div id="topnav" class="row navbar navbar-dark bg-dark pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
