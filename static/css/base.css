@@ -19,6 +19,10 @@ body {
     width: 1.5rem;
 }
 
+#topnav, .nav-link-black {
+    background: #000;
+}
+
 #discount-banner {
     background: rgb(242, 214, 57);
     color: #000;
