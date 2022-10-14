@@ -19,8 +19,14 @@ body {
     width: 1.5rem;
 }
 
-#topnav, .nav-link-black {
+.nav-link-black,  
+#topnav { 
     background: #000;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    background: #fff;
 }
 
 #discount-banner {
