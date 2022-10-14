@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('media/hero_image.jpg') no-repeat center center fixed;
+    background: url('/media/hero_image.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: white;
@@ -20,7 +20,6 @@ body {
 }
 
 .logo-font {
-    text-transform: uppercase;
     font-family: 'Comforter+Brush' !important;
 }
 
@@ -30,8 +29,8 @@ body {
 
 /* Change color to white where now black etc and correct colors when background is black. Delete this comment then. */
 .shop-now-button {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     min-width: 260px;
 }
 
