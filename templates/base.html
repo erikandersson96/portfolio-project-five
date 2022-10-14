@@ -38,12 +38,12 @@
     <!-- PAGE HEADER -->
     <header class="container-fluid fixed-top">
       <div id="discount-banner" class="row text-center">
-        <div class="col text-white">
-          <h4 class="logo-font my-1">
+        <div class="col">
+          <h4 class="my-1">
             {% if request.user.is_authenticated %}
               Free shipping worldwide!
             {% else %}
-             Free shipping worldwide! Sign Up for the Newsletter and get 10% off first purchase!
+             Free shipping worldwide! Sign Up for the Newsletter and get 10% off on first purchase!
             {% endif %}
           </h4>
         </div>

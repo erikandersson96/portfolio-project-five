@@ -19,6 +19,12 @@ body {
     width: 1.5rem;
 }
 
+#discount-banner {
+    background: rgb(242, 214, 57);
+    color: #000;
+    font-family: 'Comforter+Brush' !important;
+}
+
 .logo-font {
     font-family: 'Comforter+Brush' !important;
     color: #fff;
