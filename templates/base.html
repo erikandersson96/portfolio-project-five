@@ -34,8 +34,8 @@
 
     <title>AndWatch's {% block extra_title %}{% endblock %}</title>
   </head>
-  <body>
-  <div class="body">
+  <body class="d-flex flex-column min-vh-100">
+    <div class="body">
     <header class="container-fluid fixed-top">
       <!-- Discount banner -->
       <div id="discount-banner" class="row text-center">
@@ -133,24 +133,24 @@
     {% block postloadjs %}
     {% endblock %}
 
+    <footer class="text-center footer mt-auto py-3">
+      <div class="container text-white">
+          <div class="m-2">
+              <h3>Contact us</h3>
+          </div>
+          <!-- Social Media Links -->
+          <div>
+              <!-- GitHub -->
+              <a class="m-2 footer-button" href="https://github.com/erikandersson96" role="button" target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
+              <!-- LinkedIn -->
+              <a class="m-2 footer-button" href="https://www.linkedin.com/in/erikhopemedia" role="button" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
+          </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center copyright text-white">
+          © 2022 Copyright: AndWatch's - Erik Andersson
+      </div>
+    </footer>
   </div>
-  <footer class="text-center footer mt-auto py-3">
-    <div class="container text-white">
-        <div class="m-2">
-            <h3>Contact us</h3>
-        </div>
-        <!-- Social Media Links -->
-        <div>
-            <!-- GitHub -->
-            <a class="m-2 footer-button" href="https://github.com/erikandersson96" role="button" target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
-            <!-- LinkedIn -->
-            <a class="m-2 footer-button" href="https://www.linkedin.com/in/erikhopemedia" role="button" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </div>
-    <!-- Copyright -->
-    <div class="text-center copyright text-white">
-        © 2022 Copyright: AndWatch's - Erik Andersson
-    </div>
-  </footer> 
-  </body>
+</body>
 </html>
