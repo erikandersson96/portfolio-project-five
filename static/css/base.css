@@ -107,20 +107,17 @@ footer {
     background: #000;
 }
 
-.sign-up-footer {
-    color: green;
-}
-
+.footer-button:hover,
 .sign-up-footer:hover {
     color: rgb(242, 214, 57);
 }
 
-.footer-button {
+.sign-up-footer {
     color: rgb(242, 214, 57);
 }
 
-.footer-button:hover {
-    color: green;
+.footer-button {
+    color: #fff;
 }
 
 /* -------------------------------- Media Queries */
