@@ -20,7 +20,8 @@ html {
 }
 
 .nav-link-black,  
-#topnav { 
+#topnav,
+body { 
     background: #000;
 }
 
@@ -84,6 +85,17 @@ html {
 .nav-link-hover:hover {
     background: rgb(242, 214, 57);
     color: black;
+}
+
+.gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+.gallery img {
+    width: 100%;
 }
 
 footer {
