@@ -34,8 +34,7 @@
 
     <title>AndWatch's {% block extra_title %}{% endblock %}</title>
   </head>
-  <body class="d-flex flex-column min-vh-100">
-    <div class="body">
+  <body>
     <header class="container-fluid fixed-top">
       <!-- Discount banner -->
       <div id="discount-banner" class="row text-center">
@@ -120,14 +119,14 @@
       </div>
     </header>
 
-    {% block content %}
-    {% endblock %}
-
     {% if messages %}
         <div class="message-container"></div>
     {% endif %}
 
     {% block page_header %}
+    {% endblock %}
+
+    {% block content %}
     {% endblock %}
 
     {% block postloadjs %}
@@ -160,6 +159,5 @@
         <small>© 2022 Copyright: AndWatch's - Erik Andersson</small>
       </div>
     </footer>
-  </div>
 </body>
 </html>

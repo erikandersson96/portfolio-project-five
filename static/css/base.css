@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 
-.body {
+body {
     background: url('/media/hero_image.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 60px);
@@ -20,8 +20,7 @@ html {
 }
 
 .nav-link-black,  
-#topnav,
-body { 
+#topnav { 
     background: #000;
 }
 
@@ -99,6 +98,16 @@ body {
 
 .gallery img {
     width: 100%;
+}
+
+.overlay {
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* -------------------------------- Footer */
