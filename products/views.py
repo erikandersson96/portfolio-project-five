@@ -8,5 +8,10 @@ def all_products(request):
     A view to render all watch products,
     including sorting and search queries.
     """
+    products = Product.objects.all()
 
-    return render(request, 'products/products.html')
+    context = {
+        'products': products,
+    }
+
+    return render(request, 'products/products.html', context)
