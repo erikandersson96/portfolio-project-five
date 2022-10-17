@@ -34,9 +34,10 @@
 
     <title>AndWatch's {% block extra_title %}{% endblock %}</title>
   </head>
-  <body>
-    <!-- PAGE HEADER -->
+  <body class="d-flex flex-column min-vh-100">
+  <div class="body">
     <header class="container-fluid fixed-top">
+      <!-- Discount banner -->
       <div id="discount-banner" class="row text-center">
         <div class="col">
           <h4 class="my-1">
@@ -48,21 +49,18 @@
           </h4>
         </div>
       </div>
-      <!-- Delete bg-white here when background is set to black. Delete this comment then. navbar-dark bg-dark -->
+      <!-- PAGE HEADER -->
       <div id="topnav" class="row navbar pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
           <a href="{% url 'home' %}" class="nav-link main-logo-link">
-            <!-- Change to text-white here when background is set to black. Delete this comment then. -->
             <h2 class="logo-font my-0"><strong>AndWatch's</strong></h2>
           </a>
         </div>
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
           <form method="GET" action="">
             <div class="input-group w-100">
-              <!-- Change to border-white here when background is set to black. Delete this comment then. -->
               <input type="text" class="form-control border border-dark rounded-0" name="q" placeholder="Search for watches...">
               <div class="input-group-append">
-                <!-- Change to border-white here when background is set to black. Delete this comment then. -->
                 <button class="form-control btn btn-dark border border-dark rounded-0" type="submit">
                   <span class="icon">
                     <i class="fas fa-search"></i>
@@ -75,7 +73,6 @@
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
           <ul class="list-inline list-unstyled text-center text-lg-right my-0">
             <li class="list-inline-item dropdown">
-              <!-- Change to text-white here when background is set to black. Delete this comment then. -->
               <a href="#" class="text-white nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="text-center">
                   <div><i class="far fa-user fa-lg"></i></div>
@@ -96,7 +93,6 @@
               </div>
             </li>
             <li class="list-inline-item">
-              <!-- Change to text-white here when background is set to black. Delete this comment then. -->
               <a href="" class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %}">
                 <div class="text-center">
                   <div><i class="fas fa-shopping-cart fa-lg"></i></div>
@@ -124,6 +120,9 @@
       </div>
     </header>
 
+    {% block content %}
+    {% endblock %}
+
     {% if messages %}
         <div class="message-container"></div>
     {% endif %}
@@ -131,11 +130,27 @@
     {% block page_header %}
     {% endblock %}
 
-    {% block content %}
-    {% endblock %}
-
     {% block postloadjs %}
     {% endblock %}
 
+  </div>
+  <footer class="text-center footer mt-auto py-3">
+    <div class="container text-white">
+        <div class="m-2">
+            <h3>Contact us</h3>
+        </div>
+        <!-- Social Media Links -->
+        <div>
+            <!-- GitHub -->
+            <a class="m-2 footer-button" href="https://github.com/erikandersson96" role="button" target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
+            <!-- LinkedIn -->
+            <a class="m-2 footer-button" href="https://www.linkedin.com/in/erikhopemedia" role="button" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center copyright text-white">
+        © 2022 Copyright: AndWatch's - Erik Andersson
+    </div>
+  </footer> 
   </body>
 </html>

@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 
-body {
+.body {
     background: url('/media/hero_image.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
@@ -84,6 +84,10 @@ body {
 .nav-link-hover:hover {
     background: rgb(242, 214, 57);
     color: black;
+}
+
+footer {
+    background: #000;
 }
 
 /* -------------------------------- Media Queries */
