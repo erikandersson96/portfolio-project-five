@@ -65,6 +65,9 @@ body {
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
+.nav-buttons:hover,
+.nav-buttons:active,
+.nav-buttons:focus,
 .btn-dark:hover,
 .btn-dark:active,
 .btn-dark:focus {
