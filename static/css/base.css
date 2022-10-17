@@ -101,8 +101,26 @@ body {
     width: 100%;
 }
 
+/* -------------------------------- Footer */
+
 footer {
     background: #000;
+}
+
+.sign-up-footer {
+    color: green;
+}
+
+.sign-up-footer:hover {
+    color: rgb(242, 214, 57);
+}
+
+.footer-button {
+    color: rgb(242, 214, 57);
+}
+
+.footer-button:hover {
+    color: green;
 }
 
 /* -------------------------------- Media Queries */
