@@ -22,3 +22,4 @@ class TestViews(TestCase):
         url = reverse('products')
         response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
+        # self.assertTemplateUsed(response, 'products/product_detail.html')
