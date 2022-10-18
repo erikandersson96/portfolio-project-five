@@ -82,6 +82,14 @@ body {
     color: #fff !important;
 }
 
+.background-black {
+    background: #fff !important;
+}
+
+hr {
+    background: #fff !important;
+}
+
 /* change to border-white when background is set to black, and change color to white. Delete this comment then. */
 .border-white {
     border: 1px solid white !important;
@@ -111,6 +119,10 @@ body {
 	position: fixed;
 	background: white;
 	z-index: -1;
+}
+
+.all-pages-background {
+    background: #000;
 }
 
 /* -------------------------------- Footer */
