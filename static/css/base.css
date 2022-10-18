@@ -155,3 +155,13 @@ footer {
         padding-top: 164px;
     }
 }
+
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 160px;
+    }
+
+    body {
+        height: calc(100vh - 160px);
+    }
+}
