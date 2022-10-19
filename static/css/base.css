@@ -38,7 +38,8 @@ body {
     font-family: 'Comforter+Brush' !important;
 }
 
-.logo-font {
+.logo-font,
+.logo-footer {
     font-family: 'Comforter+Brush' !important;
     color: #fff;
 }
