@@ -1,4 +1,4 @@
-# Testing of AndWatch's
+# Testing
  
 During my development for this project each function were tested to work as expected. Each section in this file describes all of the different tests.
  
@@ -289,4 +289,4 @@ I have manualy tested so these functions and elements works correct:
  
  
 ---
-## RETURN BACK TO [TOP](#testing-of-andwatch's)
+## RETURN BACK TO [TOP](#testing)

@@ -1,4 +1,4 @@
-# AndWatch's "AW's"
+# AndWatch's
  
 <p align="center">
    <img src="" width="150px"/>
@@ -417,4 +417,4 @@ I would like to give an extra `Thank you` to all the kind people I have around m
 * **Code Institute Slack channel** for always helping out with problems or questions.
 * My lovely **Girlfriend** for always supporting and believing in me.
  
-### RETURN TO THE [TOP](#what-to-eat)
+### RETURN TO THE [TOP](#andwatch's)
