@@ -13,6 +13,19 @@ body {
     height: calc(100vh - 70px);
 }
 
+/* -------------------------------- Gallery */
+
+.gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+.gallery img {
+    width: 100%;
+}
+
 /* From Bulma as in CI video, Boutique Ado */
 .icon {
     align-items: center;
@@ -107,17 +120,6 @@ hr {
 .nav-link-hover:hover {
     background: rgb(242, 214, 57);
     color: black;
-}
-
-.gallery {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0;
-}
-
-.gallery img {
-    width: 100%;
 }
 
 .overlay {
