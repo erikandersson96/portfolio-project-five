@@ -10,7 +10,7 @@
                 Watches
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-watches-link">
-                <a href="" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Watches</a>
             </div>
         </li>
