@@ -78,9 +78,17 @@ body {
     color: black;
 }
 
-/* change to text-white when background is set to black, and change color to white. Delete this comment then. */
+/* -------------------------------- Colors*/
 .text-white {
     color: #fff !important;
+}
+
+.reset-sorting {
+    color: rgb(242, 214, 57);
+}
+
+.reset-sorting:hover {
+    color: red;
 }
 
 .background-black {
