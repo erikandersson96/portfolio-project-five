@@ -88,7 +88,7 @@ body {
 }
 
 hr {
-    background: #fff !important;
+    background: rgb(242, 214, 57) !important;
 }
 
 /* change to border-white when background is set to black, and change color to white. Delete this comment then. */
