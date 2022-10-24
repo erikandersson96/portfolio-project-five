@@ -14,3 +14,4 @@ class TestViews(TestCase):
         url = reverse('view_bag')
         response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'bag/bag.html')
