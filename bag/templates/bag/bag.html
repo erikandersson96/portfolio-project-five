@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container mb-2">
+    <div class="container mb-2 text-white">
         <div class="row">
             <div class="col">
                 <hr>
@@ -21,7 +21,9 @@
         <div class="row">
             <div class="col">
                 {% if bag_items %}
-                    <div class="table-responsive rounded"></div>
+                    <div class="table-responsive rounded">
+                        {{ bag_items }}
+                    </div>
                 {% else %}
                     <p class="lead mb-5 text-white">Oh no! Looks like your bag is empty...</p>
                     <a href="{% url 'products' %}" class="btn shop-now-button rounded-0 btn-lg">
