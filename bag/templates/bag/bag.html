@@ -22,7 +22,59 @@
             <div class="col">
                 {% if bag_items %}
                     <div class="table-responsive rounded">
-                        {{ bag_items }}
+                        <table class="table table-sm table-borderless">
+                            <thead class="text-white">
+                                <tr>
+                                    <th scope="col">Product Info</th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Subtotal</th>
+                                </tr>
+                            </thead>
+                            {% for item in bag_items %}
+                                <tr class="text-white">
+                                    <td class="p-3 w-25">
+                                        <img src="{{ item.product.image.url }}" alt="product image" class="img-fluid rounded">
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0"><strong>{{ item.product.watch_make }}</strong></p>
+                                        <p class="my-0 small text-muted text-white">SKU: {{ item.product.sku|upper }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">${{ item.product.price }}</p>
+                                    </td>
+                                    <td class="py-3 w-25">
+                                        <p class="my-0">{{ item.quantity }}</p>                                      
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">${{ item.product.price }}</p>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            <tr>
+                                <td colspan="5" class="pt-5 text-right text-white">
+                                    <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
+                                    <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" class="text-right">
+                                    <a href="{% url 'products' %}" class="btn btn-outline-white rounded-0 btn-lg">
+                                        <span class="icon">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </span>
+                                        <span class="text-uppercase">I want to shop more!</span>
+                                    </a>
+                                    <a href="" class="btn btn-dark rounded-0 btn-lg">
+                                        <span class="text-uppercase">Secure Checkout!</span>
+                                        <span class="icon">
+                                            <i class="fas fa-lock"></i>
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 {% else %}
                     <p class="lead mb-5 text-white">Oh no! Looks like your bag is empty...</p>
