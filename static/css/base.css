@@ -52,7 +52,7 @@ body {
     width: fit-content;
 }
 
-/* Change color to white where now black etc and correct colors when background is black. Delete this comment then. */
+/* -------------------------- Buttons */
 .shop-now-button {
     background: white;
     color: black;
@@ -64,7 +64,9 @@ body {
     color: black;
 }
 
-/* Change color to white and correct colors when background is black. Delete this comment then. */
+.btn-outline-white:hover,
+.btn-outline-white:active,
+.btn-outline-white:focus,
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -76,6 +78,12 @@ body {
 .btn-dark:focus {
     background: rgb(242, 214, 57);
     color: black;
+}
+
+.btn-outline-white {
+    background: #000;
+    color: #fff !important;
+    border: 1px solid #fff;
 }
 
 /* -------------------------------- Colors*/
