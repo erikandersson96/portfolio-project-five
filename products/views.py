@@ -20,9 +20,10 @@ def all_products(request):
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
             sort = sortkey
-            if sortkey == 'name':
-                sortkey = 'lower_name'
-                products = products.annotate(lower_name=Lower('name'))
+            if sortkey == 'watch_make':
+                sortkey = 'lower_watch_make'
+                products = products.annotate(
+                    lower_watch_make=Lower('watch_make'))
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
@@ -36,7 +37,8 @@ def all_products(request):
                     request, "You did not enter any search criteria!")
                 return redirect(reverse('products'))
 
-            queries = Q(watch_make__icontains=query) | Q(description__icontains=query)
+            queries = Q(watch_make__icontains=query) | Q(
+                description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'

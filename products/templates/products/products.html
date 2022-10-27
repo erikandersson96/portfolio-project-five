@@ -26,8 +26,8 @@
                                 <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
                                 <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
                                 <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
-                                <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Brand (A-Z)</option>
-                                <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Brand (Z-A)</option>
+                                <option value="watch_make_asc" {% if current_sorting == 'watch_make_asc' %}selected{% endif %}>Watch Brand (A-Z)</option>
+                                <option value="watch_make_desc" {% if current_sorting == 'watch_make_desc' %}selected{% endif %}>Watch Brand (Z-A)</option>
                             </select>
                         </div>
                     </div>
@@ -114,8 +114,12 @@
 
             var selectedVal = selector.val();
             if(selectedVal != "reset"){
-                var sort = selectedVal.split("_")[0];
-                var direction = selectedVal.split("_")[1];
+                // var sort = selectedVal.split("_")[0];
+                // var direction = selectedVal.split("_")[1];
+                let stringSplit = selectedVal.split("_");
+                let direction = stringSplit[(stringSplit.length) - 1];
+                stringSplit.pop();
+                let sort = stringSplit.join("_");
 
                 currentUrl.searchParams.set("sort", sort);
                 currentUrl.searchParams.set("direction", direction);
