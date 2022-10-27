@@ -10,31 +10,23 @@
 {% endblock %}
 
 {% block content %}
-    <section>
-        <div class="hero-image">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-7 col-md-6 my-auto">
-                        <h1 class="display-4 text-white">
-                            Check out our new inventory!
-                        </h1>
-                        <div class="my-5">
-                            <h4>
-                                <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase text-center">
-                                    Shop Now!
-                                </a>
-                            </h4>
-                        </div>
+    <div class="hero-image">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-7 col-md-6 my-auto">
+                    <h1 class="display-4 text-white">
+                        Check out our new inventory!
+                    </h1>
+                    <div class="my-5">
+                        <h4>
+                            <a href="{% url 'products' %}"
+                                class="shop-now-button btn btn-lg rounded-0 text-uppercase text-center">
+                                Shop Now!
+                            </a>
+                        </h4>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="gallery">
-        <img src="media/watch.1.jpg" alt="Wrist watch - Cosmograph Daytona Oystersteel">
-        <img src="media/watch.2.jpg" alt="Wrist watch - Explorer II White Dial">
-        <img src="media/watch.3.jpg" alt="Wrist watch - Oyster Perpetual Air-King Black Dial">
-        <img src="media/watch.4.jpg" alt="Wrist watch - Sapphire 40mm Steel Black Dial">
-        <img src="media/watch.5.jpg" alt="Wrist watch - IWC classic look with leather strap">
-    </section>
+    </div>
 {% endblock %}
