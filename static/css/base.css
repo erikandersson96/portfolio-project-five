@@ -59,7 +59,7 @@ body {
     min-width: 260px;
 }
 
-.btn-dark {
+.btn-white {
     background: white;
     color: black;
 }
@@ -73,9 +73,9 @@ body {
 .nav-buttons:hover,
 .nav-buttons:active,
 .nav-buttons:focus,
-.btn-dark:hover,
-.btn-dark:active,
-.btn-dark:focus {
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
     background: rgb(242, 214, 57);
     color: black;
 }
