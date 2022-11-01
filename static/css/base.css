@@ -59,9 +59,21 @@ body {
     min-width: 260px;
 }
 
+.shop-now-button-bag {
+    background: rgb(242, 214, 57);
+    color: #000;
+}
+
 .btn-white {
     background: white;
     color: black;
+}
+
+.shop-now-button-bag:hover,
+.shop-now-button-bag:active,
+.shop-now-button-bag:focus {
+    background: #000;
+    color: #fff;
 }
 
 .btn-outline-white:hover,
@@ -226,6 +238,13 @@ footer {
 
 .arrow-dark {
     border-bottom-color: #343a40 !important;
+}
+
+.bag-notification-wrapper {
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #000;
 }
 
 /* -------------------------------- Media Queries */
