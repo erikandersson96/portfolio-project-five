@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 
 def view_bag(request):
@@ -11,7 +11,7 @@ def view_bag(request):
 
 def add_to_bag(request, item_id):
     """
-    Add product and quantity to the bag view
+    A view to add product and quantity to the bag view
     """
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
@@ -28,7 +28,8 @@ def add_to_bag(request, item_id):
 
 def adjust_bag(request, item_id):
     """
-    Adjust the quantity of a specific product in shopping bag
+    A view to adjust the quantity of a specific
+    product in shopping bag
     """
     quantity = int(request.POST.get('quantity'))
     bag = request.session.get('bag', {})
@@ -40,3 +41,19 @@ def adjust_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
+
+
+def remove_from_bag(request, item_id):
+    """
+    A view to remove a item from the shopping bag
+    """
+    try:
+        bag = request.session.get('bag', {})
+
+        bag.pop(item_id)
+
+        request.session['bag'] = bag
+        return HttpResponse(status=200)
+
+    except Exception as e:
+        return HttpResponse(status=500)
