@@ -5,6 +5,7 @@ html {
 body {
     background: #000;
     font-family: 'Lato';
+    overflow-x:hidden;
 }
 
 .hero-image {
@@ -303,6 +304,10 @@ footer {
 
 .allauth-form-inner-content a {
     color: rgb(242, 214, 57);
+}
+
+.btn-custom-allauth {
+    margin-top: 5px;
 }
 
 /* fixed top navbar only on medium and up */
