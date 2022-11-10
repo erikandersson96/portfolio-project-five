@@ -113,6 +113,18 @@ input[name='q']::placeholder {
     color: rgb(242, 214, 57);
 }
 
+.delete-red {
+    color: rgb(206, 0, 0);
+}
+
+.edit-yellow:hover {
+    color: rgb(207, 176, 0);
+}
+
+.delete-red:hover {
+    color: rgb(250, 22, 22);
+}
+
 .reset-sorting:hover {
     color: red;
 }
