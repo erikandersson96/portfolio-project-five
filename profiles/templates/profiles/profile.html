@@ -5,14 +5,6 @@
     <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
 {% endblock %}
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
-
 {% block content %}
     <div class="container text-white">
         <div class="row">
@@ -43,7 +35,7 @@
                                 <th class="text-white">Order Total</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-white">
                             {% for order in orders %}
                                 <tr>
                                     <td>
@@ -53,7 +45,7 @@
                                     </td>
                                     <td>{{ order.date }}</td>
                                     <td>
-                                        <ul class="list-unstyled">
+                                        <ul class="list-unstyled text-white">
                                             {% for item in order.lineitems.all %}
                                                 <li class="small">
                                                     {{ item.product.name }} x{{ item.quantity }}

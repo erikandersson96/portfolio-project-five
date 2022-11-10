@@ -36,7 +36,7 @@
 
     <title>AndWatch's {% block extra_title %}{% endblock %}</title>
   </head>
-  <body class="d-flex flex-column min-vh-100">
+  <body class="d-flex flex-column vh-100">
     <header class="container-fluid fixed-top">
       <!-- Discount banner -->
       <div id="discount-banner" class="row text-center">
@@ -149,12 +149,6 @@
     {% block content %}
     {% endblock %}
 
-    {% block postloadjs %}
-        <script type="text/javascript">
-            $('.toast').toast('show');
-        </script>
-    {% endblock %}
-
     <footer class="footer mt-auto py-3 text-center">
       <h3 class="logo-footer text-center"><strong>AndWatch's</strong></h3>
           <div>
@@ -184,3 +178,9 @@
     </footer>
 </body>
 </html>
+
+{% block postloadjs %}
+  <script type="text/javascript">
+    $('.toast').toast('show');
+  </script>
+{% endblock %}
