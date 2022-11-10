@@ -106,7 +106,7 @@ form.addEventListener('submit', function(ev) {
                 $('#submit-button').attr('disabled', false);
             } else {
                 if (result.paymentIntent.status === 'succeeded') {
-                    form.submit(); // revisit the tutor session with Ed about stripe-part 17 DELETE THIS COMMENT!
+                    form.submit();
                 }
             }
         });
