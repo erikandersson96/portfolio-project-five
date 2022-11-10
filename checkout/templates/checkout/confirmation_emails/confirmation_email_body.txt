@@ -1,0 +1,21 @@
+Hi {{ order.full_name }}!
+
+This is a confirmation e-mail of your order at Andwatch's. All Your order information is below.
+
+Order Number: {{ order.order_number }}
+Order Date: {{ order.date }}
+
+Order Total: ${{ order.order_total }}
+Grand Total: ${{ order.grand_total }}
+
+Your order will be shipped to {{ order.street_address }} in {{ order.town_or_city }}, {{ order.country }}.
+
+The phone number you submitted when you did the checkout at our store is {{ order.phone_number }}.
+
+If you wish to get in contact with us, you can do so at {{ contact_email }}.
+
+A big thank you from the team at Andwatch's for your purchase!
+
+Sincerely,
+
+The team at Andwatch's
