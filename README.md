@@ -1,7 +1,7 @@
 # AndWatch's
  
 <p align="center">
-   <img src="" width="150px"/>
+   <img src="/media/readme_images/favicon.ico" width="150px"/>
 </p>
  
 
