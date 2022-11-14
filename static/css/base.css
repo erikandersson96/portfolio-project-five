@@ -24,7 +24,7 @@ body {
     width: 1.5rem;
 }
 
-.nav-link-black,  
+.nav-link-black,
 #topnav { 
     background: #000;
 }
@@ -34,7 +34,7 @@ body {
     background: #fff;
 }
 
-#discount-banner {
+#shipping-banner {
     background: rgb(242, 214, 57);
     color: #000;
     font-family: 'Comforter+Brush' !important;
@@ -392,7 +392,7 @@ footer {
         font-size: 1rem;
     }
 
-    #discount-banner h4 {
+    #shipping-banner h4 {
         font-size: .9rem;
     }
 
