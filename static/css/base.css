@@ -109,6 +109,10 @@ input[name='q']::placeholder {
     color: #fff !important;
 }
 
+.text-yellow {
+    color: rgb(242, 214, 57)
+}
+
 .reset-sorting {
     color: rgb(242, 214, 57);
 }
