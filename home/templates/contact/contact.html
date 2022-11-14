@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-12 text-center text-white">
+                <hr>
+                <h1>Contact us</h1>
+                <hr>
+                <h5>
+                    Either you can contact us via our <span><a class="text-yellow" href="" role="button" target="_blank" 
+                    aria-label="facebook">FaceBook</a></span> page. <br>
+                    Or you can contact us by <a class="text-yellow" href="tel:+460-12345-678">phone</a> 
+                    or <a class="text-yellow" href="mailto:andwatchs@andwatchs.com">e-mail</a>.
+                </h5>
+            </div>
+            <div class="col-12 text-center">
+                <a href="{% url 'products' %}" class="shop-now-button btn-about-page btn rounded-0 text-uppercase text-center">
+                    Shop Now!
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

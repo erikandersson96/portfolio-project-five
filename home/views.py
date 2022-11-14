@@ -13,3 +13,11 @@ def about(request):
     """
 
     return render(request, 'about/about.html')
+
+
+def contact(request):
+    """
+    A view for render contact us page
+    """
+
+    return render(request, 'contact/contact.html')
