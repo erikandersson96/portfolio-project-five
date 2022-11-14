@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from .views import handler404, handler403, handler500
+from .views import handler404, handler403, handler500, handler400
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -32,3 +32,4 @@ urlpatterns = [
 handler404 = 'andwatch.views.handler404'
 handler403 = 'andwatch.views.handler403'
 handler500 = 'andwatch.views.handler500'
+handler400 = 'andwatch.views.handler400'

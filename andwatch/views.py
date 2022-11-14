@@ -20,3 +20,10 @@ def handler500(request, exception):
     A view for Error 500 - Server not responding
     """
     return render(request, "errors/403.html", status=403)
+
+
+def handler400(request, exception):
+    """
+    A view for Error 400 - Bad request
+    """
+    return render(request, "errors/400.html", status=400)
