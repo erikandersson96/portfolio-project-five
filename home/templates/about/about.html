@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-12 text-center">
+                <hr>
+                <h1 class="text-white">About us</h1>
+                <hr>
+                <h3 class="text-white">
+                    Welcome to AndWatch's
+                </h3>
+                <h6 class="text-yellow">
+                    About the E-commerce store
+                </h6>
+                <h6 class="text-white">
+                    We are a reseller of wrist watches. 
+                    We resell watches from all types of brands like Seiko, Rolex, Breitling, Casio, Frederique Constant, and so on.
+                    Ranging from prices of $500 - $50.000. 
+                </h6>
+                <h6 class="text-yellow">
+                    About the company
+                </h6>
+                <h6 class="text-white">
+                    Me Erik Andersson started this E-commerce store in the beginning of 2022. <br>
+                    I decided to start this E-commerce store after 2 tough years of covid-19 that 
+                    affected our local store so bad that we sadly had to close. <br>
+                    But since a E-commerce store is much more cost effective than a local store 
+                    located in the middle of our home town, I decided to focus on only online reselling. <br>
+                    This way I will not only save costs but I can also reach out to a much bigger client base. <br>
+                    I hope you will find the watch that you are looking for! <br> 
+                    Sincerely, Erik Andersson. 
+                </h6>
+                <a href="{% url 'products' %}" class="shop-now-button btn-about-page btn rounded-0 text-uppercase text-center">
+                    Shop Now!
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
