@@ -403,6 +403,17 @@ footer {
     .home-text {
         font-size: 40px;
     }
+
+    .btn.btn-outline-white.rounded-0,
+    .btn.btn-white.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-white.rounded-0.btn-lg,
+    .btn.btn-white.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
 }
 
 @media (max-width: 575px) {
