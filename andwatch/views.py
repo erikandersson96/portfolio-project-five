@@ -13,3 +13,10 @@ def handler403(request, exception):
     A view for Error 403 - Forbidden resource
     """
     return render(request, "errors/403.html", status=403)
+
+
+def handler500(request, exception):
+    """
+    A view for Error 500 - Server not responding
+    """
+    return render(request, "errors/403.html", status=403)
