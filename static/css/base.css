@@ -374,4 +374,57 @@ footer {
     body {
         height: calc(100vh - 160px);
     }
+
+    .display-4.logo-font.text-white {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    #discount-banner h4 {
+        font-size: .9rem;
+    }
+
+    .header-container {
+        padding-top: 90px;
+    }
+
+    .home-text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .shop-now-button {
+        font-size: 20px;
+        min-width: 190px;
+    }
+}
+
+@media (max-width: 348px) {
+    .home-text {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 284px) {
+    .home-text {
+        font-size: 22px;
+    }
+
+    .shop-now-button {
+        font-size: 15px;
+        min-width: 140px;
+    }
 }
