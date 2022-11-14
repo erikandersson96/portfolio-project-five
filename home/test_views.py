@@ -15,3 +15,11 @@ class TestViews(TestCase):
         response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'home/index.html')
+
+    def test_about_is_resolved(self):
+        """ Test home page renders correct page """
+
+        url = reverse('about')
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'about/about.html')
