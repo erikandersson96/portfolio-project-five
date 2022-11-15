@@ -17,10 +17,51 @@
                 <hr class="w-50 mb-1">
             </div>
         </div>
-        <div class="row">
-            <div class="col text-center text-white">
-                {{ blog }}
-            </div>
+        <div class="row blog-page">
+            {% for post in blog %}
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0">
+                        {% if blog.image %}
+                            <a href="">
+                                <img class="card-img-top img-fluid" src="{{ blog.image.url }}" alt="{{ blog.title }}">
+                            </a>
+                        {% else %}
+                            <a href="">
+                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ blog.title }}" >
+                            </a>
+                        {% endif %}
+                        <div class="card-body pb-0">
+                            <p class="mb-0">{{ blog.title }}</p>
+                        </div>
+                        {% if request.user.is_superuser %}
+                            <p class="ml-3">
+                                <a class="edit-yellow" href="">Edit Post</a> | 
+                                <a class="delete-red" href="">Delete Post</a>
+                            </p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% if forloop.counter|divisibleby:1 %}
+                    <div class="col-12 d-sm-none mb-5">
+                        <hr>
+                    </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:2 %}
+                    <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
+                        <hr>
+                    </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:3 %}
+                    <div class="col-12 d-none d-lg-block d-xl-none mb-5">
+                        <hr>
+                    </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:4 %}
+                    <div class="col-12 d-none d-xl-block mb-5">
+                        <hr>
+                    </div>
+                {% endif %}
+            {% endfor %}
         </div>
    </div>
    <div class="btt-button shadow-sm rounded-0 border border-white">
