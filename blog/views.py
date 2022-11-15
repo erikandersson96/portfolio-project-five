@@ -6,10 +6,10 @@ def all_posts(request):
     """
     A view for render all blog posts page
     """
-    blog = BlogPost.objects.all()
+    all_blog_posts = BlogPost.objects.all()
 
     context = {
-        'blog': blog,
+        'all_blog_posts': all_blog_posts,
     }
 
     return render(request, 'blog/blog.html', context)

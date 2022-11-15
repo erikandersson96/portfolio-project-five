@@ -54,7 +54,7 @@ body {
     width: fit-content;
 }
 
-/* -------------------------- Buttons */
+/* -------------------------- Blog page */
 .blog-page {
     margin-top: 30px;
 }
@@ -423,6 +423,10 @@ footer {
         padding: .375rem .375rem;
         font-size: .75rem;
     }
+
+    .blog-title {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -439,6 +443,9 @@ footer {
 @media (max-width: 348px) {
     .home-text {
         font-size: 30px;
+    }
+    .blog-title {
+        font-size: 25px;
     }
 }
 
