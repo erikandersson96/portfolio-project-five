@@ -32,7 +32,59 @@ The main goal of this project was to test my new knowledge in Building an E-comm
  
 ---
 ## How To Navigate The Website
- 
+
+At the very top is a `banner` with text containg that AndWatches provides `Free shipping on all order worldwide!`.
+
+The website of AndWatch's features a Navigation bar on top underneath the banner that exists on all pages with the following content: 
+`Logo, Search Bar, Home link button, Watches dropdown menu, Blog link button, My account dropdown menu, and a Shopping Bag`. The logo acts like a `back to home page` link.
+The dropdown menu of `Watches` features a selection between listing watches by their price or if the user wish to see all of the available watches by `All watches`.
+`Blog link button` will take the user to a seperate page with all of the blog posts that AndWatch's is publishing, here the user can select a post they want to read by clicking the 
+image of the selected blog post, and get directed to the details of that blog post. The user (both register users and non register users) can leave comments underneath the
+blog post details page. But be aware of that the `Store Manager` might delete posts that are offensive or inappropriate. At the search bar a user can search for relevant names of wrist 
+watches amoung all of the available products in the store. The `My account dropdown menu` features register or login depending on if the user has an existing account or wish to become one.
+When the user is logged in they will see `My profile or Logout`, My profile is where the user can see their user information if they have submitted and order in the past or their order 
+history listed. At the `Shopping Bag` the user can click when they have added products to the bag or if they are just curios they can see the empty bag aswell, and inside the bag there is
+a button for be directed to all the watches if the user wish to do so. 
+
+At the bottom of the page is the footer that also exists on all pages with the following content `A "logo" that just acts like a logo for AndWatch's,`
+`A link for signup with the newsletter, Contact us page link, About us page link and the social media icons`. The link to the newsletter will direct the user for signup as mentioned, the newsletter provider is [mailchimp](https://mailchimp.com/) (link). The contact us page link will direct the user to a seperate page with all of the contact information of AndWatch's.
+The about us page link works as the contact link but it will direct the user to a page of all the information about AndWatch's. The social media links will direct the user to each 
+seperate plattform, `GitHub, LinkedIn, and Facebook`. The GitHub link and LinkedIn link is directing to Erik Andersson (creator of this project) personal pages. The `FaceBook` link
+on the other hand directs the user to the FaceBook page of `AndWatch's`. At the very bottom is the `Copyright of AndWatch's - Erik andersson`. 
+
+At the `home page` is a Hero image of a seiko watch, a text for the user to take action and press the `Shop Now` button to get to all watches page.
+
+At the `Watches - All watches` page is all the current available watches listed, if the user wish to sort the list of watches he/she can do so by filtering of 
+`Price low to high, Price high to low, Brand A - Z, Brand Z - A`. The user can then reset the sorting/filtering by cklicking the yellow text above all watches to the left. 
+
+At the `watch details page` by cklicking on one of the watches (products) images, is all of the details of each watch like 
+`Image, Brand, Model, Price, Description, Case Size, Quantity, Keep Shopping and Add to Bag buttons`. The user can here add the product to the bag or adjust the wanted quantity
+of the product before adding it to the bag. When the user have added a product to the bag a successfull message will appear with a preview of the shopping bag with a 
+`Go to secure checkout` button. 
+
+When the user has added a product/products to the bag and want to see the bag they can either do so by clicking the `Go to secure checkout` button in the bag preview or click the 
+shopping bag in the up right corner. 
+
+At the `shopping bag` the user can adjust the quantity of the products or remove them from the bag or just press the `Secure Checkout` button. 
+
+When the user has clicked the `Secure Checkout` button the user will get to the checkout page. 
+
+At the `checkout page` the user will be asked to fill out the form of details, delivery info and payment card. If the user is logged in and never bought anything they can tick the 
+`Save info` checkbox underneath the form to save their information for future purchases. Now the user will need to cklick on `Complete Order` as a final step to process the purchase.
+A yellow transparent loading overlay (like in Boutique Ado) will pop up with two spinning arrows and a success message will pop up. The user will now see a thank you text above and
+the order, deliver to and billing information below. 
+
+The user can update their information about delivery and so on on their `Profile` page. 
+
+#### Good To Know
+
+As well as there is success messages for every successfull transaction on the site there is also `error messages` in the same way with a short instruction on what might have gone wrong.
+
+### For Store Managers Only!
+
+If you are logged in as a store manager (admin) on AndWatch's you can then manage all products, blog posts and comments by edit or deleting them. You can add new products by 
+clicking on `Product Managment` on the profile. **Important! Be aware of:** if you press delete on a product, blog post or comment they will be deleted and this action cannot be undone! 
+
  
 ---
 ## Table of Contents
