@@ -9,7 +9,7 @@
 ### HINT:
 **Remember that all links in this Readme does not open in a new tab. They open in the same window (I have marked them with "(link)").** 
  
-![Screenshot of Techsini mockup]()
+![Screenshot of Techsini mockup](/media/readme_images/mockup-aws.png)
  
 To visit `AndWatch's` website please click this [link](https://andwatchs-2022.herokuapp.com/) (link).
  
@@ -19,11 +19,15 @@ To visit `AndWatch's` website please click this [link](https://andwatchs-2022.he
  
 ### Intention
  
-This website is a fictional website for the purpose of my Fifth Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `add relevant modules here` modules.
+This website is a fictional website for the purpose of my Fifth Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `Building an E-commerce Platform, Introduction to Search Engine Optimization and Web Marketing` modules in the last section of the course.
  
-The main goal of this project was to test my new knowledge in Django and Bootstrap. 
+The main goal of this project was to test my new knowledge in Building an E-commerce Platform with Django, Bootstrap and Stripe as a payment system. 
  
 ##### Features I aimed to achieve with this project:
+* To make the website easy to understand for the user.
+* Make sure so the website has good `UI and UX` throughout the whole website so the user doesn't get confuesed.
+* Create a easily navigated website with an easy to understand `navigation menu on top and a nice footer at the bottom`.
+* Follow a `black and yellow` theme throughout the whole website design.
  
  
 ---
