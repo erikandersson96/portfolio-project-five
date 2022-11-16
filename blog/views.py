@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404
+from django.views.generic import CreateView
 from .models import BlogPost
 
 
@@ -26,3 +27,14 @@ def blog_detail(request, slug):
     }
 
     return render(request, 'blog/blog_detail.html', context)
+
+
+def add_post(request):
+    """
+    A view for render all blog posts page,
+    to add blog posts by admin/store owner
+    """
+
+    template = 'blog/add_blog_post.html'
+
+    return render(request, template)
