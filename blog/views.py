@@ -1,6 +1,7 @@
-from django.shortcuts import render, get_object_or_404
-from django.views.generic import CreateView
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
 from .models import BlogPost
+from .forms import PostForm
 
 
 def all_posts(request):
@@ -34,7 +35,35 @@ def add_post(request):
     A view for render all blog posts page,
     to add blog posts by admin/store owner
     """
+    if not request.user.is_superuser:
+        messages.error(
+            request, 'Sorry, only store managers can add blog posts!')
+        return redirect(reverse('home'))
 
     template = 'blog/add_blog_post.html'
 
-    return render(request, template)
+    post_form = PostForm(request.POST or None, request.FILES or None)
+
+    context = {
+        'post_form': post_form,
+    }
+
+    if request.method == "POST":
+        post_form = PostForm(request.POST, request.FILES)
+        if post_form.is_valid():
+            post_form = post_form.save(commit=False)
+            post_form.author = request.user
+            post_form.status = 1
+            post_form.save()
+            messages.success(
+                request, 'You have successfully added the new blog post!')
+            return redirect('blog')
+        else:
+            print(post_form.errors)
+            # messages.error(
+            #     request, 'Failed to add the new blog post. \
+            #         Please ensure the form is valid.')
+    else:
+        post_form = PostForm()
+
+    return render(request, template, context)
