@@ -1,5 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+
 from .models import BlogPost
 from .forms import PostForm
 
@@ -30,10 +32,11 @@ def blog_detail(request, slug):
     return render(request, 'blog/blog_detail.html', context)
 
 
+@login_required
 def add_post(request):
     """
-    A view for render all blog posts page,
-    to add blog posts by admin/store owner
+    A view for render add blog post &
+    logic for add blog post
     """
     if not request.user.is_superuser:
         messages.error(
@@ -64,5 +67,40 @@ def add_post(request):
                     Please ensure the form is valid.')
     else:
         post_form = PostForm()
+
+    return render(request, template, context)
+
+
+@login_required
+def edit_post(request, slug):
+    """
+    A view for render edit blog post &
+    logic for edit a post
+    """
+    if not request.user.is_superuser:
+        messages.error(
+            request, 'Sorry, only store managers can edit blog posts!')
+        return redirect(reverse('home'))
+
+    post = get_object_or_404(BlogPost, slug=slug)
+    if request.method == 'POST':
+        post_form = PostForm(request.POST, request.FILES, instance=post)
+        if post_form.is_valid():
+            post_form.save()
+            messages.success(request, 'Successfully updated the post!')
+            return redirect('blog')
+        else:
+            messages.error(request, 'Failed to update the post. \
+                Please ensure the form is valid.')
+    else:
+        post_form = PostForm(instance=post)
+        messages.info(
+            request, f'You are currently editing: {post.slug}')
+
+    template = 'blog/edit_blog_post.html'
+    context = {
+        'post_form': post_form,
+        'post': post,
+    }
 
     return render(request, template, context)

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+   <div class="container text-white">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="text-white mb-4">Blog Managment</h2>
+            <h6 class="text-muted text-white">Edit Blog Post</h6>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form action="{% url 'edit_post' post.slug %}" method="POST" style="margin-top: 1.3em;" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="row">
+                    {{ post_form.slug|as_crispy_field }}
+                </div>
+                <div class="row">
+                    {{ post_form.title|as_crispy_field }}
+                </div>
+                <div class="row">
+                    {{ post_form.author|as_crispy_field }}
+                </div>
+                <div class="row">
+                    {{ post_form.content|as_crispy_field }}
+                </div>
+                <div class="row">
+                    {{ post_form.image|as_crispy_field }}
+                    <p>A default image will be choosen for this blog post if you don't add your own.</p>
+                </div>
+                <button type="submit" class="btn btn-outline-white">Save Post</button>
+            </form>
+        </div>
+    </div>
+   </div>
+{% endblock %}
