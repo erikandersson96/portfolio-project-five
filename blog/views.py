@@ -59,10 +59,9 @@ def add_post(request):
                 request, 'You have successfully added the new blog post!')
             return redirect('blog')
         else:
-            print(post_form.errors)
-            # messages.error(
-            #     request, 'Failed to add the new blog post. \
-            #         Please ensure the form is valid.')
+            messages.error(
+                request, 'Failed to add the new blog post. \
+                    Please ensure the form is valid.')
     else:
         post_form = PostForm()
 
