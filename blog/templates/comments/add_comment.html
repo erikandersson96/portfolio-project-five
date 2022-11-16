@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+   <div class="container text-white">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="text-white mb-4">Add Comment</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <form action="" method="POST" style="margin-top: 1.3em;">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <div class="col">
+                    <button type="submit" class="btn btn-outline-white">Add comment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+   </div>
+{% endblock %}

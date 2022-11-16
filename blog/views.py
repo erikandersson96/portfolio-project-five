@@ -1,9 +1,10 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.views.generic.edit import CreateView
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
-from .models import BlogPost
-from .forms import PostForm
+from .models import BlogPost, BlogComment
+from .forms import PostForm, CommentForm
 
 
 def all_posts(request):
@@ -104,3 +105,12 @@ def edit_post(request, slug):
     }
 
     return render(request, template, context)
+
+
+class AddCommentView(CreateView):
+    """
+    A view for Create comments on blog posts
+    """
+    model = BlogComment
+    form_class = CommentForm
+    template_name = 'comments/add_comment.html'

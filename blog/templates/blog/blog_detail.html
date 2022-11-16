@@ -35,7 +35,7 @@
                     <p>
                     {% if request.user.is_superuser %}
                         <small>
-                            <a class="edit-yellow" href="">Edit Post</a> |
+                            <a class="edit-yellow" href="{% url 'edit_post' blog_post_detail.slug %}">Edit Post</a> |
                             <a class="delete-red" href="">Delete Post</a>
                         </small>
                     {% endif %}
@@ -62,7 +62,6 @@
                 {% if not blog_post_detail.comments.all %}
                     No comments yet...
                     <br>
-                    <a class="text-yellow" href="">Add comment</a>
                 {% else %}
                     {% for comment in blog_post_detail.comments.all %}
                         <small>
@@ -77,6 +76,9 @@
                         <hr>
                     {% endfor %}
                 {% endif %}
+                <a href="{% url 'add_comment' blog_post_detail.slug %}" class="btn btn-outline-white">
+                    Add comment
+                </a>
             </div>
         </div>
    </div>
