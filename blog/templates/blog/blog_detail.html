@@ -54,9 +54,29 @@
                 </div>
             </div>
         </div>
+        <br>
         <div class="row text-white">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-                <h2>Comments box here!</h2>
+                <h2>Comments...</h2>
+                <br>
+                {% if not blog_post_detail.comments.all %}
+                    No comments yet...
+                    <br>
+                    <a class="text-yellow" href="">Add comment</a>
+                {% else %}
+                    {% for comment in blog_post_detail.comments.all %}
+                        <small>
+                            Commented by: {{ comment.name }} - {{ comment.created_on }}
+                        </small>
+                        <br>
+                        <br>
+                        <strong>
+                            {{ comment.body }}
+                        </strong>
+                        <br>
+                        <hr>
+                    {% endfor %}
+                {% endif %}
             </div>
         </div>
    </div>
