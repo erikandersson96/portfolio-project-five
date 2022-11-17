@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.views.generic.edit import CreateView
 from django.contrib import messages
+from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
 
 from .models import BlogPost, BlogComment
@@ -130,3 +131,9 @@ class AddCommentView(CreateView):
     model = BlogComment
     form_class = CommentForm
     template_name = 'comments/add_comment.html'
+
+    # def form_valid(self, form):
+    #     form.instance.blog_post_detail_slug = self.kwargs['slug']
+    #     return super().form_valid(form)
+
+    success_url = reverse_lazy('blog_detail')
