@@ -38,6 +38,10 @@ def subscribe(email):
 
 
 def subscription(request):
+    """
+    View for handle email when user click on submit in newsletter
+    form
+    """
     if request.method == "POST":
         email = request.POST['email']
         subscribe(email)
