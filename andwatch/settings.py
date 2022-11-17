@@ -222,6 +222,11 @@ if 'USE_AWS' in os.environ:
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
+# MAILCHIMP CREDENTIALS
+MAILCHIMP_API_KEY = "19e498ca7d5729c513e78f9f237f4f1f-us18"
+MAILCHIMP_DATA_CENTER = "us18"
+MAILCHIMP_EMAIL_LIST_ID = "c79b87defb"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
