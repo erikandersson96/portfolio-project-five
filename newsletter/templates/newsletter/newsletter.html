@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+   <div class="container-fluid d-flex flex-column all-pages-background">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <h2 class="text-white logo-footer blog-title">AndWatch's Newsletter</h2>
+            <hr class="w-50 mb-1">
+        </div>
+    </div>
+    <div class="row text-white justify-content-center">
+        <form method="post" action="{% url 'newsletter' %}">
+            {% csrf_token %}
+      
+            <div class="form-group">
+              <label class="text-yellow">Subscribe to get the latest info about AndWatch's</label> <br>
+              <input type="email" name="email" placeholder="Enter Email">
+            </div>
+            <div>
+                <button class="btn btn-outline-white" type="submit">Submit</button>
+            </div>
+      
+          </form>
+    </div>
+   </div>
+{% endblock %}
