@@ -107,6 +107,22 @@ def edit_post(request, slug):
     return render(request, template, context)
 
 
+@login_required
+def delete_post(request, slug):
+    """
+    A view for store managers to delete blog posts
+    """
+    if not request.user.is_superuser:
+        messages.error(
+            request, 'Sorry, only store managers can delete blog posts!')
+        return redirect(reverse('home'))
+
+    blog_post = get_object_or_404(BlogPost, slug=slug)
+    blog_post.delete()
+    messages.success(request, 'The blog post was deleted!')
+    return redirect(reverse('blog'))
+
+
 class AddCommentView(CreateView):
     """
     A view for Create comments on blog posts
