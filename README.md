@@ -350,6 +350,12 @@ Technologies that I used for `AndWatch's` website project is the following down 
 * [Trello](https://trello.com/) (link). Trello was used for creating my board for mapping my user stories in this project.
  
 * [Favicon](https://favicon.io/) (link). Favicon was used to create the little icon that is showing in the browser adress bar to make the user experience more professional for the website.
+
+* [Stripe](https://stripe.com/) (link). Stripe was used for my checkout functionality in this project so visitors and users can make successfull payments at the store.
+
+* [Mailchimp](https://mailchimp.com/) (link). Mailchimp was used for my newsletter.
+
+* [Unsplash](https://unsplash.com/) (link). Unsplash was used for downloading all of the products images and hero image on the home page.
  
  
 ---
