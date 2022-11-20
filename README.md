@@ -384,7 +384,11 @@ All images for this project was taken from []() (link).
  
 #### Inspiration for this project
  
-[Code Institute](https://codeinstitute.net/) (link) - I took inspiration to this project from the `Code Institute` videos of `I Think Therefore I Blog`.
+[Code Institute](https://codeinstitute.net/) (link) - I took inspiration to this project from the `Code Institute` walkthrough videos of `Boutique Ado`.
+
+#### Add newsletter - mailchimp guide
+ 
+[Python stacks](https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/) (link) - I used this guide to implement the functionality of `mailchimp` to my newsletter.
   
  
 #### Help from Stack Overflow
