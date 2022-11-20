@@ -156,7 +156,7 @@ I will demonstrate each step in the process for you down below of my trello boar
  
 **Trello board:**
  
-![Screenshot of trello board]()
+![Screenshot of trello board](/media/readme_images/trelloboard.png)
  
  
 **To Do (Admin):**
