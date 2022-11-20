@@ -185,31 +185,38 @@ As a guest I would like to be able to:
 * Register an account using username, email, and password.
 * Learn more about the website.
 * Visit the website's social platforms.
+* Visit the website's Facebook page.
 * View all of the recipes.
-* View the recipe details of a selected recipe.
+* View the watch details of a selected watch.
  
-As a user I would like to be able to:
+As a registered user I would like to be able to:
  
 * Login to my account.
-* Add recipes to the list of recipes.
-* Edit and delete recipes created by me.
-* Make recipes my favorite.
+* See order history, and change order information.
+* See blog posts and comment on them.
+* Add watches to my wish list.
  
 As a admin I need to be able to:
  
-* See the entire list of recipes that has been added.
-* Add recipes to the list of recipes to be viewed by everyone.
-* Edit and delete recipes.
+* See the entire list of watches available.
+* Add watches to the store.
+* Edit watches that are available.
+* Delete available watches.
+* Add and edit blog posts.
+* Delete blog posts.
+
+
 #### Strategy
  
 * **Project Goal**
-Create a website that allows users to create an account so they can see, add and edit recipes.
+Create a website that allows users to create an account so they can see order history, change shipping and billing information, add comments on blog posts, add watches to their wish list.
+And most important purchase products, but this is of course open for all users even for those who isn't registered with an account.
  
 #### Scope
  
 * A simple and straightforward UX experience. 
 * A navigation bar that is easy to navigate the website with.
-* A website that is compatible on most screen devices.
+* A website that is compatible on most screen devices and browsers.
  
  
 ---
@@ -261,14 +268,14 @@ I choose two different fonts for my website, `"Dancing Script"` for my logo and 
  
 ### AndWatch's - Database Schema
  
-Before I started to code this project I created a `Diagram Entity Relationship - Database Schema` using [dbdiagram]() (link). I created this to easier understand the database models that I was going to create for this project.
+Before I started to code this project I created a `Diagram Entity Relationship - Database Schema` using [dbdiagram](https://dbdiagram.io/home) (link). I created this to easier understand the database models that I was going to create for this project.
  
 ![Screenshot of database schema]()
  
 ### AndWatch's - Flow Diagram
  
 
-[Lucid Chart]() (link). 
+[Lucid Chart](https://www.lucidchart.com/pages/) (link). 
  
 ![Screenshot of flow diagram]()
  
