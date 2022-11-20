@@ -1,7 +1,7 @@
 # AndWatch's
  
 <p align="center">
-   <img src="/media/readme_images/aws.png" width="150px"/>
+   <img src="/readme_images/aws.png" width="150px"/>
 </p>
  
 
@@ -9,7 +9,7 @@
 ### HINT:
 **Remember that all links in this Readme does not open in a new tab. They open in the same window (I have marked them with "(link)").** 
  
-![Screenshot of Techsini mockup](/media/readme_images/mockup-aws.png)
+![Screenshot of Techsini mockup](/readme_images/mockup-aws.png)
  
 To visit `AndWatch's` website please click this [link](https://andwatchs-2022.herokuapp.com/) (link).
  
@@ -156,7 +156,7 @@ I will demonstrate each step in the process for you down below of my trello boar
  
 **Trello board:**
  
-![Screenshot of trello board](/media/readme_images/trelloboard.png)
+![Screenshot of trello board](/readme_images/trelloboard.png)
  
  
 **To Do (Admin):**
@@ -347,18 +347,23 @@ All testing of this project has been documented in a seperate file called `TESTI
  
 ### Bugs
 * **Bug 1:**
-
+I noticed that my footer wasn't at the bottom at my watches page, it was amoung the watches like seen in the screenshot below. You can see the name of AndWatch's between the two images in the middle. The screenshot is taken of another page that hasn't been implemented in the final version.
  
 **Screenshot:**
  
-![Screenshot bug 1]()
+![Screenshot bug 1](/readme_images/bug-1.png)
  
 * **Solution Bug 1:**
+The solution to this bug was that I had set the height of my products template to a bootstrap class of `min-vh-100` and in my base template I had did the same. I will show a screenshot of the problem down below. So I just made sure I didn't used that bootstrap class anywhere else then in my base temaplate. And in my base template I changed to just `vh-100`.
 
+![Screenshot bug 1](/readme_images/bug-1-problem.png)
  
 * **Bug 2:**
 
- 
+**Screenshot:**
+
+![Screenshot bug 1]()
+
 * **Solution Bug 2:**
 
  
