@@ -186,17 +186,24 @@ As a guest I would like to be able to:
 * Learn more about the website.
 * Visit the website's social platforms.
 * Visit the website's Facebook page.
-* View all of the recipes.
+* View all of the watches available.
 * View the watch details of a selected watch.
+* Purchase watches using my credit/debit card.
  
 As a registered user I would like to be able to:
  
 * Login to my account.
-* See order history, and change order information.
+* See order history, and change shipping/billing information.
 * See blog posts and comment on them.
 * Add watches to my wish list.
+* Learn about the website.
+* Visit the website's social platforms.
+* Visit the website's Facebook page.
+* View all of the watches available.
+* View the watch details of a selected watch.
+* Purchase watches using my credit/debit card.
  
-As a admin I need to be able to:
+As an admin I need to be able to:
  
 * See the entire list of watches available.
 * Add watches to the store.
