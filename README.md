@@ -118,12 +118,16 @@ clicking on `Product Managment` on the profile. **Important! Be aware of:** if y
   * [Edit recipe](#edit-recipe)
   * [Delete recipe](#delete-recipe)
   * [My favorites](#my-favorites)
+
+* [Marketing](#marketing)
+  * [FaceBook page](#facebook-page-of-andwatchs)
+  * [SEO implementation](#seo-implementation)
+
+* [Technologies Used](#technologies)
  
 * [Testing](#testing)
   * [Bugs](#bugs)
-  * [Unfixed bugs](#unfixed-bugs)
- 
-* [Technologies Used](#technologies)
+  * [Unfixed bugs](#unfixed-bugs) 
  
 * [Credits](#credits)
  
@@ -296,7 +300,15 @@ Before I started to code this project I created a `Diagram Entity Relationship -
 ---
 ## Future Features
  
- 
+
+---
+## Marketing
+
+### FaceBook page of AndWatch's
+
+### SEO implementation
+
+
 ---
 ## Technologies
  
