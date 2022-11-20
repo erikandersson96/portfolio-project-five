@@ -382,15 +382,6 @@ After I had tried different methods of tweaking the `JavaScript` of this sorting
 **Correct JavaScript Function:**
 
 ![Screenshot bug 2 correct javascript function](/readme_images/bug-2-correct-js.png)
- 
-* **Bug 3:**
-
- 
-**Screenshot:**
- 
-![Screenshot bug 3]()
- 
-* **Solution Bug 3:**
 
  
 ### Unfixed Bugs
@@ -410,6 +401,10 @@ All images for this project was taken from []() (link).
 #### Add newsletter - mailchimp guide
  
 [Python stacks](https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/) (link) - I used this guide to implement the functionality of `mailchimp` to my newsletter.
+
+#### Tutors
+
+* `Ed` - For helping me with my sorting selector JavaScript function.
   
  
 #### Help from Stack Overflow
@@ -507,7 +502,7 @@ If the `create app` process at `Heroku` website wouldn't work follow these steps
  
 I would like to give an extra `Thank you` to all the kind people I have around me that gave me support in all different ways.
  
-* **Code Institute** for their **Tutor** support.
+* **Code Institute** for their amazing **Tutor** support.
 * My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link) for being a **Superior** mentor.
 * **Google** for always clear things up.
 * **Code Institute Slack channel** for always helping out with problems or questions.
