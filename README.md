@@ -346,6 +346,7 @@ Technologies that I used for `AndWatch's` website project is the following down 
 All testing of this project has been documented in a seperate file called `TESTING.md` and you can fin it [here](TESTING.md) (internal link).
  
 ### Bugs
+
 * **Bug 1:**
 I noticed that my footer wasn't at the bottom at my watches page, it was amoung the watches like seen in the screenshot below. You can see the name of AndWatch's between the two images in the middle. The screenshot is taken of another page that hasn't been implemented in the final version.
  
@@ -356,16 +357,31 @@ I noticed that my footer wasn't at the bottom at my watches page, it was amoung 
 * **Solution Bug 1:**
 The solution to this bug was that I had set the height of my products template to a bootstrap class of `min-vh-100` and in my base template I had did the same. I will show a screenshot of the problem down below. So I just made sure I didn't used that bootstrap class anywhere else then in my base temaplate. And in my base template I changed to just `vh-100`.
 
-![Screenshot bug 1](/readme_images/bug-1-problem.png)
+![Screenshot bug 1 - problem](/readme_images/bug-1-problem.png)
  
 * **Bug 2:**
+My sorting for products on the all watches page for `"Brand"` (Brand A-Z, Brand Z-A etc) which I have namned `"watch_make"` in my database for products wasn't working and I got an error for `FieldError at /products/` `Cannot resolve keyword 'name' into field.`. My goal was to get the sorting for A - Z or Z - A working properly.
 
 **Screenshot:**
 
-![Screenshot bug 1]()
+**Error message:**
+
+![Screenshot bug 2 error message](/readme_images/bug-2.png)
+
+**Sorting selector html:**
+
+![Screenshot bug 2 sorting selector html](/readme_images/sorting-selector.png)
 
 * **Solution Bug 2:**
+After I had tried different methods of tweaking the `JavaScript` of this sorting selector I decided to take some help from the Tutors at Code Institute. I got some amazing help from a guy namned `Ed`. After some minutes spent by Ed he discovered that my `JavaScript` function was searching for the underscore to decide what I was trying to do when selecting the A - Z etc, and since I had namned the watch make of brand in my database model to watch_make instead of something like brand the `JavaScript` function was trying to execute at the first underscore in `watch_make_asc` & `watch_make_desc` when it was supposed to execute at the underscore before `asc` or `desc` so therfore I got that error. `Ed` was kind to help my rewrite the `JavaScript` function to execute at correct underscore. I will show two images below with my old function and the new one that `Ed` helped me with.
 
+**Wrong JavaScript Function:**
+
+![Screenshot bug 2 wrong javascript function](/readme_images/bug-2-wrong-js.png)
+
+**Correct JavaScript Function:**
+
+![Screenshot bug 2 correct javascript function](/readme_images/bug-2-correct-js.png)
  
 * **Bug 3:**
 
