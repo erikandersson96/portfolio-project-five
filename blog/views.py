@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.views.generic.edit import CreateView
+from django.views.generic.edit import CreateView, DeleteView
 from django.contrib import messages
 from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
@@ -35,7 +35,7 @@ def blog_detail(request, slug):
 
 
 @login_required
-def add_post(request):
+def add_post(request, ):
     """
     A view for render add blog post &
     logic for add blog post
@@ -133,8 +133,6 @@ class AddCommentView(CreateView):
     template_name = 'comments/add_comment.html'
 
     def form_valid(self, form):
-        # post = get_object_or_404(BlogPost, slug=self.kwargs.get('slug'))
-        # post.objects.get(slug=self.kwargs.get('slug'))
         form.instance.post = BlogPost.objects.get(slug=self.kwargs.get('slug'))
         return super().form_valid(form)
 
