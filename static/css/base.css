@@ -109,6 +109,14 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.add-comment-register-buttons {
+    margin-top: 16px !important;
+}
+
+.add-comment-login {
+    margin-left: 5px !important;
+}
+
 /* -------------------------------- Colors*/
 .text-white {
     color: #fff !important;
