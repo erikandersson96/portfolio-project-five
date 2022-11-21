@@ -73,9 +73,15 @@
                             {{ comment.body }}
                         </strong>
                         <br>
+                        {% if user.is_authenticated or user.is_admin %}
+                        <small>
+                            <a class="delete-red" href="">Delete Comment</a>
+                        </small>
+                        {% endif %}
                         <hr>
                     {% endfor %}
                 {% endif %}
+
                 {% if user.is_authenticated %}
                 <a href="{% url 'add_comment' blog_post_detail.slug %}" class="btn btn-outline-white">
                     Add comment
