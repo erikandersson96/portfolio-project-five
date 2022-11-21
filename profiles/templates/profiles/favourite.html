@@ -21,17 +21,17 @@
             {% for favourite in object_list %}
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card h-100 border-0">
-                        {% if favourite.all_watch_favourites.image %}
+                        {% if favourite.favourite_watch.image %}
                             <a href="">
-                                <img class="card-img-top img-fluid" src="{{ post.image.url  }}" alt="{{ product.watch_model }}">
+                                <img class="card-img-top img-fluid" src="{{ favourite.favourite_watch.image.url }}" alt="{{ favourite.favourite_watch.watch_model }}">
                             </a>
                         {% else %}
                             <a href="">
-                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.watch_model }}">
+                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ favourite.favourite_watch.watch_model }}">
                             </a>
                         {% endif %}
                         <div class="card-body pb-0">
-                            <h3>{{ favourite.all_watch_favourites.watch_model }}</h3>
+                            <h3>{{ favourite.favourite_watch.watch_model }}</h3>
                         </div>
                             <div class="card-footer"> 
                                 <a class="btn btn-danger" href="">Remove favourite</a>

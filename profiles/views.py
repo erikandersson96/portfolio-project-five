@@ -1,8 +1,11 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.views import View, generic
 
-from .models import UserProfile
+from django.contrib.auth.models import User
+
+from .models import UserProfile, FavouriteWatch
 from .forms import UserProfileForm
 
 from checkout.models import Order
@@ -56,17 +59,26 @@ def order_history(request, order_number):
     return render(request, template, context)
 
 
-def all_favourites(request):
+class AllFavourites(generic.ListView):
     """
-    A view for render all watches added as favourites to
-    users wish list
+    Render favourite.html template for user
     """
-    all_watch_favourites = Product.objects.all()
+    model = Product
+    template_name = 'profiles/favourite.html'
 
-    template = 'profiles/favourite.html'
+    def get_queryset(self, *args, **kwargs):
+        queryset = FavouriteWatch.objects.filter(user=self.request.user)
+        return queryset
 
-    context = {
-        'all_watch_favourites': all_watch_favourites,
-    }
 
-    return render(request, template, context)
+def add_favorite_watch(request, product_id):
+    """
+    Add favorite watch to wish list
+    """
+    current_user = request.user
+    current_watch = get_object_or_404(Product, pk=product_id)
+    FavouriteWatch.objects.get_or_create(
+        user=current_user, favourite_watch=current_watch)
+    messages.success(request, (f"{current_watch.watch_model}, has been added \
+        to your wish list."))
+    return redirect(reverse('product_detail', args=[current_watch.id]))
