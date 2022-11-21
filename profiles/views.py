@@ -6,6 +6,7 @@ from .models import UserProfile
 from .forms import UserProfileForm
 
 from checkout.models import Order
+from products.models import Product
 
 
 @login_required
@@ -55,17 +56,17 @@ def order_history(request, order_number):
     return render(request, template, context)
 
 
-# def all_favourites(request):
-#     """
-#     A view for render all watches added as favourites to
-#     users wish list
-#     """
-#     all_watch_favourites = Product.objects.all()
+def all_favourites(request):
+    """
+    A view for render all watches added as favourites to
+    users wish list
+    """
+    all_watch_favourites = Product.objects.all()
 
-#     template = 'profiles/favourite.html'
+    template = 'profiles/favourite.html'
 
-#     context = {
-#         'all_watch_favourites': all_watch_favourites,
-#     }
+    context = {
+        'all_watch_favourites': all_watch_favourites,
+    }
 
-#     return render(request, template, context)
+    return render(request, template, context)
