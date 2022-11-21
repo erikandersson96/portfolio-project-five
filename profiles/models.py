@@ -3,6 +3,8 @@ from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
+from products.models import Product
+
 from django_countries.fields import CountryField
 
 
@@ -38,3 +40,14 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
         UserProfile.objects.create(user=instance)
     # Existing users: just save the profile
     instance.userprofile.save()
+
+
+class FavouriteWatch(models.Model):
+    """
+    Model for favourite watch for users to add to the wish list
+    """
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    favourite_watch = models.ForeignKey(Product, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f'({self.user},favourite )'
