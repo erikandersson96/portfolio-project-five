@@ -132,9 +132,18 @@ class AddCommentView(CreateView):
     form_class = CommentForm
     template_name = 'comments/add_comment.html'
 
-    # def form_valid(self, form):
-    #     post = get_object_or_404(BlogPost, slug)
-    #     post.objects.get(slug=self.kwargs.get('slug'))
-    #     return super().form_valid(form)
+    def form_valid(self, form):
+        # post = get_object_or_404(BlogPost, slug=self.kwargs.get('slug'))
+        # post.objects.get(slug=self.kwargs.get('slug'))
+        form.instance.post = BlogPost.objects.get(slug=self.kwargs.get('slug'))
+        return super().form_valid(form)
 
-    success_url = reverse_lazy('blog_detail')
+    def get_context_data(self, **kwargs):
+        blog_post = BlogPost.objects.get(slug=self.kwargs.get('slug'))
+        data = super().get_context_data(**kwargs)
+        data['blog_post'] = blog_post
+        return data
+
+    def get_success_url(self):
+        return reverse_lazy(
+            'blog_detail', kwargs={'slug': self.kwargs.get('slug')})
