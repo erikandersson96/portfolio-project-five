@@ -145,3 +145,13 @@ class AddCommentView(CreateView):
     def get_success_url(self):
         return reverse_lazy(
             'blog_detail', kwargs={'slug': self.kwargs.get('slug')})
+
+
+def delete_comment(request, comment_id):
+    """
+    View for delete blog post comments
+    """
+    comment = get_object_or_404(BlogComment, pk=comment_id)
+    comment.delete()
+    messages.success(request, 'The blog comment was deleted!')
+    return redirect(reverse('blog'))

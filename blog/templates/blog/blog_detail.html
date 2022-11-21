@@ -75,7 +75,7 @@
                         <br>
                         {% if user.is_authenticated or user.is_admin %}
                         <small>
-                            <a class="delete-red" href="">Delete Comment</a>
+                            <a class="delete-red" href="{% url 'delete_comment' comment.id %}">Delete Comment</a>
                         </small>
                         {% endif %}
                         <hr>
