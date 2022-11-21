@@ -71,9 +71,10 @@ class AllFavourites(generic.ListView):
         return queryset
 
 
-def add_favorite_watch(request, product_id):
+@login_required
+def add_favourite_watch(request, product_id):
     """
-    Add favorite watch to wish list
+    View for add favorite watch to wish list
     """
     current_user = request.user
     current_watch = get_object_or_404(Product, pk=product_id)
@@ -82,3 +83,17 @@ def add_favorite_watch(request, product_id):
     messages.success(request, (f"{current_watch.watch_model}, has been added \
         to your wish list."))
     return redirect(reverse('product_detail', args=[current_watch.id]))
+
+
+@login_required
+def remove_favourite_watch(request, product_id):
+    """
+    View for removing favourite watch from wish list
+    """
+    current_user = request.user
+    current_watch = get_object_or_404(Product, pk=product_id)
+    FavouriteWatch.objects.get(
+        user=current_user, favourite_watch=current_watch).delete()
+    messages.success(request, (f"{current_watch.watch_model} has been removed \
+        from your wish list."))
+    return redirect('wish_list')
