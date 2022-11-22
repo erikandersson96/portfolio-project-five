@@ -3,6 +3,7 @@ from django.views.generic.edit import CreateView, DeleteView
 from django.contrib import messages
 from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import BlogPost, BlogComment
 from .forms import PostForm, CommentForm
@@ -124,9 +125,10 @@ def delete_post(request, slug):
     return redirect(reverse('blog'))
 
 
-class AddCommentView(CreateView):
+class AddCommentView(LoginRequiredMixin, CreateView):
     """
-    A view for Create comments on blog posts
+    A view for Create comments on blog posts for
+    logged in users only
     """
     model = BlogComment
     form_class = CommentForm
@@ -147,10 +149,17 @@ class AddCommentView(CreateView):
             'blog_detail', kwargs={'slug': self.kwargs.get('slug')})
 
 
+@login_required
 def delete_comment(request, comment_id):
     """
-    View for delete blog post comments
+    View for delete blog post comments by admin
     """
+    if not request.user.is_superuser:
+        messages.error(
+            request, 'Sorry, only store managers can delete blog comments!')
+        return redirect(
+            reverse('blog'))
+
     comment = get_object_or_404(BlogComment, pk=comment_id)
     comment.delete()
     messages.success(request, 'The blog comment was deleted!')

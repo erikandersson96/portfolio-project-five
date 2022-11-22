@@ -73,7 +73,7 @@
                             {{ comment.body }}
                         </strong>
                         <br>
-                        {% if user.is_authenticated or user.is_admin %}
+                        {% if request.user.is_superuser %}
                         <small>
                             <a class="delete-red" href="{% url 'delete_comment' comment.id %}">Delete Comment</a>
                         </small>
