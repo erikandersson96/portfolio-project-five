@@ -205,13 +205,14 @@ As a guest I would like to be able to:
 * View all of the watches available.
 * View the watch details of a selected watch.
 * Purchase watches using my credit/debit card.
+* View the blog, all blog posts details and comments. 
  
 As a registered user I would like to be able to:
  
 * Login to my account.
 * See order history, and change shipping/billing information.
 * See blog posts and comment on them.
-* Add watches to my wish list.
+* Add/remove watches to my wish list.
 * Learn about the website.
 * Visit the website's social platforms.
 * Visit the website's Facebook page.
@@ -227,6 +228,7 @@ As an admin I need to be able to:
 * Delete available watches.
 * Add and edit blog posts.
 * Delete blog posts.
+* Delete blog post comments.
 
 
 #### Strategy
