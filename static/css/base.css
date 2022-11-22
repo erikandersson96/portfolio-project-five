@@ -24,14 +24,18 @@ body {
     width: 1.5rem;
 }
 
+/* -------------------------- Navbar */
 .nav-link-black,
 #topnav { 
     background: #000;
 }
 
-.navbar-toggler,
-.navbar-toggler-icon {
+.navbar-toggler {
     background: #fff;
+}
+
+#hamburger-menu {
+    margin-top: 4px;
 }
 
 #shipping-banner {
@@ -52,6 +56,11 @@ body {
 
 .main-logo-link {
     width: fit-content;
+}
+
+.nav-link-hover:hover {
+    background: rgb(242, 214, 57);
+    color: black;
 }
 
 /* -------------------------- Blog page */
@@ -154,14 +163,8 @@ hr {
     background: rgb(242, 214, 57) !important;
 }
 
-/* change to border-white when background is set to black, and change color to white. Delete this comment then. */
 .border-white {
     border: 1px solid white !important;
-}
-
-.nav-link-hover:hover {
-    background: rgb(242, 214, 57);
-    color: black;
 }
 
 .overlay {
