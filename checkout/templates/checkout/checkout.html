@@ -2,6 +2,8 @@
 {% load static %}
 {% load bag_tools %}
 
+{% load humanize %}
+
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
@@ -50,7 +52,7 @@
                             <p class="my-0 small text-muted text-white">Qty: {{ item.quantity }}</p>
                         </div>
                         <div class="col-3 text-right">
-                            <p class="my-0 small text-muted text-white">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                            <p class="my-0 small text-muted text-white">${{ item.product.price | calc_subtotal:item.quantity |floatformat:2|intcomma }}</p>
                         </div>
                     </div>
                 {% endfor %}
@@ -61,8 +63,8 @@
                         <p class="my-0">Grand Total:</p>
                     </div>
                     <div class="col-3">
-                        <p class="my-0">${{ total | floatformat:2 }}</p>
-                        <p class="my-0"><strong>${{ grand_total | floatformat:2 }}</strong></p>
+                        <p class="my-0">${{ total |floatformat:2|intcomma }}</p>
+                        <p class="my-0"><strong>${{ grand_total |floatformat:2|intcomma }}</strong></p>
                     </div>
                 </div>
                 <hr class="my-0">
@@ -121,7 +123,7 @@
                             <span class="icon">
                                 <i class="fas fa-exclamation-circle"></i>
                             </span>
-                            <span>Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
+                            <span>Your card will be charged <strong>${{ grand_total|floatformat:2|intcomma }}</strong></span>
                         </p>
                     </div>
                 </form>

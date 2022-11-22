@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% load humanize %}
+
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
@@ -62,7 +64,7 @@
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
                             <p class="small mb-0">
-                                {{ item.quantity }} {% if item.quantity > 1 %} watches {% else %} watch {% endif %} for ${{ item.product.price }}
+                                {{ item.quantity }} {% if item.quantity > 1 %} watches {% else %} watch {% endif %} for ${{ item.product.price|floatformat:2|intcomma }}
                                 {% if item.quantity > 1 %} each{% endif %}
                             </p>
                         </div>
@@ -145,7 +147,7 @@
                             <p class="mb-0 text-white font-weight-bold">Order Total:</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">${{ order.order_total }}</p>
+                            <p class="mb-0">${{ order.order_total|floatformat:2|intcomma }}</p>
                         </div>
                     </div>
                     <div class="row">
@@ -153,7 +155,7 @@
                             <p class="mb-0 text-white font-weight-bold">Grand Total:</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">${{ order.grand_total }}</p>
+                            <p class="mb-0">${{ order.grand_total|floatformat:2|intcomma }}</p>
                         </div>
                     </div>
                     <hr>

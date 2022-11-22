@@ -1,5 +1,7 @@
 {% load static %}
 
+{% load humanize %}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -35,6 +37,7 @@
 
     {% block extra_js %}
     {% endblock %}
+
 
     <title>AndWatch's {% block extra_title %}{% endblock %}</title>
   </head>
@@ -100,7 +103,7 @@
                   <div><i class="fas fa-shopping-cart fa-lg"></i></div>
                   <p class="my-0">
                     {% if grand_total %}
-                      ${{ grand_total|floatformat:2 }}
+                      ${{ grand_total|floatformat:2|intcomma }}
                     {% else %}
                       $0.00
                     {% endif %}

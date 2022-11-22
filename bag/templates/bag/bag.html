@@ -2,6 +2,8 @@
 {% load static %}
 {% load bag_tools %}
 
+{% load humanize %}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -44,11 +46,11 @@
                                 </div>
                                 <div class="col-12 col-sm-6 order-sm-last">
                                     {% if item.quantity > 1 %}
-                                        <p class="my-0">Price each item: ${{ item.product.price }}</p>
+                                        <p class="my-0">Price each item: ${{ item.product.price|floatformat:2|intcomma }}</p>
                                     {% else %}
-                                        <p class="my-0">Price: ${{ item.product.price }}</p>
+                                        <p class="my-0">Price: ${{ item.product.price|floatformat:2|intcomma }}</p>
                                     {% endif %}
-                                    <p><strong>Subtotal: </strong>${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                    <p><strong>Subtotal: </strong>${{ item.product.price|floatformat:2|intcomma | calc_subtotal:item.quantity }}</p>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     {% include "bag/quantity-form.html" %}
@@ -82,13 +84,13 @@
                                         {% include "bag/product-info.html" %}
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price }}</p>
+                                        <p class="my-0">${{ item.product.price|floatformat:2|intcomma }}</p>
                                     </td>
                                     <td class="py-3 w-25">
                                         {% include "bag/quantity-form.html" %}                                    
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                        <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity |floatformat:2|intcomma }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
