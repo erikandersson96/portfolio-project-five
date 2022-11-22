@@ -248,7 +248,15 @@ And most important purchase products, but this is of course open for all users e
 ## Website Design
  
 ### Design
- 
+
+<details>
+<summary> Logo design </summary> 
+<br>
+I decided to go with `AndWatch's` beacuse I think it is simple and clean. But also since I namned my [first-milestone](https://github.com/erikandersson96/first-milestone) (link) project in this course to `Andersson's` and that site was related to wrist watches as well, I tought it was a little nostalgic to use something similar that relates to 
+my name `Erik Andersson`.
+</details>
+
+`Background Image` - I downloaded this image 
 
 
 ### Color Scheme
