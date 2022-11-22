@@ -1,4 +1,4 @@
-# AndWatch's
+<h1 align=center>AndWatch's</h1> 
  
 <p align="center">
    <img src="/readme_images/aws.png" width="150px"/>
