@@ -15,7 +15,7 @@ To visit `AndWatch's` website please click this [link](https://andwatchs-2022.he
  
  
 ---
-## Portfolio Project Four
+## Portfolio Project Five
  
 ### Intention
  
@@ -44,7 +44,9 @@ blog post details page. But be aware of that the `Store Manager` might delete po
 watches amoung all of the available products in the store. The `My account dropdown menu` features register or login depending on if the user has an existing account or wish to become one.
 When the user is logged in they will see `My profile or Logout`, My profile is where the user can see their user information if they have submitted and order in the past or their order 
 history listed. At the `Shopping Bag` the user can click when they have added products to the bag or if they are just curios they can see the empty bag aswell, and inside the bag there is
-a button for be directed to all the watches if the user wish to do so. 
+a button for be directed to all the watches if the user wish to do so.
+
+On smaller screen sizes the menu for `Home, Watches, Blog` will be in a `"hamburger menu"` on the left.
 
 At the bottom of the page is the footer that also exists on all pages with the following content `A "logo" that just acts like a logo for AndWatch's,`
 `A link for signup with the newsletter, Contact us page link, About us page link and the social media icons`. The link to the newsletter will direct the user for signup as mentioned, the newsletter provider is [mailchimp](https://mailchimp.com/) (link). The contact us page link will direct the user to a seperate page with all of the contact information of AndWatch's.
@@ -74,7 +76,11 @@ At the `checkout page` the user will be asked to fill out the form of details, d
 A yellow transparent loading overlay (like in Boutique Ado) will pop up with two spinning arrows and a success message will pop up. The user will now see a thank you text above and
 the order, deliver to and billing information below. 
 
-The user can update their information about delivery and so on on their `Profile` page. 
+The user can update their information about delivery and so on on their `Profile` page.
+
+To access the `blog` the user clicks on the blog button. At the blog all the blog posts are listed, and all of them are created by the team at `AndWatch's`. If the user clicks on one of the blog posts he/she will then be displayed with the details of the blog post. If the user scrolls down there is a `comment` section were (only registered users) can add comments on the blog post. All users (even those who aren't logged in or registered) can see the comments section. Only `"Store Managers/Admin"` can delete comments that have been posted on blog posts, to ensure a friendly language from users.
+
+Logged in users can add watches to their `wish list` if they want to, they can do so at each `watch details` page. They can then remove each induvidual watch from the `wish list` as they wish to do.
 
 #### Good To Know
 
@@ -82,8 +88,10 @@ As well as there is success messages for every successfull transaction on the si
 
 ### For Store Managers Only!
 
-If you are logged in as a store manager (admin) on AndWatch's you can then manage all products, blog posts and comments by edit or deleting them. You can add new products by 
-clicking on `Product Managment` on the profile. **Important! Be aware of:** if you press delete on a product, blog post or comment they will be deleted and this action cannot be undone! 
+If you are logged in as a store manager (admin) on AndWatch's you can then manage all products, blog posts by edit or deleting them, comments can only be deleted. 
+You can add new products or blog posts by clicking on `Product Managment/Blog Managment` on the profile. As an adim you can edit/delete products and blog posts, commnets you can only delete. 
+
+**Important! Be aware of:** if you press delete on a product, blog post or comment they will be deleted and this action cannot be undone!
 
  
 ---
@@ -154,32 +162,36 @@ Since the wireframes is a idea of how I think the website would look like before
  
 Before I started to work with the code for this project I was requested of my mentor to create a mapping tool for my `user stories` to easier track `what to do when`. So I choose to use [Trello](https://trello.com/en) (link) as my tool for this. During my development I have been moving each user story with it's `EPICS` to the correct stage of the process, and I have made sure that each user story was manualy tested and fully functional before moving on to the next one.
  
-If you want to visit my trello board you can do so by visit this [link](https://trello.com/invite/b/e3SZtNeH/834b609e9c7347149b597bb49d09e186/portfolio-project-5) (link).
- 
-I will demonstrate each step in the process for you down below of my trello board during my development:
+If you want to visit my trello board you can do so by visit this [link](https://trello.com/invite/b/e3SZtNeH/834b609e9c7347149b597bb49d09e186/portfolio-project-5) (link). 
  
 **Trello board:**
  
 ![Screenshot of trello board](/readme_images/trelloboard.png)
+
+Instead of including each `user story` card here, I will explain how these cards are set up by demonstrate one `user story` for users and one for `admin`.
+But if you wish to see all of the cards you can then just visit the link to the board above.
+
+Each `user story` are grouped togheter with other cards that they are relevant by with an `EPIC - Heading` and a unique label color.
+
+**EPIC:**
  
+![Screenshot of trello epic](/readme_images/epic-heading.png)
  
-**To Do (Admin):**
+**User story card:**
  
-![Screenshot of trello admin to do]()
+![Screenshot of trello user story card](/readme_images/card-blue.png)
+
+As you can see above the `EPIC-Products` is "linked" togheter with the `user story card` that has the same blue label above them. So for each `user story` that is related to the products of AndWatch's will have that blue label above them, this goes on for each `EPIC` and the attached label color that is related to each `user story` card with there own unique label color.
+
+If you click on each `user story card` a bigger view will be displayed with `Given, When, Then` to act like a discription for the use of that particular `user story`. Like this:
+
+**User story card details:**
  
-**In-design (Admin):**
- 
-![Screenshot of trello admin in-design]()
- 
-**Testing (Admin):**
- 
-![Screenshot of trello admin testing]()
- 
-**Done (Admin):**
- 
-![Screenshot of trello admin done]() 
- 
- 
+![Screenshot of trello card details](/readme_images/card-open.png)
+
+The `user stories` for admin is set up in the same way.
+
+
 ---
 ## UX
  
