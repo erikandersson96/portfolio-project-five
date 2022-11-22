@@ -250,13 +250,124 @@ And most important purchase products, but this is of course open for all users e
 ### Design
 
 <details>
-<summary> Logo design </summary> 
+<summary>Logo Design</summary> 
 <br>
-I decided to go with `AndWatch's` beacuse I think it is simple and clean. But also since I namned my [first-milestone](https://github.com/erikandersson96/first-milestone) (link) project in this course to `Andersson's` and that site was related to wrist watches as well, I tought it was a little nostalgic to use something similar that relates to 
-my name `Erik Andersson`.
+I decided to go with `AndWatch's` beacuse I think it is simple and clean. But also since I namned my first-milestone project in this course to "Andersson's" and that site was related to wrist watches as well, I thought it was a little nostalgic to use something similar that relates to my name "Erik Andersson".
+<br>
+
+Here you can take a look at [first-milestone](https://github.com/erikandersson96/first-milestone) (link).
 </details>
 
-`Background Image` - I downloaded this image 
+<details> 
+<summary>Background Image</summary>
+<br>
+I downloaded the background image/hero image from Unsplash which is a website with free images. I have used the background image at only the Home page of this project. The background color is set to black since no text on the whole website is black, and if the background image wouldn't load the text would still be visable.
+<br>
+
+Here you can take a look at [Unsplash](https://unsplash.com/) (link).
+</details>
+
+<details>
+<summary>Navigation Bar</summary>
+<br>
+My navigation bar for this website is relative clean, with just the most necessary text/buttons/search bar/menus to give the website a overall clean look.
+
+</details>
+
+<details>
+<summary>Headings</summary>
+<br>
+Almost all pages existing on this website uses the same design with a heading on top, a yellow line under, and then the relevant body of that page.
+
+</details>
+
+<details>
+<summary>Buttons</summary>
+<br>
+The design of the buttons on this webiste of course varies depending on the background and the surrounding (if the button is next to another button etc). Most of the buttons are black with with text and a white border around, but some buttons are white with black text, yellow with black text, white text, yellow text, blue text, red text. The buttons that are a solid color is not really buttons they are most often a link but they act like a button. Almost all buttons/links change their color when you hover over them give them an effect that makes the user aware of clicking. 
+<br>
+**Remember:** All buttons/links that are colored with red is either a delete button or a remove button.   
+
+</details>
+
+<details>
+<summary>Footer</summary>
+<br>
+I choose a footer that would melt in to the rest of of the design theme (black/white/yellow). The footer holds the "Logo", "Newsletter link", "Contact link", "About us link", "social media links" and the "copyright information".
+
+</details>
+
+<details>
+<summary>Dropdown Menus</summary>
+<br>
+I choose to go for dropdown menus for "Watches (products)" and "My profile" as in the Code Institute - Boutique Ado Walkthrough Project.
+
+</details>
+
+<details>
+<summary>My Profile</summary>
+<br>
+My profile page is the same layout as in Code Institute - Boutique Ado Walkthrough Project, but with the correct color theme for this website. This page holds all the saved delivery information of the user (if the user has made purchases before) where the user can update the infomration and the page also lists order history with all orders made with that user account.
+
+</details>
+
+<details>
+<summary>Register/Login/Log out</summary>
+<br>
+The register, login and logout pages holds the relevant input boxes for users to either cerate an account, login, log out. The styling for these are almost the same with the correct color sheme of the website with black/white/yellow.
+
+</details>
+
+<details>
+<summary>Wish list</summary>
+<br>
+The wish list have the same layout as the Watches/Blog posts pages. All the watches the user adds to the wish list will be displayed in the following order of newest first etc and the user can remove the watches from the list via the remove button. The user can click on the specific watch image and will then be displayed with the watch details.
+
+</details>
+
+<details>
+<summary>Toasts (messages)</summary>
+<br>
+For each transaction made on the website, regardless of it is adding a watch to the shopping bag, edit a blog post or trigger an error the user/admin will get a message in the up right corner with the relevant information if the transaction was successfull or not. The different toasts used is success, info, warning, error with all of them waering it's own color relating to the message (like error = red, success = green). These toasts was taken from the Code Institute - Boutique Ado Walkthrough Project.
+
+</details>
+
+<details>
+<summary>Shopping Bag pop-up</summary>
+<br>
+
+</details>
+
+<details>
+<summary>Shopping Bag</summary>
+<br>
+
+</details>
+
+<details>
+<summary>Checkout</summary>
+<br>
+
+</details>
+
+<details>
+<summary>Checkout Success/Order Information</summary>
+<br>
+
+</details>
+
+<details>
+<summary>Add/edit products/blog posts</summary>
+<br>
+The pages for add/edit products/blog posts are almost the same in layout as CI - Boutique Ado, but they follow the color theme of this website. With a form for either add or edit the related product/blog post.  
+
+</details>
+
+<details>
+<summary>Add comments on blog posts</summary>
+<br>
+
+</details>
 
 
 ### Color Scheme
