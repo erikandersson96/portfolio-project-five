@@ -485,16 +485,20 @@ I choose two different fonts for my website, `"Comforter+Brush"` for my logo and
  
 Before I started to code this project I created a `Diagram Entity Relationship - Database Schema` using [dbdiagram](https://dbdiagram.io/home) (link). I created this to easier understand the database models that I was going to create for this project.
  
-![Screenshot of database schema]()
+![Screenshot of database schema](/readme_images/db-schema.png) 
  
 ### AndWatch's - Flow Diagram
+
+Before I started to write any code for this project I made sure to create an easy and straightforward `Flow Diagram` with all the logic for this project. The `Flow Diagram` was created with the use of [Lucid Chart](https://lucid.co/) (link). I used the free version that is available for anyone that register an acount at their website.
  
 
-[Lucid Chart](https://www.lucidchart.com/pages/) (link). 
- 
-![Screenshot of flow diagram]()
- 
-**Explain flow diagram:**
+**Flow diagram for users & admin/site owners:**
+
+![Screenshot of flow diagram all](/readme_images/flowchart.png)
+
+**Flow diagram for admin/site owners only:**
+
+![Screenshot of flow diagram admin only](/readme_images/site-owner-flowchart.png)
  
  
 ---
