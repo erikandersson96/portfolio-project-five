@@ -555,11 +555,31 @@ I would also like to add a page for admin/store owners to see the profits and in
 
 
 ---
-## Marketing
+## Marketing Strategy
+
+The business model of `AndWatch's` is B2C (Business to Customer), this website sells wrist watches from all kind of brands in a price range of $90 - $50.000. The main focus with this website is to educate users via our blog, where we post blog posts regarding watches we sell or watches that we are about to add to our store so user's can gain a bigger understanding of which wrist watch to buy since we have a big variation of watches in all kind of price ranges. The goal is to sell as many watches as possible.
+
+The marketing aspect of AndWatch's has been done via creating a real [FaceBook](https://www.facebook.com/profile.php?id=100088231741635) (link) page that you can take a look at. Creating a newsletter via [mailchimp](https://mailchimp.com/) (link) for storing email addresses from users and visitors at `AndWatch's` mailchimp email list so we can send email campaigns to these subscribers like new watches or nice deals on watches. Add `rel` attributes to all external links on the website, added a `robots.txt` file and a `sitemap.xml` file, and descriptive meta tags.
+
+The marketing strategy of `AndWatch's` is to post posts on our FaceBook page, send emails to our email subscribers and post informative blog posts on our blog at the website. 
 
 ### FaceBook page of AndWatch's
 
-### SEO implementation
+![Screenshot of AndWatchs facebook page](/readme_images/facebook.png)
+
+### Mailchimp
+
+The thank you for subscribing email that is being sent from mailchimp to users who submits their emailaddress looks like this:
+
+![Screenshot of AndWatchs mailchimp thank you email](/readme_images/)
+
+### robots.txt
+
+`Robots.txt` is a text file webmasters create to instruct web robots (typically search engine robots) how to crawl pages on their website. The robots.txt file is part of the the robots exclusion protocol (REP), a group of web standards that regulate how robots crawl the web, access and index content, and serve that content up to users.
+
+### sitemap.xml
+
+An XML sitemap is a file that lists a website’s essential pages, making sure Google can find and crawl them all. It also helps search engines understand your website structure. You want Google to crawl every important page of your website. But sometimes, pages end up without internal links pointing to them, making them hard to find. A sitemap can help speed up content discovery.
 
 
 ---
