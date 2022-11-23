@@ -571,7 +571,8 @@ The marketing strategy of `AndWatch's` is to post posts on our FaceBook page, se
 
 The thank you for subscribing email that is being sent from mailchimp to users who submits their emailaddress looks like this:
 
-![Screenshot of AndWatchs mailchimp thank you email](/readme_images/)
+![Screenshot of AndWatchs mailchimp thank you email](/readme_images/email-1.png) 
+![Screenshot of AndWatchs mailchimp thank you email footer part](/readme_images/email-2.png) 
 
 ### robots.txt
 
