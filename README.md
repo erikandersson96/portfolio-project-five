@@ -439,26 +439,27 @@ Only admin/Store owner of AndWatch's can delete watches, blog posts and comments
 
 ### Color Scheme
   
- 
-**#34A56F - A lighter green (HEX-color)**
- 
-![Screenshot of green color]()
- 
-**#20603C - A darker green (HEX-color)**
- 
-![Screenshot of green color]()
- 
-**#1C5434 - A dark green (HEX-color)**
- 
-![Screenshot of green color]()
- 
-**Red color (Default bootstrap color "btn-danger")**
- 
-![Screenshot of red color]()
- 
-**Black color (Default css color)**
- 
-![Screenshot of black color]()
+The main colors of this website is black, white and yellow but I have also used a variation of other colors as well. I have displayed them all underneath.
+
+* The white color is used for allmost all text, the grey colors is used for the arrows used in the toast messages, the black color is used as background color, navigation bar, footer and on some of the buttons.
+
+![Screenshot of white to black colors](/readme_images/white-black.png)
+
+* The first yellow color is used for the most on this website, such as the banner on top, all yellow text, buttons etc. The middle color is used for the yellow overlay that pops up before a user is directed to the checkout success page with spinning white arrows. The orange color is used for one of the arrows in the toast messages. 
+
+![Screenshot of yellow to orange colors](/readme_images/yellow-orange.png)
+
+* The first red color is used for some links such as `reset sorting` on the watches page, the second red color is used for an arrow in the toast messages and for the checkbox used on edit product page, the third red color is used as a hover effect to the delete button, the last red color is used for the delete button.
+
+![Screenshot of red colors](/readme_images/red.png)
+
+* Both of the blue colors are used for the arrows on the toast messages.
+
+![Screenshot of blue colors](/readme_images/blue.png)
+
+* The green color is used for the success toast arrow.
+
+![Screenshot of green color](/readme_images/green.png)
  
  
 ### Fonts
