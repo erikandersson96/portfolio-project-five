@@ -542,11 +542,17 @@ The wish list (favourite watches) doesn't have it's own app, it is included in t
 
 ### Responsive Layout and Design
 
-Using Bootstrap, the project has been designed to be fully responsive on most viewports, ensuring all functionality is maintained from 320px width and up. The targeted media queries are custom made to make the website look good on most screen devices. All features have been developed with most viewports in mind.
+Using Bootstrap 4, the project has been designed to be fully responsive on most viewports, ensuring all functionality is maintained from 320px width and up. The targeted media queries are custom made to make the website look good on most screen devices. All features have been developed with most viewports in mind.
  
 ---
 ## Future Features
- 
+
+#### Django admin panel to Front end
+
+I would like to add a better and more robust Managament panel for admin/store owner to check orders, see user's that has made accounts, and essentially everything that has to be done via the django admin panel at this stage would be nice to have on the front end. This would make the website easier to maintain by all the staff at AndWatch's, with a nice looking and easy to understand interface. 
+
+I would also like to add a page for admin/store owners to see the profits and income of the store, to get a understanding of what the team at AndWatchs should focus more on in their marketing to gain more customers.  
+
 
 ---
 ## Marketing
