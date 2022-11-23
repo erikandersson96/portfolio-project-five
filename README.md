@@ -256,6 +256,8 @@ I decided to go with `AndWatch's` beacuse I think it is simple and clean. But al
 <br>
 
 Here you can take a look at [first-milestone](https://github.com/erikandersson96/first-milestone) (link).
+
+![Screenshot of logo design](/readme_images/logo.png)
 </details>
 
 <details> 
@@ -265,20 +267,27 @@ I downloaded the background image/hero image from Unsplash which is a website wi
 <br>
 
 Here you can take a look at [Unsplash](https://unsplash.com/) (link).
+<br>
+
+![Screenshot of hero image](/readme_images/hero-image.png)
 </details>
 
 <details>
 <summary>Navigation Bar</summary>
 <br>
 My navigation bar for this website is relative clean, with just the most necessary text/buttons/search bar/menus to give the website a overall clean look.
+<br>
 
+![Screenshot of navigation bar](/readme_images/nav-bar.png)
 </details>
 
 <details>
 <summary>Headings</summary>
 <br>
 Almost all pages existing on this website uses the same design with a heading on top, a yellow line under, and then the relevant body of that page.
+<br>
 
+![Screenshot of a page heading](/readme_images/heading.png)
 </details>
 
 <details>
@@ -287,86 +296,144 @@ Almost all pages existing on this website uses the same design with a heading on
 The design of the buttons on this webiste of course varies depending on the background and the surrounding (if the button is next to another button etc). Most of the buttons are black with with text and a white border around, but some buttons are white with black text, yellow with black text, white text, yellow text, blue text, red text. The buttons that are a solid color is not really buttons they are most often a link but they act like a button. Almost all buttons/links change their color when you hover over them give them an effect that makes the user aware of clicking. 
 <br>
 **Remember:** All buttons/links that are colored with red is either a delete button or a remove button.   
+<br>
 
+![Screenshot of buttons](/readme_images/btn-1.png)
+![Screenshot of buttons](/readme_images/btn-2.png)
+![Screenshot of buttons](/readme_images/btn-3.png)
+![Screenshot of buttons](/readme_images/btn-4.png)
+![Screenshot of buttons](/readme_images/btn-5.png)
 </details>
 
 <details>
 <summary>Footer</summary>
 <br>
 I choose a footer that would melt in to the rest of of the design theme (black/white/yellow). The footer holds the "Logo", "Newsletter link", "Contact link", "About us link", "social media links" and the "copyright information".
+<br>
 
+![Screenshot of footer](/readme_images/footer.png)
 </details>
 
 <details>
 <summary>Dropdown Menus</summary>
 <br>
 I choose to go for dropdown menus for "Watches (products)" and "My profile" as in the Code Institute - Boutique Ado Walkthrough Project.
+<br>
 
+![Screenshot of dropdown watches](/readme_images/dropdown-watches.png)
+![Screenshot of dropdown profile](/readme_images/dropdown-profile.png)
 </details>
 
 <details>
 <summary>My Profile</summary>
 <br>
 My profile page is the same layout as in Code Institute - Boutique Ado Walkthrough Project, but with the correct color theme for this website. This page holds all the saved delivery information of the user (if the user has made purchases before) where the user can update the infomration and the page also lists order history with all orders made with that user account.
+<br>
 
+![Screenshot of profile page](/readme_images/profile.png)
 </details>
 
 <details>
 <summary>Register/Login/Log out</summary>
 <br>
 The register, login and logout pages holds the relevant input boxes for users to either cerate an account, login, log out. The styling for these are almost the same with the correct color sheme of the website with black/white/yellow.
+<br>
 
+![Screenshot of register page](/readme_images/register.png)
+![Screenshot of login page](/readme_images/login.png)
+![Screenshot of logout page](/readme_images/logout.png)
 </details>
 
 <details>
 <summary>Wish list</summary>
 <br>
 The wish list have the same layout as the Watches/Blog posts pages. All the watches the user adds to the wish list will be displayed in the following order of newest first etc and the user can remove the watches from the list via the remove button. The user can click on the specific watch image and will then be displayed with the watch details.
+<br>
 
+![Screenshot of wish list](/readme_images/wish-list.png)
 </details>
 
 <details>
 <summary>Toasts (messages)</summary>
 <br>
-For each transaction made on the website, regardless of it is adding a watch to the shopping bag, edit a blog post or trigger an error the user/admin will get a message in the up right corner with the relevant information if the transaction was successfull or not. The different toasts used is success, info, warning, error with all of them waering it's own color relating to the message (like error = red, success = green). These toasts was taken from the Code Institute - Boutique Ado Walkthrough Project.
+For each transaction made on the website, regardless of it is adding a watch to the shopping bag, edit a blog post or trigger an error the user/admin will get a message in the up right corner with the relevant information if the transaction was successfull or not. The different toasts used is success, info, warning, error with all of them waering it's own color relating to the message (like error = red, success = green). These toasts was taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project.
+<br>
 
+![Screenshot of toast success](/readme_images/toast.png)
 </details>
 
 <details>
 <summary>Shopping Bag pop-up</summary>
 <br>
+Every time when a user adds a watch to the shopping bag or when a user removes a watch from the bag if he or she has more then one in the bag. The user can use the button in this pop-up bag to get to the real shopping bag. This feature is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
+<br>
 
+![Screenshot of pop-up bag](/readme_images/pop-up.png)
 </details>
 
 <details>
 <summary>Shopping Bag</summary>
 <br>
+The shopping bag displays all the watches that has been added to the bag, the quantity of each watch, a update/remove quantity input, price, subtotal, bag total, grand total and buttons for shop more or secure checkout. This page is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
+<br>
 
+![Screenshot of shopping bag](/readme_images/bag.png)
 </details>
 
 <details>
 <summary>Checkout</summary>
 <br>
+The checkout page displays a form for submitting the delivery and billing information (this form can be pre filled if the user is logged in and has saved a past purchase info), a order summary which shows the watches the user has added, quantity, subtotal, order total, grand total and buttons for either adjusting the bag if the user want to add more watches or remove watches. The other button is for complete order (confirm the purchase!). This page is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
+<br>
 
+![Screenshot of checkout page](/readme_images/checkout-1.png)
+![Screenshot of checkout page](/readme_images/checkout-2.png)
 </details>
 
 <details>
 <summary>Checkout Success/Order Information</summary>
 <br>
+When the user has clicked the button for complete order a new page will show up with the order information. This page displays order info, order details, delivering to, billing info and a button for shop for more watches. A success message will show up on this page after the purchase was completed with information about the order. This page is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
+<br>
 
+![Screenshot of checkout success page](/readme_images/checkout-success.png)
 </details>
 
 <details>
 <summary>Add/edit products/blog posts</summary>
 <br>
 The pages for add/edit products/blog posts are almost the same in layout as CI - Boutique Ado, but they follow the color theme of this website. With a form for either add or edit the related product/blog post.  
+<br>
 
+![Screenshot of add/edit products/blog posts](/readme_images/add-1.png)
+![Screenshot of add/edit products/blog posts](/readme_images/add-2.png)
+![Screenshot of add/edit products/blog posts](/readme_images/edit-1.png)
+![Screenshot of add/edit products/blog posts](/readme_images/edit-2.png)
+![Screenshot of add/edit products/blog posts](/readme_images/add-blog.png)
+![Screenshot of add/edit products/blog posts](/readme_images/add-blog2.png)
+![Screenshot of add/edit products/blog posts](/readme_images/edit-blog.png)
+![Screenshot of add/edit products/blog posts](/readme_images/edit-blog2.png)
 </details>
 
 <details>
 <summary>Add comments on blog posts</summary>
 <br>
+All registered and logged in users can add comments on blog posts, this is done by first see the details of a blog post details, scroll down, click the button for add comment, fill out the form on the new page with content for the comment and click on add comment. The user will be redirected to the blog post details and the comment will appear in an order of added first on top. Only admin/store owners can delete comments.
+<br>
 
+![Screenshot of add comments](/readme_images/add-comment.png)
+![Screenshot of add comments](/readme_images/comments.png)
+</details>
+
+<details>
+<summary>Delete watches/blog post/comments (Only admin/Store owner)</summary>
+<br>
+Only admin/Store owner of AndWatch's can delete watches, blog posts and comments. Important to remember here is that when deleting, the action can not be undone! The buttons for this looks like the images below. The delete button for watches is the same as used in Code Institute - Boutique Ado Walkthrough Project, the styling for the other two blog posts/comments are fairly the same in the looks.
+<br>
+
+![Screenshot of delete watches](/readme_images/delete-product.png)
+![Screenshot of delete blog posts](/readme_images/delete-post.png)
+![Screenshot of delete comments](/readme_images/delete-comment.png)
 </details>
 
 
