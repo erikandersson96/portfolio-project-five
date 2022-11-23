@@ -460,19 +460,22 @@ The main colors of this website is black, white and yellow but I have also used 
 * The green color is used for the success toast arrow.
 
 ![Screenshot of green color](/readme_images/green.png)
- 
+
+I created these color paletts at [color-hex](https://www.color-hex.com/user/add-palette.php) (link).
  
 ### Fonts
  
-I choose two different fonts for my website, `"Dancing Script"` for my logo and all headings (h1, h2, h3) and `"Lato"` for all other text. I choose these two fonts because I thought they matched good togheter and for this website. The fonts were taken from `pairfonts.com`.
+I choose two different fonts for my website, `"Comforter+Brush"` for my logo and `"Lato"` for all other text including all headings. I choose these two fonts because I thought they matched good togheter and for this website. The fonts were taken from [pairfonts.com](https://pairfonts.com/) (link).
  
-**Dancing Script for my logo and all headings:**
+**Comforter+Brush for my logo:**
  
-![Screenshot of black color]()
+![Screenshot of comforter brush font for logo](/readme_images/logo.png)
  
 **Lato for all other text:**
  
-![Screenshot of black color]()
+![Screenshot of font lato on text](/readme_images/font-text.png)
+
+![Screenshot of font lato on heading](/readme_images/font-heading.png)
  
  
 ---
