@@ -605,7 +605,7 @@ Technologies that I used for `AndWatch's` website project is the following down 
  
 * [Django](https://www.djangoproject.com/) (link): Django is a high-level `Python web framework` that enables rapid development of secure and maintainable websites.
  
-* [Bootstrap 5](https://getbootstrap.com/) (link): Bootstrap is a `CSS framework and toolkit`. Developers can't use it to write programs, but because Bootstrap contains massive amounts of reusable code and website element templates, the framework can remove some of the “busy work” and significantly speed up the process of building a website.
+* [Bootstrap 4](https://getbootstrap.com/) (link): Bootstrap is a `CSS framework and toolkit`. Developers can't use it to write programs, but because Bootstrap contains massive amounts of reusable code and website element templates, the framework can remove some of the “busy work” and significantly speed up the process of building a website.
  
 * [GitHub](https://github.com) (link): GitHub is used to store all data from the project after it has been pushed using the
 `git add . | git commit -m "message here" | git push` command in the GitPod terminal.
@@ -618,7 +618,7 @@ Technologies that I used for `AndWatch's` website project is the following down 
  
 * [LucidChart](https://www.lucidchart.com/pages/) (link): Lucidchart is the intelligent diagramming application that empowers teams to clarify complexity, logic and more. To get a better visual understanding about how an application work.
  
-* [PEP8](http://pep8online.com/) (link): Is a validation tool that I used to validate my code.
+* [PEP8ci](https://pep8ci.herokuapp.com/) (link): Is a validation tool that was used to validate my python code.
  
 * [Techsini](https://techsini.com/multi-mockup/index.php) (link). Used to create the mockup image.
  
@@ -686,7 +686,8 @@ After I had tried different methods of tweaking the `JavaScript` of this sorting
 
  
 ### Unfixed Bugs
- 
+
+Since I have set my background color to all black and for my navigation bar, my `"Hamburger menu"` for smaller screen devices wasn't showing. I tried to style the css for the `css` for my `navbar-toggler` and `navbar-toggler-icon` to set the correct value so the `navbar-toggler` would have a white background color and the `navbar-toggler-icon` would have a black color but this didn't work out for me. So I decided to add a `Font awesome` icon of that exact look to go around this problem an then set the `margin-top` to 4px so it would be centered in the white `navbar-toggler`. I have checked so it looks good on smaller screen devices with the chrome developer tool set to responsive, so remember that I haven't had access to test this on real devices.  
  
 ---
 ## Credits
