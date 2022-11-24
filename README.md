@@ -128,8 +128,12 @@ You can add new products or blog posts by clicking on `Product Managment/Blog Ma
   * [My favorites](#my-favorites)
 
 * [Marketing](#marketing)
+  * [Marketing Strategy](#marketing-strategy)
   * [FaceBook page](#facebook-page-of-andwatchs)
-  * [SEO implementation](#seo-implementation)
+  * [Mailchimp](#mailchimp)
+  * [robots.txt](#robotstxt)
+  * [sitemap.xml](#sitemapxml)
+  * [Privacy Policy](#privacy-policy)
 
 * [Technologies Used](#technologies)
  
@@ -581,6 +585,10 @@ The thank you for subscribing email that is being sent from mailchimp to users w
 ### sitemap.xml
 
 An XML sitemap is a file that lists a website’s essential pages, making sure Google can find and crawl them all. It also helps search engines understand your website structure. You want Google to crawl every important page of your website. But sometimes, pages end up without internal links pointing to them, making them hard to find. A sitemap can help speed up content discovery.
+
+### Privacy Policy
+
+I have added an external link for `AndWatch's` Privacy Policy, that I generated with a free online tool that you can check out [here](https://www.privacypolicygenerator.info/) (link). The actual link to `AndWatch's` Privacy Policys, you can find [here](https://www.privacypolicygenerator.info/live.php?token=2r3kttLY1iBeLBY32YwFSRImjgB0unCt) (link).
 
 
 ---
