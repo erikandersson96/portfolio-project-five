@@ -687,7 +687,16 @@ After I had tried different methods of tweaking the `JavaScript` of this sorting
  
 ### Unfixed Bugs
 
-Since I have set my background color to all black and for my navigation bar, my `"Hamburger menu"` for smaller screen devices wasn't showing. I tried to style the css for the `css` for my `navbar-toggler` and `navbar-toggler-icon` to set the correct value so the `navbar-toggler` would have a white background color and the `navbar-toggler-icon` would have a black color but this didn't work out for me. So I decided to add a `Font awesome` icon of that exact look to go around this problem an then set the `margin-top` to 4px so it would be centered in the white `navbar-toggler`. I have checked so it looks good on smaller screen devices with the chrome developer tool set to responsive, so remember that I haven't had access to test this on real devices.  
+**Bug 1:**
+
+Since I have set my background color to all black and for my navigation bar, my `"Hamburger menu"` for smaller screen devices wasn't showing. I tried to style the css for the `css` for my `navbar-toggler` and `navbar-toggler-icon` to set the correct value so the `navbar-toggler` would have a white background color and the `navbar-toggler-icon` would have a black color but this didn't work out for me. So I decided to add a `Font awesome` icon of that exact look to go around this problem an then set the `margin-top` to 4px so it would be centered in the white `navbar-toggler`. I have checked so it looks good on smaller screen devices with the chrome developer tool set to responsive, so remember that I haven't had access to test this on real devices.
+
+**Bug 2:**
+
+When edit a blog post, if there is an image added to the blog post before (before starting to edit). The admin/store owner can't use the `clear` box shown in the image shown below to delete the existing image. But if the admin/store owner intend to do so they can just click `Add image` and the new image will replace the old one when they hit `save`.
+
+![Screenshot of clear box not working while edit blog post](/readme_images/unfixed-bug.png)
+
  
 ---
 ## Credits
@@ -707,6 +716,7 @@ All images for this project was taken from []() (link).
 #### Tutors
 
 * `Ed` - For helping me with my sorting selector JavaScript function.
+* `Alex and Ed` - For helping me get my webhook_handler.py to work correctly.
   
  
 #### Help from Stack Overflow
