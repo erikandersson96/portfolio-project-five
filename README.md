@@ -489,7 +489,7 @@ Before I started to code this project I created a `Diagram Entity Relationship -
  
 ### AndWatch's - Flow Diagram
 
-Before I started to write any code for this project I made sure to create an easy and straightforward `Flow Diagram` with all the logic for this project. The `Flow Diagram` was created with the use of [Lucid Chart](https://lucid.co/) (link). I used the free version that is available for anyone that register an acount at their website.
+Before I started to write any code for this project I made sure to create an easy and straightforward `Flow Diagram` with all the logic for this project. The `Flow Diagram` was created with the use of [Lucid Chart](https://lucid.co/) (link). I used a paid version to get more features but you can access the free version that is available for anyone that register an acount at their website.
  
 
 **Flow diagram for users & admin/site owners:**
