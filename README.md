@@ -49,7 +49,7 @@ a button for be directed to all the watches if the user wish to do so.
 On smaller screen sizes the menu for `Home, Watches, Blog` will be in a `"hamburger menu"` on the left.
 
 At the bottom of the page is the footer that also exists on all pages with the following content `A "logo" that just acts like a logo for AndWatch's,`
-`A link for signup with the newsletter, Contact us page link, About us page link and the social media icons`. The link to the newsletter will direct the user for signup as mentioned, the newsletter provider is [mailchimp](https://mailchimp.com/) (link). The contact us page link will direct the user to a seperate page with all of the contact information of AndWatch's.
+`A link for signup with the newsletter, Contact us page link, About us page link, Privacy Policy, and the social media icons`. The link to the newsletter will direct the user for signup as mentioned, the newsletter provider is [mailchimp](https://mailchimp.com/) (link). The contact us page link will direct the user to a seperate page with all of the contact information of AndWatch's.
 The about us page link works as the contact link but it will direct the user to a page of all the information about AndWatch's. The social media links will direct the user to each 
 seperate plattform, `GitHub, LinkedIn, and Facebook`. The GitHub link and LinkedIn link is directing to Erik Andersson (creator of this project) personal pages. The `FaceBook` link
 on the other hand directs the user to the FaceBook page of `AndWatch's`. At the very bottom is the `Copyright of AndWatch's - Erik andersson`. 
