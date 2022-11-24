@@ -362,6 +362,15 @@ footer {
     border-radius: 0;
 }
 
+/* Mailchimp */
+
+#mc_embed_signup {
+    background:#000; 
+    clear:left; 
+    font:14px;  
+    width:600px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
