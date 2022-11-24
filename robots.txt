@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://andwatchs-2022.herokuapp.com/sitemap.xml
