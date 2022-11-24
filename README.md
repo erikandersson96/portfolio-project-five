@@ -312,7 +312,7 @@ The design of the buttons on this webiste of course varies depending on the back
 <details>
 <summary>Footer</summary>
 <br>
-I choose a footer that would melt in to the rest of of the design theme (black/white/yellow). The footer holds the "Logo", "Newsletter link", "Contact link", "About us link", "social media links" and the "copyright information".
+I choose a footer that would melt in to the rest of of the design theme (black/white/yellow). The footer holds the "Logo", "Newsletter link", "Contact link", "About us link", "social media links", "Privacy Policy link" and the "copyright information".
 <br>
 
 ![Screenshot of footer](/readme_images/footer.png)
