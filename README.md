@@ -721,6 +721,10 @@ When edit a blog post, if there is an image added to the blog post before (befor
 
 ![Screenshot of clear box not working while edit blog post](/readme_images/unfixed-bug.png)
 
+**Bug 3:**
+
+I could not add the `humanize` intcomma to all prices of the website like for `pop-up bag total` and `bag total and grand total in bag view` without getting an error. So I will leave these as unfixed bugs since they wont hurt the funtion of the website, they could just be a visable confusion for the user. 
+
  
 ---
 ## Credits
@@ -742,8 +746,10 @@ All images for this project was taken from []() (link).
 * `Ed` - For helping me with my sorting selector JavaScript function.
 * `Alex and Ed` - For helping me get my webhook_handler.py to work correctly.
   
- 
 #### Help from Stack Overflow
+
+I used this [post](https://stackoverflow.com/questions/346467/format-numbers-in-django-templates) (link) for adding a `floatformat:2|intcomma` with django [humanize](https://docs.djangoproject.com/en/4.1/ref/contrib/humanize/) (link) added to the relevant templates where I wanted to use `intcomma` on prices to get the human way of writing prices in the correct way.
+Like `$30,000.00` instead of `30000.00`. 
  
  
 ---
