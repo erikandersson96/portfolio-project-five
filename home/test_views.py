@@ -17,7 +17,7 @@ class TestViews(TestCase):
         self.assertTemplateUsed(response, 'home/index.html')
 
     def test_about_is_resolved(self):
-        """ Test home page renders correct page """
+        """ Test about page renders correct page """
 
         url = reverse('about')
         response = self.client.get(url)
@@ -25,7 +25,7 @@ class TestViews(TestCase):
         self.assertTemplateUsed(response, 'about/about.html')
 
     def test_contact_is_resolved(self):
-        """ Test home page renders correct page """
+        """ Test contact page renders correct page """
 
         url = reverse('contact')
         response = self.client.get(url)

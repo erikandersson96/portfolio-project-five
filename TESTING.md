@@ -73,7 +73,7 @@ The first test I did as you can see in the first image above, I got some spacing
 <details>
 <summary>andwatch urls.py</summary>
 
-I got no errors for this file when testing.
+I got no errors found in this file.
 </details>
 
 ### bag app
@@ -82,28 +82,28 @@ I got no errors for this file when testing.
 <summary>contexts.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>test_views.py</summary>
 <br>
 
-I got no erros in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>urls.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>views.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
  
 
@@ -113,35 +113,35 @@ I got no errors in this file.
 <summary>admin.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>forms.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>models.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>urls.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>views.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 
@@ -151,28 +151,28 @@ I got no errors in this file.
 <summary>admin.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>forms.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>models.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>signals.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
@@ -186,61 +186,28 @@ I got one error here for no blank line at the end of the file, so I just added t
 <summary>urls.py</summary>
 <br>
 
-I got no errors in this file.
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>views.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got one error for whitespace at line 11, so I just got rid of that.
 </details>
 
 <details>
 <summary>webhook_handler.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>webhooks.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got one error at line 45 for line too long, I tried to solve this with a backslash and start at a new line but I did not get it to work. So I will leave that one.
 </details>
 
 
