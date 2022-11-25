@@ -96,36 +96,14 @@ I got no erros in this file.
 <summary>urls.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>views.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
  
 
