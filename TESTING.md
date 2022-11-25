@@ -41,23 +41,36 @@ During my development for this project each function were tested to work as expe
  
 I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), I will show my results below with images and then a short description below each image of my solution. And I have seperated each django file to their respective django application within the project, to demonstrate for you down below.
  
-#### AndWatch's Main Project App
+### AndWatch's Main Project App
+
+<details>
+<summary>AndWatch's settings.py</summary>
+<br>
 
 **settings.py before:**
+<br>
 
 ![Screenshot of settings.py before pep8ci](/testing_images/settings.png)
+<br>
 
 **settings.py after:**
+<br>
 
 ![Screenshot of settings.py after pep8ci](/testing_images/settings-finished.png)
+<br>
 
 **settings.py what's left:**
+<br>
 
 ![Screenshot of settings.py whats left](/testing_images/settings-left.png)
+<br>
 
 ##### Solution for settings.py
 
 The first test I did as you can see in the first image above, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image and the last one I have left four line too long errors, but I don't know a way of getting rid of them so I will leave them as that.
+</details>
+
+### AndWatch's Main Project App
 
 
 #### bag app
