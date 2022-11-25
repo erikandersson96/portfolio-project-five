@@ -39,19 +39,49 @@ During my development for this project each function were tested to work as expe
  
 ### Python (PEP8) Validation
  
-I have tested my python code at [PEP8 online validation tool](http://pep8online.com/) (link), I will show my results below with images and then a short description below each image of my solution. And I have seperated each django file to their respective django application within the project, .
+I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), I will show my results below with images and then a short description below each image of my solution. And I have seperated each django file to their respective django application within the project, to demonstrate for you down below.
  
 #### AndWatch's Main Project App
 
- 
-#### recipes App
+**settings.py before:**
+
+![Screenshot of settings.py before pep8ci](/testing_images/settings.png)
+
+**settings.py after:**
+
+![Screenshot of settings.py after pep8ci](/testing_images/settings-finished.png)
+
+**settings.py what's left:**
+
+![Screenshot of settings.py whats left](/testing_images/settings-left.png)
+
+##### Solution for settings.py
+
+The first test I did as you can see in the first image above, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image and the last one I have left four line too long errors, but I don't know a way of getting rid of them so I will leave them as that.
+
+
+#### bag app
  
 
-#### profiles App
- 
+#### blog app
+
+
+#### checkout app
+
+
+#### home app
+
+
+#### newsletter app
+
+
+#### products app
+
+
+#### profiles app
 
  
- 
+---
 ### HTML Code Validation
  
 When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.org/) (link)
