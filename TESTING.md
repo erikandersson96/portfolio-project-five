@@ -70,28 +70,677 @@ I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), 
 The first test I did as you can see in the first image above, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image and the last one I have left four line too long errors, but I don't know a way of getting rid of them so I will leave them as that.
 </details>
 
-### AndWatch's Main Project App
+#### AndWatch's urls.py
 
+I got no errors for this file when testing.
 
-#### bag app
+### bag app
+
+<details>
+<summary>contexts.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>models.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>test_views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
  
 
-#### blog app
+### blog app
+
+<details>
+<summary>admin.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>forms.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>models.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
 
 
-#### checkout app
+### checkout app
+
+<details>
+<summary>admin.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>forms.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>models.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>signals.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>test_views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>webhook_handler.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>webhooks.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
 
 
-#### home app
+### home app
+
+<details>
+<summary>test_views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
 
 
-#### newsletter app
+### newsletter app
+
+<details>
+<summary>urls.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
 
 
-#### products app
+### products app
+
+<details>
+<summary>admin.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>forms.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>models.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>test_views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>widgets.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
 
 
-#### profiles app
+### profiles app
+
+<details>
+<summary>forms.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>models.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>test_views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
+
+<details>
+<summary>views.py</summary>
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+**settings.py before:**
+<br>
+
+</details>
 
  
 ---
