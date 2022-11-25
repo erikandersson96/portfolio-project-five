@@ -346,11 +346,22 @@ When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.or
  
 **Error:**
  
-I had missed to erase a `"closing i element (</i>)"`, for my `What To Eat` logo at the top of the website.
+1. Element `li` not allowed as child of element `nav` in this context.
+1. Element `li` not allowed as child of element `nav` in this context.
+1. Duplicate ID `user-options`.
+1. The first occurrence of ID `user-options` was here.
+1. Element `li` not allowed as child of element `nav` in this context.
+1. Attribute `alt` not allowed on element `div` at this point.
+1. Stray start tag `script`.
+1. Cannot recover after last error. Any further errors will be ignored.
+
+![Screenshot of error html validation](/testing_images/html-error-1.png)
+
+![Screenshot of error html validation](/testing_images/html-error-2.png)
  
 **Solution:**
- 
 
+![Screenshot of no error html validation]()
  
 **After I applied the HTML solution:**
  
