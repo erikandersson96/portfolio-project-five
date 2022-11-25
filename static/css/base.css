@@ -460,6 +460,12 @@ footer {
     }
 }
 
+@media (max-width: 381px) {
+    .mobile-smaller-icons {
+        font-size: 10px;
+    }
+}
+
 @media (max-width: 348px) {
     .home-text {
         font-size: 30px;
