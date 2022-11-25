@@ -16,14 +16,6 @@ class TestViews(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'products/products.html')
 
-    # def test_product_detail_is_resolved(self):
-    #     """ Test product detail page renders correct page """
-        # This test isn't working?
-        # url = reverse('product_detail')
-        # response = self.client.get(url)
-        # self.assertEqual(response.status_code, 200)
-        # self.assertTemplateUsed(response, 'products/product_detail.html')
-
     def test_add_products_is_resolved(self):
         """ Test add product page renders correct page """
 
