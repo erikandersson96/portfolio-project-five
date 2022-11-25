@@ -349,7 +349,7 @@ I got no errors found in this file.
 ---
 ### HTML Code Validation
  
-When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.org/) (link)
+I tested my HTML code for this project at [W3C HTML Validator](https://validator.w3.org/) (link).
  
 #### Error
  
@@ -393,24 +393,23 @@ When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.or
 
 ![Screenshot of no error html validation](/testing_images/html-ok.png)
  
-Now you can take a look at my `approved` HTML validation by clicking this link [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandwatchs-2022.herokuapp.com%2F) (link).
+You can take a look at my `approved` HTML validation by clicking this link [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandwatchs-2022.herokuapp.com%2F) (link).
  
  
 ### CSS Code Validation
  
-[W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) (link), 
+I tested my CSS for this project at [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) (link).
+
+#### I got no CSS errors
  
-**First wrong attempt with errors:**
- 
-![Screenshot of css wrong attempt]()
- 
-**The correct attempt with no errors:**
- 
-Now you can take a look at my `approved` CSS validation down below:
- 
-![Screenshot of css approved validation]()
- 
- 
+![Screenshot of css approved validation](/testing_images/css-ok.png)
+
+You can take a look at my `approved` CSS validation by clicking this link [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandwatchs-2022.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) (link).
+
+
+### JSHint Javascript validation
+
+
 ### Lighthouse
  
 I have tested the website with `Chrome lighthouse dev tool` to test the website `performance`. I have tested this in a `incognito` window for better performance while testing. I got an average result of  for desktop and  for mobile devices.
