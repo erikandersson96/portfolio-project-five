@@ -179,36 +179,14 @@ I got no errors in this file.
 <summary>test_views.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got one error here for no blank line at the end of the file, so I just added that.
 </details>
 
 <details>
 <summary>urls.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
