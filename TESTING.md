@@ -59,15 +59,12 @@ I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), 
 ![Screenshot of settings.py after pep8ci](/testing_images/settings-finished.png)
 <br>
 
-**settings.py what's left:**
-<br>
-
-![Screenshot of settings.py whats left](/testing_images/settings-left.png)
+![Screenshot of fix for settings.py line too long](/testing_images/settings-linetoolong-fix.png)
 <br>
 
 ##### Solution for settings.py
 
-The first test I did as you can see in the first image above, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image and the last one I have left four line too long errors, but I don't know a way of getting rid of them so I will leave them as that.
+The first test I did as you can see in the first image above, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image I got four line too long so I solved that by adding a parentheses, break the line at the begginning of the parentheses and then add quotation around the string.
 </details>
 
 <details>
