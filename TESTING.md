@@ -351,7 +351,7 @@ I got no errors found in this file.
  
 When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.org/) (link)
  
-**Error:**
+#### Error
  
 1. Element `li` not allowed as child of element `nav` in this context.
 1. Element `li` not allowed as child of element `nav` in this context.
@@ -365,14 +365,35 @@ When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.or
 ![Screenshot of error html validation](/testing_images/html-error-1.png)
 
 ![Screenshot of error html validation](/testing_images/html-error-2.png)
- 
-**Solution:**
 
-![Screenshot of no error html validation]()
+#### Warning
+
+1. The `type` attribute is unnecessary for JavaScript resources.
+
+![Screenshot of warning html validation](/testing_images/html-warning.png)
  
-**After I applied the HTML solution:**
+#### Solution
+
+**Errors:**
+
+1. I got rid of `li` not allowed as child of element `nav` by adding a `ul` around the html code in my `mobile-top-header.html` template.
+1. I got rid of `li` not allowed as child of element `nav` by adding a `ul` around the html code in my `mobile-top-header.html` template.
+1. I got rid of Duplicate ID `user-options` by removing my `id="user-options"` in `mobile-top-header.html` since that html code already was a part of my base html which had an `id="user-options"` in it, therfore I got this error to start with.
+1. This one was solved when the above error was solved with Duplicate ID `user-options`.
+1. I got rid of `li` not allowed as child of element `nav` by adding a `ul` around the html code in my `mobile-top-header.html` template.
+1. I got rid of Attribute `alt` not allowed on element `div`, after removing a `alt` that I had added to my div for my hero image in my `index.html` template.
+1. I got rid of Stray start tag `script`, after realizing that I had added my `postload_js` in `base.html` template outside my end tags for `body and html`, so I just fixed that.
+1. This one disappeared when the above one was fixed with Stray start tag `script`.
+
+**Warning:**
+
+1. I got rid of this one after realizing that the `type` attribute is unnecessary for JavaScript resources.
  
-Now you can take a look at my `approved` HTML validation by clicking this link [here]() (link).
+#### Finished result
+
+![Screenshot of no error html validation](/testing_images/html-ok.png)
+ 
+Now you can take a look at my `approved` HTML validation by clicking this link [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandwatchs-2022.herokuapp.com%2F) (link).
  
  
 ### CSS Code Validation
