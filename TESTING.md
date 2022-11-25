@@ -82,54 +82,14 @@ I got no errors for this file when testing.
 <summary>contexts.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-</details>
-
-<details>
-<summary>models.py</summary>
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>test_views.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no erros in this file.
 </details>
 
 <details>

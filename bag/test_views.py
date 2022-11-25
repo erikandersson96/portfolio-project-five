@@ -1,5 +1,5 @@
 """
-Home app test for Views
+Bag app test for Views
 """
 from django.test import TestCase
 from django.urls import reverse
