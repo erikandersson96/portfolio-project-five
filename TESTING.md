@@ -207,7 +207,7 @@ I got no errors found in this file.
 <summary>webhooks.py</summary>
 <br>
 
-I got one error at line 45 for line too long, I tried to solve this with a backslash and start at a new line but I did not get it to work. So I will leave that one.
+I got one error at line 45 for line too long, I tried to solve this with a backslash and start at a new line but I did not get it to work. So I tested by adding a parentheses around it and then break the line at the beginning of the parentheses and that solved it.
 </details>
 
 
