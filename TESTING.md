@@ -217,54 +217,21 @@ I got one error at line 45 for line too long, I tried to solve this with a backs
 <summary>test_views.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>urls.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors found in this file.
 </details>
 
 <details>
 <summary>views.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors found in this file.
 </details>
 
 
