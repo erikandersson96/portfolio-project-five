@@ -44,7 +44,7 @@ I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), 
 ### AndWatch's Main Project App
 
 <details>
-<summary>AndWatch's settings.py</summary>
+<summary>andwatch settings.py</summary>
 <br>
 
 **settings.py before:**
@@ -70,9 +70,11 @@ I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), 
 The first test I did as you can see in the first image above, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image and the last one I have left four line too long errors, but I don't know a way of getting rid of them so I will leave them as that.
 </details>
 
-#### AndWatch's urls.py
+<details>
+<summary>andwatch urls.py</summary>
 
 I got no errors for this file when testing.
+</details>
 
 ### bag app
 
