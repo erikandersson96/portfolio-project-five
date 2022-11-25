@@ -113,90 +113,35 @@ I got no errors in this file.
 <summary>admin.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>forms.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>models.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>urls.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>views.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 
@@ -206,72 +151,28 @@ I got no errors in this file.
 <summary>admin.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>forms.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>models.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
 <summary>signals.py</summary>
 <br>
 
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
-**settings.py before:**
-<br>
-
+I got no errors in this file.
 </details>
 
 <details>
