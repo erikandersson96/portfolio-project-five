@@ -616,6 +616,10 @@ I got no errors for this page.
 I got 1 error for skipping heading level, I solved this one by change the h2 for h1 for title on page.
 </details>
 
+#### Summary of wave reports
+
+As you can see I mostly got `skipping heading level` as an error, but I also got missing form label for a lot of the input fields and selectors for this website. But as I wrote in some of the pages my design for this website is of my choice, and I have implemented some placeholders but not on everyone. I have inserted forms made in files like `forms.py` for some apps and therfore I haven't been able to fix this issue not at least with my knowledge right now.
+
 
 ---
 ## User Story Testing
