@@ -68,6 +68,11 @@ body {
     margin-top: 30px;
 }
 
+/* -------------------------- Contact page */
+.contact-us-text {
+    font-size: 20px;
+}
+
 /* -------------------------- Buttons */
 .shop-now-button {
     background: white;
@@ -462,6 +467,10 @@ footer {
     .sign-up-footer {
         font-size: 15px;
     }
+
+    .contact-us-text {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 381px) {
@@ -474,8 +483,13 @@ footer {
     .home-text {
         font-size: 30px;
     }
+
     .blog-title {
         font-size: 25px;
+    }
+
+    .contact-us-text {
+        font-size: 12px;
     }
 }
 

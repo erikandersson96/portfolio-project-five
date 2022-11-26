@@ -478,13 +478,7 @@ I got error for no form label, empty button or no value text, and alert for skip
 <summary>Contact page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+I got one error for heading level skipped, I was using a h5 so I changed that to a h2 and added css for it.
 </details>
 
 <details>
