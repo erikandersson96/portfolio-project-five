@@ -578,7 +578,7 @@ I got 2 errors for skipping heading level, I was using a h2 and h6 as on the add
 <summary>My profile page</summary>
 <br>
 
-
+I got 1 error for skipping heading level, I fixed this one by adding a h1 instead of h2. Then I got errors for missing label on input fields but also on select country, but since these are from a pre filled in form I will not change these since my design for this website is the way it is.
 </details>
 
 <details>
