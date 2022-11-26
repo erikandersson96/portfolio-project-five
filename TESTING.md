@@ -501,7 +501,7 @@ I got errors for skipped heading levels and missed label on selector. I added th
 <summary>Watch detail page</summary>
 <br>
 
-
+I got one error for no heading where the price is and one error for no label on input. I solved the heading issue by adding a h1, but since I have choosen this design for my website there will not be a label for my quantity input.
 </details>
 
 <details>
