@@ -508,13 +508,7 @@ I got one error for no heading where the price is and one error for no label on 
 <summary>Shopping bag page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>

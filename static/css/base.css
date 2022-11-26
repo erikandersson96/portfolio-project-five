@@ -73,6 +73,11 @@ body {
     font-size: 20px;
 }
 
+/* -------------------------- Shopping bag page */
+.bag-total-smaller {
+    font-size: 25px;
+}
+
 /* -------------------------- Buttons */
 .shop-now-button {
     background: white;
@@ -487,9 +492,13 @@ footer {
     .btn-about-page {
         font-size: 10px;
     }
+
+    .bag-total-smaller {
+        font-size: 16px;
+    }
 }
 
-@media (max-width: 381px) {
+@media (max-width: 418px) {
     .mobile-smaller-icons {
         font-size: 10px;
     }
@@ -506,6 +515,10 @@ footer {
 
     .contact-us-text {
         font-size: 12px;
+    }
+
+    .mobile-smaller-icons {
+        font-size: 8px;
     }
 }
 
