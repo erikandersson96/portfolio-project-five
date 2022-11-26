@@ -585,7 +585,7 @@ I got 1 error for skipping heading level, I fixed this one by adding a h1 instea
 <summary>Wish list page</summary>
 <br>
 
-
+I got 2 errors for skipping heading level, I solved these by adding a h1 for the page title and a h2 for the watch title on the product card.
 </details>
 
 <details>

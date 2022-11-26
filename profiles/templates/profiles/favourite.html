@@ -15,7 +15,7 @@
    <div class="container-fluid d-flex flex-column all-pages-background">
         <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="text-white logo-footer blog-title">Wish list</h2>
+                <h1 class="text-white logo-footer blog-title">Wish list</h1>
                 <hr class="w-50 mb-1">
             </div>
         </div>
@@ -33,7 +33,7 @@
                             </a>
                         {% endif %}
                         <div class="card-body pb-0">
-                            <h3>{{ favourite.favourite_watch.watch_model }}</h3>
+                            <h2>{{ favourite.favourite_watch.watch_model }}</h2>
                         </div>
                             <div class="card-footer"> 
                                 <a href="{% url 'remove_favourite' favourite.favourite_watch.id %}" class="btn btn-danger rounded-0 mt-5">
