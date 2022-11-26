@@ -470,8 +470,8 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
 <br>
 
 **Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
+I got error for no form label, empty button or no value text, and alert for skipped heading level. Since the design choice of this website was to not use labels on form I included a placeholder instead. I fixed the empty button error with adding value of text and I fixed the skipped heading level with changing the headings.
 </details>
 
 <details>

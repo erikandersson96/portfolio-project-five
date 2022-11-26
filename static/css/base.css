@@ -200,6 +200,10 @@ footer {
     color: #fff;
 }
 
+.newsletter-heading {
+    font-size: 20px;
+}
+
 /* -------------------------------- Scroll to top arrow */
 
 .btt-button {
