@@ -550,7 +550,7 @@ I got one error for skipping heading level, which I solved by change the h2 to h
 <summary>Add product page</summary>
 <br>
 
-
+I got 2 errors for skipping heading level, I was using a h2 for the first level and a h6 for the second one. I changed these to h1 and a paragraph instead. I got 1 additional error for my image field selector, missing label. But as I have mentioned before I will not change it since I have designed the website the way I have.
 </details>
 
 <details>
