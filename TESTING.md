@@ -494,7 +494,7 @@ I got errors for skipping heading levels, so I fixed this by adding a h2 after t
 <summary>Watch page</summary>
 <br>
 
-
+I got errors for skipped heading levels and missed label on selector. I added the correct order of headings and added a aria-label to my sort selelctor `select` element.
 </details>
 
 <details>
