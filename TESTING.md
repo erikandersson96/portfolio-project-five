@@ -462,6 +462,8 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
  
 `AndWatch's` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) (link). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). I have tested each page individually, and I will demonstrate the results below.
 
+Worth mentioning is I got errors for missing form label but since my choice of design of this website I included a placeholder, so the errors for this will still exist.
+
 <details>
 <summary>Home page</summary>
 <br>
@@ -485,13 +487,7 @@ I got one error for heading level skipped, I was using a h5 so I changed that to
 <summary>About page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
