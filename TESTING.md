@@ -460,8 +460,24 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
  
 ### Wave
  
-`AndWatch's` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) (link). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). And I got `` contrast errors and `` alert for `` for the start page like demonstrated in the image below:
+`AndWatch's` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) (link). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). I have tested each page individually, and I will demonstrate the results below.
+
+<details>
+<summary>Home page</summary>
+<br>
  
+![Screenshot of contrast error and alerts](/testing_images/wave-home.png)
+<br>
+
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Contact page</summary>
+<br>
+
 **WAVE errors and alert:**
  
 ![Screenshot of contrast error and alerts]()
@@ -469,8 +485,243 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
 **Solution WAVE errors and alert:**
  
 You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>About page</summary>
+<br>
+
+**WAVE errors and alert:**
  
+![Screenshot of contrast error and alerts]()
  
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Watch page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Watch detail page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Shopping bag page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Checkout page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Checkout success page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Blog page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Blog post detail page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Add comment page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Add product page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Edit product page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Add blog post page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Edit blog post page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>My profile page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Wish list page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Register page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Login page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Logout page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+
 ---
 ## User Story Testing
  
