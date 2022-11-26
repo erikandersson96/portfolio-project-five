@@ -501,13 +501,7 @@ I got errors for skipped heading levels and missed label on selector. I added th
 <summary>Watch detail page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
