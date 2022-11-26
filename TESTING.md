@@ -494,13 +494,7 @@ I got errors for skipping heading levels, so I fixed this by adding a h2 after t
 <summary>Watch page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
@@ -700,6 +694,19 @@ You can look at the approved result [here]() (link).
 
 <details>
 <summary>Logout page</summary>
+<br>
+
+**WAVE errors and alert:**
+ 
+![Screenshot of contrast error and alerts]()
+ 
+**Solution WAVE errors and alert:**
+ 
+You can look at the approved result [here]() (link).
+</details>
+
+<details>
+<summary>Newsletter page</summary>
 <br>
 
 **WAVE errors and alert:**
