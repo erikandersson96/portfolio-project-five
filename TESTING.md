@@ -447,15 +447,15 @@ I got no warnings here.
 
 ### Lighthouse
  
-I have tested the website with `Chrome lighthouse dev tool` to test the website `performance`. I have tested this in a `incognito` window for better performance while testing. I got an average result of  for desktop and  for mobile devices.
+I have tested the website with `Chrome lighthouse dev tool` to test the website `performance`. I have tested this in a `incognito` window for better performance while testing. I got an average result of 95,5 for desktop and 86,75 for mobile devices. When I mean average I add up all numbers for `Performance, Accessibillity, Best Practices, SEO` and divide by 4. 
  
 **Desktop:**
  
-![Screenshot of lighthouse devtool on desktop]()
+![Screenshot of lighthouse devtool on desktop](/testing_images/lighthouse-desktop.png)
  
 **Mobile:**
  
-![Screenshot of lighthouse devtool on mobile]()
+![Screenshot of lighthouse devtool on mobile](/testing_images/lighthouse-mobile.png)
  
  
 ### Wave
