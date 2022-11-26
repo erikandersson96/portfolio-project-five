@@ -515,195 +515,105 @@ I got errors for skipped heading levels for bag total and grand total, and a emp
 <summary>Checkout page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+I got one error for skipping heading level, one error for missing image alt text, one error for empty heading, and errors for missing label to input and selector. I fixed the skipping heading level by change the page haeding to h1. But for those other errors I wont be able to fix, the missing alt on image, I have an alt but it is created in this way `{{ product.watch_model }}` to reneder the model of the watch in the alt text. The empty heading is for my loading spinner at the bottom, I tried to change this but the way I have designed this website It will be unsolved. And the missing label for input is the same as before on other input fields, I have them pre filled from the form, the same is for my selector.
 </details>
 
 <details>
 <summary>Checkout success page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Blog page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Blog post detail page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Add comment page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Add product page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Edit product page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Add blog post page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Edit blog post page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>My profile page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Wish list page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Register page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Login page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Logout page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 <details>
 <summary>Newsletter page</summary>
 <br>
 
-**WAVE errors and alert:**
- 
-![Screenshot of contrast error and alerts]()
- 
-**Solution WAVE errors and alert:**
- 
-You can look at the approved result [here]() (link).
+
 </details>
 
 
