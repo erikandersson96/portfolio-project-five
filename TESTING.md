@@ -414,15 +414,15 @@ I will list all apps that has some sort of JavaScript in it, whether it is a Jav
 
 #### bag app
 
-I only got errors for missing semicolons.
+I only got warning for missing semicolons.
 
 #### blog app
 
-I only got errors for missing semicolons.
+I only got warning for missing semicolons.
 
 #### checkout app
 
-I only got errors for missing semicolons.
+I only got warning for missing semicolons.
 
 #### newsletter app
 
@@ -434,7 +434,15 @@ But since I got this JavaScript directly from `Mailchimp` I don't know how I sho
 
 #### products app
 
+I only got warning for missing semicolons.
+
 #### profiles app
+
+I only got warning for one unnecessary semicolon.
+
+#### base.html 
+
+I got no warnings here.
 
 
 ### Lighthouse
