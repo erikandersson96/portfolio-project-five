@@ -557,7 +557,7 @@ I got 2 errors for skipping heading level, I was using a h2 for the first level 
 <summary>Edit product page</summary>
 <br>
 
-
+I got 2 errors for skipping heading level, I was using a h2 and h6 as on the app product page. So I solved these by adding a h1 and a paragraph.
 </details>
 
 <details>
