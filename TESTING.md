@@ -409,6 +409,33 @@ You can take a look at my `approved` CSS validation by clicking this link [here]
 
 ### JSHint Javascript validation
 
+I have tested all javascript in all apps in this project with [JSHint](https://jshint.com/) (link).
+I will list all apps that has some sort of JavaScript in it, whether it is a JavaScript file or JavaScript at the bottom of a html template.
+
+#### bag app
+
+I only got errors for missing semicolons.
+
+#### blog app
+
+I only got errors for missing semicolons.
+
+#### checkout app
+
+I only got errors for missing semicolons.
+
+#### newsletter app
+
+I got these warnings when I was testing my JavaScript inside my `newsletter.html` template:
+
+![Screenshot of newsletter template javascript](/testing_images/newsletter-js.png)
+
+But since I got this JavaScript directly from `Mailchimp` I don't know how I should get rid of these warnings so I will leave it like that.
+
+#### products app
+
+#### profiles app
+
 
 ### Lighthouse
  
