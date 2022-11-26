@@ -33,7 +33,7 @@
                 <div class="product-details-container mb-5 mt-md-5 text-white">
                     <h1 class="lead mb-0 font-weight-bold text-yellow">{{ blog_post_detail.title }}</h1>
                     <p class="mb-0 small">Created by: {{ blog_post_detail.author }}</p>
-                    <p class="mb-0 text-left text-muted">Created on: {{ blog_post_detail.created_on }}</p>
+                    <p class="mb-0 text-left small">Created on: {{ blog_post_detail.created_on }}</p>
                     <p>
                     {% if request.user.is_superuser %}
                         <small>
