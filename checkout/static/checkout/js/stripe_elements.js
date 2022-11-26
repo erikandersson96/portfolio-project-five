@@ -4,6 +4,8 @@
     
     CSS from here: 
     https://stripe.com/docs/stripe-js
+
+    JavaScript taken as inspiration from Code Institute - Boutique Ado
 */
 
 var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
@@ -61,7 +63,7 @@ form.addEventListener('submit', function(ev) {
         'csrfmiddlewaretoken': csrfToken,
         'client_secret': clientSecret,
         'save_info': saveInfo,
-    }
+    };
     var url = '/checkout/cache_checkout_data/';
 
     $.post(url, postData).done(function () {
@@ -111,7 +113,6 @@ form.addEventListener('submit', function(ev) {
             }
         });
     }).fail(function () {
-        // just reload the page, the error will be in django messages
-        location.reload()
-    })
+        location.reload();
+    });
 });
