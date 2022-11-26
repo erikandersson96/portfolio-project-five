@@ -471,6 +471,22 @@ footer {
     .contact-us-text {
         font-size: 15px;
     }
+
+    .about-us-heading {
+        font-size: 20px;
+    }
+
+    .welcome-to-us {
+        font-size: 15px;
+    }
+
+    .about-us-text {
+        font-size: 11px;
+    }
+
+    .btn-about-page {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 381px) {
