@@ -536,7 +536,7 @@ I got 2 errors for skipping heading level, I solved these by adding a h1 instead
 <summary>Blog post detail page</summary>
 <br>
 
-
+I got 1 error for skipping heading level, which I solved by adding a h1 for the title. And I got contrast errors for the edit/delete buttons both for the blog post it self but also for the comments. I fixed these by changing the color to a color with less contrast error.
 </details>
 
 <details>
