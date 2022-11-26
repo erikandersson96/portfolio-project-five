@@ -468,6 +468,8 @@ The main colors of this website is black, white and yellow but I have also used 
 
 * Darkblue for edit button on products page and blog page.
 
+**rgb(0,0,139):**
+
 ![Screenshot of darkblue color](/readme_images/darkblue.png)
 
 * Bootstrap colors for edit/delete products/blog posts detail pages on black background and for delete comments on blog posts.
