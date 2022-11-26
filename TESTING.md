@@ -487,7 +487,7 @@ I got one error for heading level skipped, I was using a h5 so I changed that to
 <summary>About page</summary>
 <br>
 
-
+I got errors for skipping heading levels, so I fixed this by adding a h2 after the h1 and change all other headings to paragraphs with css styling.
 </details>
 
 <details>
