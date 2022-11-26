@@ -606,7 +606,7 @@ I got 2 errors for skipping heading level, I solved these by adding a h1 for the
 <summary>Logout page</summary>
 <br>
 
-
+I got no errors for this page.
 </details>
 
 <details>
