@@ -15,7 +15,7 @@
    <div class="container-fluid d-flex flex-column all-pages-background">
         <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="text-white logo-footer blog-title">Blog Posts by AndWatch's</h2>
+                <h1 class="text-white logo-footer blog-title">Blog Posts by AndWatch's</h1>
                 <hr class="w-50 mb-1">
             </div>
         </div>
@@ -33,7 +33,7 @@
                             </a>
                         {% endif %}
                         <div class="card-body pb-0">
-                            <h3>{{ post.title }}</h3>
+                            <h2>{{ post.title }}</h2>
                             <p class="my-0 text-muted">Created by: {{ post.author }}</p>
                         </div>
                         {% if request.user.is_superuser %}

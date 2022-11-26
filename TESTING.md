@@ -529,7 +529,7 @@ I got one error for skipping heading level. I solved this by just adding a h1 in
 <summary>Blog page</summary>
 <br>
 
-
+I got 2 errors for skipping heading level, I solved these by adding a h1 instead of h2 and a h2 instead of a h3. And I got contrast errors for edit blog post button, I solved these by changing color to a darker color.
 </details>
 
 <details>
