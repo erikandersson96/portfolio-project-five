@@ -623,60 +623,88 @@ As you can see I mostly got `skipping heading level` as an error, but I also got
 
 ---
 ## User Story Testing
- 
-Here is my user story testing for this project as a **guest**:
+
+Here is my user story testing for this project as a **guest/users** (users can do all that guests can):
  
 1. As a **guest** I would like to be able to register an account using a username, email and password.
  
 - I have installed `allauth` to handle all of my authentication, and then I have been styling each file for `Login, Logout, Sign up` so a every guest can `Sign up` for an account or users can `Login/Logout`.
  
-1. As a **guest** .
+1. As a **guest** I would like to learn more about the website.
  
-- .
+- I have created a `about us` page where all users can read more about this website.
  
-1. As a **guest** .
+1. As a **guest** visit the website's social plattforms.
  
-- .
+- I have added the social media plattforms to the footer.
  
-1. As a **guest** .
+1. As a **guest** visit the website's FaceBook page.
  
-- .
+- I have linked to the FaceBook page in my footer and on our contact page.
  
-1. As a **guest** .
+1. As a **guest** I want to be able to view all of the watches available.
  
-- .
+- A guest and user can see all of our watches listed on the `All watches` page.
+
+1. As a **guest** I would like to watch the details of watches.
+ 
+- A guest and user can see all of the induvidual watch details by clicking on the watch image.
+
+1. As a **guest** I want to be able to purchase watches using my credit/debit card.
+ 
+- Both a guest and a user can purchase watches with the card of their choice.
+
+1. As a **guest** I would like to view the blog, all blog posts and comments.
+ 
+- A guest and user can see all of our blog posts by clicking on blog and see the blog post details by click on the image. Comments are shown under if there are any, but guests can't add comments, then they would have to login or register first.
  
 Here is my user story testing for this project as a **user**:
  
-1. As a **user** .
+1. As a **user** I want to login to my account.
  
 - I have made sure by using `allauth` that a user can login to their account.
  
-1. As a **user** .
+1. As a **user** I would like to see order history, and change shipping/billing information.
  
-- .
+- I have created a `My profile` page where users can see their shipping/billing information and change it if they wish to. I have also included the order history with the ability to click on a specific order from the past to look at again.
  
-1. As a **user** .
+1. As a **user** I would like to see blog posts and comment on them.
  
-- .
+- I have created the blog so users can add comments but only admin/store owners can delete them.
  
-1. As a **user** .
+1. As a **user** I would like to add/remove watches to my wish list.
  
-- .
+- I have created the website so users can add and remove watches to their wish list.
  
 Here is my user story testing for this project as a **admin**:
  
-1. As a **admin** .
+1. As a **admin** I would like to see the entire list of watches available.
  
-- .
+- Amdins have the same access as guests and users but even more so admins can see all watches.
  
-1. As a **admin** .
+1. As a **admin** I would like to be able to add watches to the store.
  
-- .
+- Admins can add watches to the store via `Product Managament`.
  
-1. As a **admin** .
+1. As a **admin** I would like to edit watches that are available.
  
-- .
+- Admins can edit all watches that are listed for sale.
+
+1. As a **admin** I would like to be able to delete watches.
+ 
+- Admins can delete watches if they would like to, by `delete product`.
+
+1. As a **admin** I would like to be able to add and edit blog posts.
+ 
+- Admin can add blog posts as well edit available blog posts, via `Blog managment` or `edit post`.
+
+1. As a **admin** I would like to be able to delete blog posts.
+ 
+- Admin can delete blog posts if they would like to, by `delete post`.
+
+1. As a **admin** I would like to be able to delete blog post comments.
+ 
+- Admin can delete comments on blog posts, if they aren't relevant or using a good language to each other, by `delete comment`.
  
  
 ---
