@@ -613,7 +613,7 @@ I got no errors for this page.
 <summary>Newsletter page</summary>
 <br>
 
-
+I got 1 error for skipping heading level, I solved this one by change the h2 for h1 for title on page.
 </details>
 
 
