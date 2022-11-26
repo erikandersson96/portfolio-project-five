@@ -522,7 +522,7 @@ I got one error for skipping heading level, one error for missing image alt text
 <summary>Checkout success page</summary>
 <br>
 
-
+I got one error for skipping heading level. I solved this by just adding a h1 instead of h2.
 </details>
 
 <details>

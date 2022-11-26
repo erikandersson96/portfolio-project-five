@@ -502,6 +502,10 @@ footer {
     .mobile-smaller-icons {
         font-size: 10px;
     }
+
+    .order-number-small {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 348px) {
