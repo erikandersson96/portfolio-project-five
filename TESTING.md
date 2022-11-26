@@ -776,28 +776,23 @@ I have manualy tested so these functions and elements works correct:
 ## Defensive Programming
 
  
-**Here are some screenshots of my function based views in views.py for my recipes app:**
+#### Function based views
  
-**Add recipe:**
- 
-![Screenshot ]()
- 
-**Edit recipe:**
- 
-![Screenshot ]()
- 
-**Delete recipe:**
- 
-![Screenshot ]()
- 
-**Here are a screenshot of my function based views in views.py for my profiles app:**
- 
-![Screenshot ]()
- 
+For my function based views I have been using a tyle decorator of `@login_required` above each function to make sure that users must be logged in before using that function.
+
+#### Class based views
+
+For my class based views I have used `LoginRequiredMixin` to make sure that users must be logged in to perform this function.
+
+#### Other ways
+
+Other than those I have implemented an if statement to check if the user is a super user (admin/store owner) or not, this I have been taken as inspiration from Boutique Ado.
+
  
 ---
 ## Automated Tests 
- 
+
+For this project I have been implementing test cases for views.py to make sure that the view renders the correct page. I haven't done it in all apps or for all views, I am still new to testing and I am not entirely comfortable with it so I haven't been to consistent with always testing before writing html for each template. I got ahead of my self for some of the apps. For me it is still a win since I didn't do any automated tests at all in my fourth project, I will keep learning as I countinue my web development career in the future. 
  
 ---
 ## RETURN BACK TO [TOP](#testing)
