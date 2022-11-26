@@ -508,7 +508,7 @@ I got one error for no heading where the price is and one error for no label on 
 <summary>Shopping bag page</summary>
 <br>
 
-
+I got errors for skipped heading levels for bag total and grand total, and a empty tabel. I added h2 headings for bag total and grand total, and I removed the empty tabel.
 </details>
 
 <details>
