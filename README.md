@@ -466,6 +466,16 @@ The main colors of this website is black, white and yellow but I have also used 
 
 ![Screenshot of green color](/readme_images/green.png)
 
+* Darkblue for edit button on products page and blog page.
+
+![Screenshot of darkblue color](/readme_images/darkblue.png)
+
+* Bootstrap colors for edit/delete products/blog posts detail pages on black background and for delete comments on blog posts.
+
+![Screenshot of bootstrap colors](/readme_images/bootstrap-color-1.png)
+
+![Screenshot of bootstrap colors](/readme_images/bootstrap-color-2.png)
+
 I created these color paletts at [color-hex](https://www.color-hex.com/user/add-palette.php) (link).
  
 ### Fonts
