@@ -543,7 +543,7 @@ I got 1 error for skipping heading level, which I solved by adding a h1 for the 
 <summary>Add comment page</summary>
 <br>
 
-
+I got one error for skipping heading level, which I solved by change the h2 to h1.
 </details>
 
 <details>
