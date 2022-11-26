@@ -153,7 +153,11 @@ input[name='q']::placeholder {
     color: rgb(206, 0, 0);
 }
 
-.edit-yellow:hover {
+.edit-color {
+    color: darkblue;
+}
+
+.edit-color:hover {
     color: rgb(207, 176, 0);
 }
 

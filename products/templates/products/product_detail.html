@@ -44,8 +44,8 @@
                                 <p><strong>Case Size: </strong>{{ product.watch_size }} mm
                                     {% if request.user.is_superuser %}
                                     <small class="ml-3">
-                                        <a class="edit-yellow" href="{% url 'edit_product' product.id %}">Edit Product</a> |
-                                        <a class="delete-red" href="{% url 'delete_product' product.id %}">Delete Product</a>
+                                        <a class="text-info" href="{% url 'edit_product' product.id %}">Edit Product</a> |
+                                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete Product</a>
                                     </small>
                                     {% endif %}
                                 </p>

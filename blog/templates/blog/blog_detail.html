@@ -37,8 +37,8 @@
                     <p>
                     {% if request.user.is_superuser %}
                         <small>
-                            <a class="edit-yellow" href="{% url 'edit_post' blog_post_detail.slug %}">Edit Post</a> |
-                            <a class="delete-red" href="{% url 'delete_post' blog_post_detail.slug %}">Delete Post</a>
+                            <a class="text-info" href="{% url 'edit_post' blog_post_detail.slug %}">Edit Post</a> |
+                            <a class="text-danger" href="{% url 'delete_post' blog_post_detail.slug %}">Delete Post</a>
                         </small>
                     {% endif %}
                     </p>
@@ -77,7 +77,7 @@
                         <br>
                         {% if request.user.is_superuser %}
                         <small>
-                            <a class="delete-red" href="{% url 'delete_comment' comment.id %}">Delete Comment</a>
+                            <a class="text-danger" href="{% url 'delete_comment' comment.id %}">Delete Comment</a>
                         </small>
                         {% endif %}
                         <hr>

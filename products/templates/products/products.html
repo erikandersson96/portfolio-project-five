@@ -70,8 +70,8 @@
                                 </div>
                                 {% if request.user.is_superuser %}
                                     <p class="ml-3">
-                                        <a class="edit-yellow" href="{% url 'edit_product' product.id %}">Edit Product</a> | 
-                                        <a class="delete-red" href="{% url 'delete_product' product.id %}">Delete Product</a>
+                                        <a class="edit-color" href="{% url 'edit_product' product.id %}">Edit Product</a> | 
+                                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete Product</a> 
                                     </p>
                                 {% endif %}
                             </div>
