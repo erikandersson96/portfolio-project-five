@@ -15,19 +15,13 @@ During my development for this project each function were tested to work as expe
   * [CSS Validation](#css-code-validation)
   * [Lighthouse](#lighthouse)
   * [WAVE](#wave)
+  * [Summary WAVE](#summary-of-wave-reports)
  
 * [User Story Testing](#user-story-testing)
  
 * [Device Testing](#device-testing)
  
 * [Manual Testing](#manual-testing)
-  * [Standard Elements](#standard-elements)
-  * [Home Page](#home-page)
-  * [Recipe Details](#recipe-details)
-  * [Add Recipe](#add-recipe)
-  * [Authentication](#authentication)
-  * [About Modal](#about-modal)
-  * [My favorites](#my-favorites)
  
 * [Defensive Programming](#defensive-programming)
  
