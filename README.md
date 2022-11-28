@@ -196,7 +196,7 @@ The `user stories` for admin is set up in the same way.
 ---
 ## UX
  
-#### User Stories
+### User Stories
 As a guest I would like to be able to:
  
 * Register an account using username, email, and password.
@@ -232,13 +232,14 @@ As an admin I need to be able to:
 * Delete blog post comments.
 
 
-#### Strategy
+### Strategy
  
-* **Project Goal**
+#### Project Goal
 Create a website that allows users to create an account so they can see order history, change shipping and billing information, add comments on blog posts, add watches to their wish list.
 And most important purchase products, but this is of course open for all users even for those who isn't registered with an account.
- 
-#### Scope
+
+
+### Scope
  
 * A simple and straightforward UX experience. 
 * A navigation bar that is easy to navigate the website with.
