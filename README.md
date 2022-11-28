@@ -761,9 +761,9 @@ All images for this project were taken from [Unsplash](https://unsplash.com/) (l
  
 [Code Institute](https://codeinstitute.net/) (link) - I took inspiration to this project from the `Code Institute` walkthrough videos of `Boutique Ado`.
 
-#### Add newsletter - Mailchimp guide
+#### Add newsletter - Code Institute 
  
-[Python stacks](https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/) (link) - I used this guide to implement the functionality of `Mailchimp` to my newsletter.
+[Code Institute](https://codeinstitute.net/) (link) - I used this guide to implement the functionality of `Mailchimp` to my newsletter, I used `Mailchimp` embedded HTML form.
 
 #### Tutors
 
