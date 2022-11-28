@@ -202,7 +202,7 @@ You can take a look at my `approved` CSS validation by clicking this link [here]
 ### JSHint Javascript validation
 
 I have tested all javascript in all apps in this project with [JSHint](https://jshint.com/) (link).
-I will list all apps that has some sort of JavaScript in it, whether it is a JavaScript file or JavaScript at the bottom of a html template.
+I will list all apps that have some sort of JavaScript in them, whether it is a JavaScript file or JavaScript at the bottom of an HTML template.
 
 #### bag app
 
@@ -239,7 +239,7 @@ I got no warnings here.
 
 ### Lighthouse
  
-I have tested the website with `Chrome lighthouse dev tool` to test the website `performance`. I have tested this in a `incognito` window for better performance while testing. I got an average result of 95,5 for desktop and 86,75 for mobile devices. When I mean average I add up all numbers for `Performance, Accessibillity, Best Practices, SEO` and divide by 4. 
+I have tested the website with `The chrome lighthouse dev tool` to test the website's `performance`. I have tested this in an `incognito` window for better performance while testing. I got an average result of 95,5 for desktops and 86,75 for mobile devices. When I mean average I add up all numbers for `Performance, Accessibility, Best Practices, SEO` and divide by 4. 
  
 **Desktop:**
  
@@ -252,9 +252,9 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
  
 ### Wave
  
-`AndWatch's` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) (link). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). I have tested each page individually, and I will demonstrate the results below.
+`AndWatch's` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) (link). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from the Wave website). I have tested each page individually, and I will demonstrate the results below.
 
-Worth mentioning is I got errors for missing form label but since my choice of design of this website I included a placeholder, so the errors for this will still exist.
+Worth mentioning is I got errors for missing form labels but since my choice of design for this website I included a placeholder, so the errors for this will still exist.
 
 <details>
 <summary>Home page</summary>
@@ -265,122 +265,122 @@ Worth mentioning is I got errors for missing form label but since my choice of d
 
 **Solution WAVE errors and alert:**
 
-I got error for no form label, empty button or no value text, and alert for skipped heading level. Since the design choice of this website was to not use labels on form I included a placeholder instead. I fixed the empty button error with adding aria-label and I fixed the skipped heading level with changing the headings.
+I got errors for no form label, empty button, or no value text, and an alert for skipped heading level. Since the design choice of this website was to not use labels on the form I included a placeholder instead. I fixed the empty button error with adding an aria-label and I fixed the skipped heading level by changing the headings.
 </details>
 
 <details>
 <summary>Contact page</summary>
 <br>
 
-I got one error for heading level skipped, I was using a h5 so I changed that to a h2 and added css for it.
+I got one error for heading level skipped, I was using an h5 so I changed that to an h2 and added CSS for it.
 </details>
 
 <details>
 <summary>About page</summary>
 <br>
 
-I got errors for skipping heading levels, so I fixed this by adding a h2 after the h1 and change all other headings to paragraphs with css styling.
+I got errors for skipping heading levels, so I fixed this by adding an h2 after the h1 and changing all other headings to paragraphs with CSS styling.
 </details>
 
 <details>
 <summary>Watch page</summary>
 <br>
 
-I got errors for skipped heading levels and missed label on selector. I added the correct order of headings and added a aria-label to my sort selelctor `select` element.
+I got errors for skipped heading levels and missed labels on the selector. I added the correct order of headings and added a aria-label to my sort selector `select` element.
 </details>
 
 <details>
 <summary>Watch detail page</summary>
 <br>
 
-I got one error for no heading where the price is and one error for no label on input. I solved the heading issue by adding a h1, but since I have choosen this design for my website there will not be a label for my quantity input.
+I got one error for no heading where the price is and one error for no label on input. I solved the heading issue by adding an h1, but since I have chosen this design for my website there will not be a label for my quantity input.
 </details>
 
 <details>
 <summary>Shopping bag page</summary>
 <br>
 
-I got errors for skipped heading levels for bag total and grand total, and a empty tabel. I added h2 headings for bag total and grand total, and I removed the empty tabel.
+I got errors for skipped heading levels for bag total and grand total, and an empty table. I added h2 headings for bag total and grand total, and I removed the empty table.
 </details>
 
 <details>
 <summary>Checkout page</summary>
 <br>
 
-I got one error for skipping heading level, one error for missing image alt text, one error for empty heading, and errors for missing label to input and selector. I fixed the skipping heading level by change the page haeding to h1. But for those other errors I wont be able to fix, the missing alt on image, I have an alt but it is created in this way `{{ product.watch_model }}` to reneder the model of the watch in the alt text. The empty heading is for my loading spinner at the bottom, I tried to change this but the way I have designed this website It will be unsolved. And the missing label for input is the same as before on other input fields, I have them pre filled from the form, the same is for my selector.
+I got one error for skipping the heading level, one error for missing image alt text, one error for an empty heading, and errors for a missing label to input and selector. I fixed the skipping heading level by changing the page heading to h1. But for those other errors I won't be able to fix, the missing alt on the image, I have an alt but it is created in this way `{{ product.watch_model }}` to reenter the model of the watch in the alt text. The empty heading is for my loading spinner at the bottom, I tried to change this but the way I have designed this website It will be unsolved. And the missing label for input is the same as before on other input fields, I have them pre-filled from the form, and the same is for my selector.
 </details>
 
 <details>
 <summary>Checkout success page</summary>
 <br>
 
-I got one error for skipping heading level. I solved this by just adding a h1 instead of h2.
+I got one error for skipping the heading level. I solved this by just adding an h1 instead of h2.
 </details>
 
 <details>
 <summary>Blog page</summary>
 <br>
 
-I got 2 errors for skipping heading level, I solved these by adding a h1 instead of h2 and a h2 instead of a h3. And I got contrast errors for edit blog post button, I solved these by changing color to a darker color.
+I got 2 errors for skipping the heading level, I solved these by adding an h1 instead of an h2 and an h2 instead of an h3. And I got contrast errors for the edit blog post button, I solved these by changing the color to a darker color.
 </details>
 
 <details>
 <summary>Blog post detail page</summary>
 <br>
 
-I got 1 error for skipping heading level, which I solved by adding a h1 for the title. And I got contrast errors for the edit/delete buttons both for the blog post it self but also for the comments. I fixed these by changing the color to a color with less contrast error.
+I got 1 error for skipping the heading level, which I solved by adding an h1 for the title. And I got contrast errors for the edit/delete buttons both for the blog post itself and also for the comments. I fixed these by changing the color to color with less contrast error.
 </details>
 
 <details>
 <summary>Add comment page</summary>
 <br>
 
-I got one error for skipping heading level, which I solved by change the h2 to h1.
+I got one error for skipping the heading level, which I solved by changing the h2 to h1.
 </details>
 
 <details>
 <summary>Add product page</summary>
 <br>
 
-I got 2 errors for skipping heading level, I was using a h2 for the first level and a h6 for the second one. I changed these to h1 and a paragraph instead. I got 1 additional error for my image field selector, missing label. But as I have mentioned before I will not change it since I have designed the website the way I have.
+I got 2 errors for skipping the heading level, I was using an h2 for the first level and an h6 for the second one. I changed these to h1 and a paragraph instead. I got 1 additional error for my image field selector, missing label. But as I have mentioned before I will not change it since I have designed the website the way I have.
 </details>
 
 <details>
 <summary>Edit product page</summary>
 <br>
 
-I got 2 errors for skipping heading level, I was using a h2 and h6 as on the add product page. So I solved these by adding a h1 and a paragraph.
+I got 2 errors for skipping the heading level, I was using an h2 and h6 as on the add product page. So I solved these by adding an h1 and a paragraph.
 </details>
 
 <details>
 <summary>Add blog post page</summary>
 <br>
 
-I got 2 errors for skipping heading level, I was using a h2 and h6 as on the edit product page. So I solved these by adding a h1 and a paragraph.
+I got 2 errors for skipping the heading level, I was using an h2 and h6 on the edit product page. So I solved these by adding an h1 and a paragraph.
 </details>
 
 <details>
 <summary>Edit blog post page</summary>
 <br>
 
-I got 2 errors for skipping heading level, I was using a h2 and h6 as on the add blog post page. So I solved these by adding a h1 and a paragraph.
+I got 2 errors for skipping the heading level, I was using an h2 and h6 as on the add blog post page. So I solved these by adding an h1 and a paragraph.
 </details>
 
 <details>
 <summary>My profile page</summary>
 <br>
 
-I got 1 error for skipping heading level, I fixed this one by adding a h1 instead of h2. Then I got errors for missing label on input fields but also on select country, but since these are from a pre filled in form I will not change these since my design for this website is the way it is.
+I got 1 error for skipping the heading level, I fixed this one by adding an h1 instead of an h2. Then I got errors for the missing label on input fields and also on the select countries, but since these are from a pre-filled form I will not change these since I have designed my website like this.
 </details>
 
 <details>
 <summary>Wish list page</summary>
 <br>
 
-I got 2 errors for skipping heading level, I solved these by adding a h1 for the page title and a h2 for the watch title on the product card.
+I got 2 errors for skipping the heading level, I solved these by adding an h1 for the page title and an h2 for the watch title on the product card.
 </details>
 
-No errors were found on the following pages:
+**No errors were found on the following pages:**
 
 * Register page
 * Login page
@@ -390,12 +390,12 @@ No errors were found on the following pages:
 <summary>Newsletter page</summary>
 <br>
 
-I got 1 error for skipping heading level, I solved this one by change the h2 for h1 for title on page.
+I got 1 error for skipping the heading level, I solved this one by changing the h2 for h1 for the title on the page.
 </details>
 
 #### Summary of wave reports
 
-As you can see I mostly got `skipping heading level` as an error, but I also got missing form label for a lot of the input fields and selectors for this website. But as I wrote in some of the pages my design for this website is of my choice, and I have implemented some placeholders but not on everyone. I have inserted forms made in files like `forms.py` for some apps and therfore I haven't been able to fix this issue not at least with my knowledge right now.
+As you can see I mostly got `skipping heading level` as an error, but I also got missing form labels for a lot of the input fields and selectors for this website. But as I wrote in some of the pages my design for this website is of my choice, and I have implemented some placeholders but not on everyone. I have inserted forms made in files like `forms.py` for some apps and therefore I haven't been able to fix this issue not at least with my knowledge right now.
 
 
 ---
