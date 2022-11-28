@@ -155,25 +155,24 @@ You can add new products or blog posts by clicking on `Product Management/Blog M
  
 ### AndWatch's - Balsamiq Wireframe
  
-I created a Wireframe for this project to showcase for my mentor what my design idea for this project would look like using [Balsamiq - wireframes](https://balsamiq.com/) (link). But I also created this so I could focus more on designing the actual website instead of having to think to much how the design for this project would look like while building the project.
+I created a Wireframe for this project to showcase for my mentor what my design idea for this project would look like using [Balsamiq - wireframes](https://balsamiq.com/) (link). But I also created this so I could focus more on designing the actual website instead of having to think too much about how the design for this project would look while building the project.
  
-Since it would be a lot of images to insert in this `Readme` I decided that you can take a look by this shared link of my wireframes, [AndWatch's - wireframe](https://balsamiq.cloud/sxp607p/plaieoc) (link).
-Since the wireframes is a idea of how I think the website would look like before I started coding, the finished website isn't 100% look a like.
+Since it would be a lot of images to insert in this `Readme` I decided that you can take a look at this shared link of my wireframes, [AndWatch's - wireframe](https://balsamiq.cloud/sxp607p/plaieoc) (link). Since the wireframes are an idea of how I think the website would look like before I started coding, the finished website isn't 100% look alike.
  
 ### Trello - User Stories Board
  
-Before I started to work with the code for this project I was requested of my mentor to create a mapping tool for my `user stories` to easier track `what to do when`. So I choose to use [Trello](https://trello.com/en) (link) as my tool for this. During my development I have been moving each user story with it's `EPICS` to the correct stage of the process, and I have made sure that each user story was manualy tested and fully functional before moving on to the next one.
+Before I started to work with the code for this project I was requested by my mentor to create a mapping tool for my `user stories` to easier track `what to do when`. So I choose to use [Trello](https://trello.com/en) (link) as my tool for this. During my development, I have been moving each user story with its `EPICS` to the correct stage of the process, and I have made sure that each user story was manually tested and fully functional before moving on to the next one.
  
-If you want to visit my trello board you can do so by visit this [link](https://trello.com/invite/b/e3SZtNeH/834b609e9c7347149b597bb49d09e186/portfolio-project-5) (link). 
+If you want to visit my Trello board you can do so by visiting this [link](https://trello.com/invite/b/e3SZtNeH/834b609e9c7347149b597bb49d09e186/portfolio-project-5) (link). 
  
 **Trello board:**
  
 ![Screenshot of trello board](/readme_images/trelloboard.png)
 
-Instead of including each `user story` card here, I will explain how these cards are set up by demonstrate one `user story`.
+Instead of including each `user story` card here, I will explain how these cards are set up by demonstrating one `user story`.
 But if you wish to see all of the cards you can then just visit the link to the board above.
 
-Each `user story` are grouped togheter with other cards that they are relevant by with an `EPIC - Heading` and a unique label color.
+Each `user story` are grouped together with other cards that they are relevant by with an `EPIC - Heading` and a unique label color.
 
 **EPIC:**
  
@@ -183,9 +182,9 @@ Each `user story` are grouped togheter with other cards that they are relevant b
  
 ![Screenshot of trello user story card](/readme_images/card-blue.png)
 
-As you can see above the `EPIC-Products` is "linked" togheter with the `user story card` that has the same blue label above them. So for each `user story` that is related to the products of AndWatch's will have that blue label above them, this goes on for each `EPIC` and the attached label color that is related to each `user story` card with there own unique label color.
+As you can see above the `EPIC-Products` is "linked" together with the `user story card` that has the same blue label above them. So each `user story` that is related to the products of AndWatch's will have that blue label above them, this goes on for each `EPIC` and the attached label color that is related to each `user story` card with their own unique label color.
 
-If you click on each `user story card` a bigger view will be displayed with `Given, When, Then` to act like a discription for the use of that particular `user story`. Like this:
+If you click on each `user story card` a bigger view will be displayed with `Given, When, Then` to act like a description for the use of that particular `user story`. Like this:
 
 **User story card details:**
  
@@ -198,6 +197,7 @@ The `user stories` for admin is set up in the same way.
 ## UX
  
 ### User Stories
+
 As a guest I would like to be able to:
  
 * Register an account using username, email, and password.
@@ -207,7 +207,7 @@ As a guest I would like to be able to:
 * View all of the watches available.
 * View the watch details of a selected watch.
 * Purchase watches using my credit/debit card.
-* View the blog, all blog posts details and comments. 
+* View the blog, all blog post details, and comments. 
  
 As a registered user I would like to be able to:
  
@@ -236,15 +236,14 @@ As an admin I need to be able to:
 ### Strategy
  
 #### Project Goal
-Create a website that allows users to create an account so they can see order history, change shipping and billing information, add comments on blog posts, add watches to their wish list.
-And most important purchase products, but this is of course open for all users even for those who isn't registered with an account.
+Create a website that allows users to create an account so they can see order history, change shipping and billing information, add comments on blog posts, and add watches to their wish list. And most important purchase products, but this is of course open for all users even for those who aren't registered with an account.
 
 
 ### Scope
  
 * A simple and straightforward UX experience. 
 * A navigation bar that is easy to navigate the website with.
-* A website that is compatible on most screen devices and browsers.
+* A website that is compatible with most screen devices and browsers.
  
  
 ---
