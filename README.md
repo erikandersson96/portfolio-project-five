@@ -592,9 +592,13 @@ The thank you for subscribing email that is being sent from mailchimp to users w
 
 `Robots.txt` is a text file webmasters create to instruct web robots (typically search engine robots) how to crawl pages on their website. The robots.txt file is part of the the robots exclusion protocol (REP), a group of web standards that regulate how robots crawl the web, access and index content, and serve that content up to users.
 
+This description of `robots.txt` was taken from [moz](https://moz.com/learn/seo/robotstxt) (link).
+
 ### sitemap.xml
 
 An XML sitemap is a file that lists a website’s essential pages, making sure Google can find and crawl them all. It also helps search engines understand your website structure. You want Google to crawl every important page of your website. But sometimes, pages end up without internal links pointing to them, making them hard to find. A sitemap can help speed up content discovery.
+
+This description of `sitemap.xml` was taken from [yoast](https://yoast.com/what-is-an-xml-sitemap-and-why-should-you-have-one/) (link).
 
 ### Privacy Policy
 
@@ -653,7 +657,7 @@ Technologies that I used for `AndWatch's` website project is the following down 
 ---
 ## Testing
  
-All testing of this project has been documented in a seperate file called `TESTING.md` and you can fin it [here](TESTING.md) (internal link).
+All testing of this project has been documented in a seperate file called `TESTING.md` and you can find it [here](TESTING.md) (internal link).
  
 ### Bugs
 
