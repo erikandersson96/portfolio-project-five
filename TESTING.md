@@ -401,7 +401,7 @@ As you can see I mostly got `skipping heading level` as an error, but I also got
 ---
 ## User Story Testing
 
-Here is my user story testing for this project as a **guest/users** (users can do all that guests can):
+**Here is my user story testing for this project as a guest/users (users can do all that guests can):**
  
 * As a **guest** I would like to be able to register an account using a username, email and password.
  
@@ -435,7 +435,7 @@ Here is my user story testing for this project as a **guest/users** (users can d
  
   * A guest and user can see all of our blog posts by clicking on blog and see the blog post details by click on the image. Comments are shown under if there are any, but guests can't add comments, then they would have to login or register first.
  
-Here is my user story testing for this project as a **user**:
+**Here is my user story testing for this project as a user:**
  
 * As a **user** I want to login to my account.
  
@@ -453,7 +453,7 @@ Here is my user story testing for this project as a **user**:
  
   * I have created the website so users can add and remove watches to their wish list.
  
-Here is my user story testing for this project as a **admin**:
+**Here is my user story testing for this project as a admin:**
  
 * As a **admin** I would like to see the entire list of watches available.
  
