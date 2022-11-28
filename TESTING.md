@@ -487,7 +487,7 @@ As you can see I mostly got `skipping heading level` as an error, but I also got
 ---
 ## Device Testing
  
-Something that's worth mentioning is that I've tested the majority of these devices within Chrome dev tool, I have not had physical access to test these devices. I have tested the responsiveness and aesthetics on the following devices and browsers:
+Something that's worth mentioning is that I've tested the majority of these devices within the Chrome dev tool, but I have not had physical access to test these devices. I have tested the responsiveness and aesthetics on the following devices and browsers:
  
 * Apple
   * iPhone SE
