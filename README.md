@@ -21,73 +21,73 @@ To visit `AndWatch's` website please click this [link](https://andwatchs-2022.he
  
 This website is a fictional website for the purpose of my Fifth Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `Building an E-commerce Platform, Introduction to Search Engine Optimization and Web Marketing` modules in the last section of the course.
  
-The main goal of this project was to test my new knowledge in Building an E-commerce Platform with Django, Bootstrap and Stripe as a payment system. 
+The main goal of this project was to test my new knowledge in Building an E-commerce Platform with Django, Bootstrap, and Stripe as a payment system.
  
 ##### Features I aimed to achieve with this project:
 * To make the website easy to understand for the user.
-* Make sure so the website has good `UI and UX` throughout the whole website so the user doesn't get confuesed.
-* Create a easily navigated website with an easy to understand `navigation menu on top and a nice footer at the bottom`.
+* Make sure the website has good `UI and UX` throughout the whole website so the user doesn't get confused.
+* Create an easily navigated website with an easy-to-understand `navigation menu on top and a nice footer at the bottom`.
 * Follow a `black and yellow` theme throughout the whole website design.
  
  
 ---
 ## How To Navigate The Website
 
-At the very top is a `banner` with text containg that AndWatches provides `Free shipping worldwide!`.
+At the very top is a `banner` with text containing that AndWatches provides `Free shipping worldwide!`.
 
 The website of AndWatch's features a Navigation bar on top underneath the banner that exists on all pages with the following content: 
 `Logo, Search Bar, Home link button, Watches dropdown menu, Blog link button, My account dropdown menu, and a Shopping Bag`. The logo acts like a `back to home page` link.
-The dropdown menu of `Watches` features a selection between listing watches `By Price` or if the user wish to see all of the available watches by `All watches`.
-`Blog link button` will take the user to a seperate page with all of the blog posts that AndWatch's is publishing, here the user can select a post they want to read by clicking the 
-image of the selected blog post, and get directed to the details of that blog post. The user (only registered users) can leave comments underneath the
-blog post details page. But be aware of that the `Store Manager` might delete posts that are offensive or inappropriate. At the search bar a user can search for relevant names of wrist 
-watches amoung all of the available products in the store. The `My account dropdown menu` features register or login depending on if the user has an existing account or wish to become one.
-When the user is logged in they will see `My profile, Wish list or Logout`, My profile is where the user can see their user information if they have submitted and order in the past or their order history listed. The `Wish list` is a page where all of their choosen "favourite" watches are displayed. At the `Shopping Bag` the user can click when they have added products to the bag or if they are just curios they can see the empty bag as well, and inside the bag there is a button for be directed to all the watches if the user wish to do so.
+The dropdown menu of `Watches` features a selection between listing watches `By Price` or if the user wishes to see all of the available watches by `All watches`.
+`Blog link button` will take the user to a separate page with all of the blog posts that AndWatch's is publishing, where the user can select a post they want to read by clicking the 
+image of the selected blog post and get directed to the details of that blog post. The user (only registered users) can leave comments underneath the
+blog post details page. But be aware that the `Store Manager` might delete posts that are offensive or inappropriate. At the search bar, a user can search for relevant names of wrist 
+watches among all of the available products in the store. The `My Account dropdown menu` features register or login depending on if the user has an existing account or wishes to become one.
+When the user is logged in they will see `My Profile, Wish list or Logout`, My profile is where the user can see their user information if they have submitted an order in the past or their order history listed. The `Wish list` is a page where all of their chosen "favorite" watches are displayed. At the `Shopping Bag` the user can click when they have added products to the bag or if they are just curious they can see the empty bag as well, and inside the bag, there is a button to be directed to all the watches if the user wishes to do so.
 
 On smaller screen sizes the menu for `Home, Watches, Blog` will be in a `"hamburger menu"` on the left.
 
 At the bottom of the page is the footer that also exists on all pages with the following content `A "logo" that just acts like a logo for AndWatch's,`
-`A link for signup with the newsletter, Contact us page link, About us page link, Privacy Policy, and the social media icons`. The link to the newsletter will direct the user for signup as mentioned, the newsletter provider is [mailchimp](https://mailchimp.com/) (link). The contact us page link will direct the user to a seperate page with all of the contact information of AndWatch's. The about us page link works as the contact link but it will direct the user to a page of all the information about AndWatch's. The social media links will direct the user to each seperate plattform, `GitHub, LinkedIn, and Facebook`. The GitHub link and LinkedIn link is directing to Erik Andersson (creator of this project) personal pages. The `FaceBook` link
-on the other hand directs the user to the FaceBook page of `AndWatch's`. At the very bottom is the `Copyright of AndWatch's - Erik andersson`. 
+`A link for signup with the newsletter, Contact us page link, About us page link, Privacy Policy, and the social media icons`. The link to the newsletter will direct the user to signup as mentioned, the newsletter provider is [mailchimp](https://mailchimp.com/) (link). The contact us page link will direct the user to a separate page with all of the contact information of AndWatch's. The about us page link works as the contact link but it will direct the user to a page with all the information about AndWatch's. The social media links will direct the user to each separate platform, `GitHub, LinkedIn, and Facebook`. The GitHub link and LinkedIn link are directed to Erik Andersson's (creator of this project) personal pages. The `FaceBook` link
+on the other hand directs the user to the FaceBook page of `AndWatch's`. At the very bottom is the `Copyright of AndWatch's - Erik Andersson`. 
 
-At the `home page` is a Hero image of a seiko watch, a text for the user to take action and press the `Shop Now` button to get to all watches page.
+At the `home page` is a Hero image of a Seiko watch, a text for the user to take action and press the `Shop Now` button to get to all watches page.
 
-At the `Watches - All watches` page is all the current available watches listed, if the user wish to sort the list of watches he/she can do so by filtering of 
-`Price low to high, Price high to low, Brand A - Z, Brand Z - A`. The user can then reset the sorting/filtering by cklicking the yellow text above all watches to the left. 
+The `Watches - All watches` page is all the current available watches listed, if the user wishes to sort the list of watches he/she can do so by filtering of 
+`Price low to high, Price high to low, Brand A - Z, Brand Z - A`. The user can then reset the sorting/filtering by clicking the yellow text above all watches to the left. 
 
-At the `watch details page` by cklicking on one of the watches (products) images, is all of the details of each watch like 
-`Image, Brand, Model, Price, Description, Case Size, Quantity, Keep Shopping and Add to Bag buttons`. The user can here add the product to the bag or adjust the wanted quantity
-of the product before adding it to the bag. When the user have added a product to the bag a successfull message will appear with a preview of the shopping bag with a 
+On the `watch details page` by clicking on one of the watches (products) images, all of the details of each watch like 
+`Image, Brand, Model, Price, Description, Case Size, Quantity, Keep Shopping, and Add to Bag buttons`. The user can here add the product to the bag or adjust the wanted quantity
+of the product before adding it to the bag. When the user has added a product to the bag a successful message will appear with a preview of the shopping bag with a 
 `Go to secure checkout` button. 
 
-When the user has added a product/products to the bag and want to see the bag they can either do so by clicking the `Go to secure checkout` button in the bag preview or click the 
-shopping bag in the up right corner. 
+When the user has added a product/products to the bag and wants to see the bag they can either do so by clicking the `Go to secure checkout` button in the bag preview or by clicking the 
+shopping bag in the up-right corner. 
 
 At the `shopping bag` the user can adjust the quantity of the products or remove them from the bag or just press the `Secure Checkout` button. 
 
 When the user has clicked the `Secure Checkout` button the user will get to the checkout page. 
 
-At the `checkout page` the user will be asked to fill out the form of details, delivery info and payment card. If the user is logged in and never bought anything they can tick the 
-`Save info` checkbox underneath the form to save their information for future purchases. Now the user will need to cklick on `Complete Order` as a final step to process the purchase.
+At the `checkout page` the user will be asked to fill out the form with details, delivery info, and payment card. If the user is logged in and never bought anything they can tick the 
+`Save info` checkbox underneath the form to save their information for future purchases. Now the user will need to click on `Complete Order` as a final step to process the purchase.
 A yellow transparent loading overlay (like in Boutique Ado) will pop up with two spinning arrows and a success message will pop up. The user will now see a thank you text above and
-the order, deliver to and billing information below. The user will get a confirmation email about their order.
+the order, delivery to, and billing information below. The user will get a confirmation email about their order.
 
-The user can update their information about delivery and so on on their `Profile` page.
+The user can update their information about delivery and so on their `My Profile` page.
 
-To access the `blog` the user clicks on the blog button. At the blog all the blog posts are listed, and all of them are created by the team at `AndWatch's`. If the user clicks on one of the blog posts he/she will then be displayed with the details of the blog post. If the user scrolls down there is a `comment` section were (only registered users) can add comments on the blog post. All users (even those who aren't logged in or registered) can see the comments section. Only `"Store Managers/Admin"` can delete comments that have been posted on blog posts, to ensure a friendly language from users.
+To access the `blog` the user clicks on the blog button. At the blog, all the blog posts are listed, and all of them are created by the team at `AndWatch's`. If the user clicks on one of the blog posts he/she will then be displayed with the details of the blog post. If the user scrolls down there is a `comment` section where (only registered users) can add comments on the blog post. All users (even those who aren't logged in or registered) can see the comments section. Only `"Store Managers/Admin"` can delete comments that have been posted on blog posts, to ensure friendly language from users.
 
-Logged in users can add watches to their `wish list` if they want to, they can do so at each `watch details` page. They can then remove each induvidual watch from the `wish list` as they wish to do.
+Logged-in users can add watches to their `wish list` if they want to, they can do so at each `watch details` page. They can then remove each individual watch from the `wish list` as they wish to do.
 
 #### Good To Know
 
-As well as there is success messages for every successfull transaction on the site there is also `error messages` in the same way with a short instruction on what might have gone wrong.
+As well as there being success messages for every successful transaction on the site there is also `error messages` in the same way with short instruction on what might have gone wrong.
 
 ### For Store Managers Only!
 
-If you are logged in as a store manager (admin) on AndWatch's you can then manage all products, blog posts by edit or deleting them, comments can be deleted. 
-You can add new products or blog posts by clicking on `Product Managment/Blog Managment` on the profile. As an admin you can edit/delete products and blog posts, commnets you can only delete. 
+If you are logged in as a store manager (admin) on AndWatch's you can then manage all products, and blog posts by editing or deleting them, and comments can be deleted. 
+You can add new products or blog posts by clicking on `Product Management/Blog Management` on the profile. As an admin, you can edit/delete products and blog posts, and comments you can only delete. 
 
-**Important! Be aware of:** if you press delete on a product, blog post or comment they will be deleted and this action cannot be undone!
+**Important! Be aware of:** if you press delete on a product, blog post, or comment they will be deleted and this action cannot be undone!
 
  
 ---
