@@ -628,7 +628,9 @@ Technologies that I used for `AndWatch's` website project is the following down 
 * `Git`: This is used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. Incase someting unexpected happens to your gitpod workspace, everything is committed to your GitHub repository.
  
 * [Heroku](https://www.heroku.com) (link): Heroku is a container-based cloud Platform as a Service `(PaaS)`. Developers use Heroku to deploy, manage, and scale modern apps.
- 
+
+* [ElephantSQL](https://www.elephantsql.com/) (link): I used ElephantSQL as my database for this project since Heroku Postgress has become a paid service only.
+
 * [LucidChart](https://www.lucidchart.com/pages/) (link): Lucidchart is the intelligent diagramming application that empowers teams to clarify complexity, logic and more. To get a better visual understanding about how an application work.
  
 * [PEP8ci](https://pep8ci.herokuapp.com/) (link): Is a validation tool that was used to validate my python code.
