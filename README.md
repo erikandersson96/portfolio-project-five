@@ -859,8 +859,25 @@ If the `create app` process at `Heroku` website wouldn't work follow these steps
 * Type `heroku login -i` to login to your existing account (if you have one) in the `Gitpod` terminal.
 * Then run the command `heroku create your_app_name_here` to create a new app (the name has to be uniqe).
 * Now you can see your new project at `Heroku` dashboard and set the config vars and buildpacks as the steps explained above.
- 
- 
+
+### ElephantSQL
+
+Since `Heroku` now only offers paid plans for their service, the use of `ElephantSQL` exists as a free option to `Heroku Postgress`. For creating a `ElephantSQL` account these are the steps:
+
+**Create an account:**
+
+* Navigate to [ElephantSQL.com](https://www.elephantsql.com/) (link) and click on `Get a managed database today` (green button).
+* Then select `Try now for FREE` in the TINY TURTLE database plan.
+* Select `Log in with GitHub` and authorize ElephantSQL with your selected GitHub account.
+* In the Create new team form:
+  * Add a team name (your own name is fine)
+  * Read and agree to the Terms of Service
+  * Select Yes for GDPR
+  * Provide your email address
+  * Click “Create Team”
+* Your account is now `successfully` created.
+
+
 ---
 ## Support
  
