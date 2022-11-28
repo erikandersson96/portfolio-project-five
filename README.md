@@ -560,7 +560,7 @@ The wish list (favorite watches) doesn't have its own app, it is included in the
 
 ### Responsive Layout and Design
 
-Using Bootstrap 4, the project has been designed to be fully responsive on most viewports, ensuring all functionality is maintained from 320px width and up. The targeted media queries are custom-made to make the website look good on most screen devices. All features have been developed with most viewports in mind.
+Using Bootstrap 4, the project has been designed to be fully responsive on most viewports, ensuring all functionality is maintained from 360px width and up. The targeted media queries are custom-made to make the website look good on most screen devices. All features have been developed with most viewports in mind.
  
 ---
 ## Future Features
