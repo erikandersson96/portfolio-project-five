@@ -721,6 +721,19 @@ The problem was related to my `webhook_handler.py` file for saving the user's pr
 
 ![Screenshot of problem in webhook_handler.py file](/readme_images/bug-3-solution2.png)
 
+#### Bug 4
+
+**Problem:**
+
+I could not add the `humanize` intcomma to all prices of the website like for `pop-up bag total` and `bag total and grand total in bag view` without getting an error for 
+`invalid filter "intcomma"`.
+
+![Screenshot of invalid filter: intcomma](/readme_images/bug-4.png)
+
+**Solution:**
+
+I added `{% load humanize %}` in the top of my `bag-total.html` template, and the error was fixed and now I got intcomma on `bag total and grand total` as well. At first I had just tried to have the `{% load humanize %}` in my `bag.html` template but I got this error for that too so then I tried this method and it worked.
+
  
 ### Unfixed Bugs
 
@@ -732,11 +745,7 @@ Since I have set my background color to all black and for my navigation bar, my 
 
 When edit a blog post, if there is an image added to the blog post before (before starting to edit). The admin/store owner can't use the `clear` box shown in the image shown below to delete the existing image. But if the admin/store owner intend to do so they can just click `Add image` and the new image will replace the old one when they hit `save`.
 
-![Screenshot of clear box not working while edit blog post](/readme_images/unfixed-bug.png)
-
-**Bug 3:**
-
-I could not add the `humanize` intcomma to all prices of the website like for `pop-up bag total` and `bag total and grand total in bag view` without getting an error. So I will leave these as unfixed bugs since they wont hurt the funtion of the website, they could just be a visable confusion for the user. 
+![Screenshot of clear box not working while edit blog post](/readme_images/unfixed-bug.png) 
 
  
 ---
