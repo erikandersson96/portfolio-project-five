@@ -781,18 +781,18 @@ Like `$30,000.00` instead of `30000.00`.
  
 **GitHub:**
  
-I frequently used `commit` throughout the whole project, this is the commands used in the terminal:
+I frequently used `commit` throughout the whole project, this is the command used in the terminal:
  
 * `git add .` (This command is used for adding files to the staging area before committing).
 * `git commit -m “commit message here..”` (This is used to label the commit changes made to the local repository).
-* `git push` (This command is used to push all changes to the Github repository).
+* `git push` (This command is used to push all changes to the GitHub repository).
  
 This is all done to prevent any `data` loss in case Gitpod crashes and saves the `data` to GitHub.
  
  
 ### GitHub & Gitpod
  
-For this project I used Code Institutes Python template that can be found [here](https://github.com/Code-Institute-Org/python-essentials-template) (link).
+For this project, I used the Code Institute Python template that can be found [here](https://github.com/Code-Institute-Org/python-essentials-template) (link).
  
 **Steps to create a new repository in Github:**
  
@@ -802,34 +802,34 @@ For this project I used Code Institutes Python template that can be found [here]
 ![Screenshot new repository button github](/readme_images/github.png)
 1. Select in the dropdown menu under `Repository template` if you for example would like to use the template provided by `Code Institute` that I did for this project. If you don't see it in the dropdown menu click this [link](https://github.com/Code-Institute-Org/python-essentials-template) (link) to get to the one provided by `Code Institute` and click `Use this template` to the left of the green Gitpod button.
 1. When you have done that, give the repository a name. Leave it public if you want anyone on the internet to see your repository (I always do).
-1. Click create repository.
+1. Click create a repository.
 1. **Remember** to use the `commit` commands that I explained above so your hard work doesn't get lost if anything happens to Gitpod.
  
 ### Forking GitHub Repository
  
-Forking a Github repository is the process of making a copy of someone else repository and add your own changes to it without changing the original, the original repository is known
-as "upstream repository". I will explain the process of forking down below:
+Forking a GitHub repository is the process of making a copy of someone else repository and adding your own changes to it without changing the original, the original repository is known
+as the "upstream repository". I will explain the process of forking down below:
  
-1. Go to the Github page that hosts the repository you wish to fork.
+1. Go to the GitHub page that hosts the repository you wish to fork.
 1. In the top-right corner of the page there is a button that says `"Fork"`.
 1. Click this button.
-1. This creates a copy of that repository to your Github home page. You can submit and receive changes to your copy by using pull requests and/or syncing with the original upstream repository.
+1. This creates a copy of that repository on your GitHub home page. You can submit and receive changes to your copy by using pull requests and/or syncing with the original upstream repository.
  
-This instructions were taken from [Github - Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (link).
+These instructions were taken from [Github - Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (link).
  
 ### Cloning GitHub Repository
  
-Cloning a repository inolves making a full copy of a repository on your local machine. This allows you to work on the code easier. Changes can be pushed back up to the Github site or changes from other sources pulled to your local copy. I will explain how to clone down below:
+Cloning a repository involves making a full copy of a repository on your local machine. This allows you to work on the code easier. Changes can be pushed back up to the GitHub site or changes from other sources pulled to your local copy. I will explain how to clone down below:
  
 1. Go to the repository page on Github.
 1. Above the file list click on the green button that says `"Code"`.
-1. You can choose to download a zip file of the repository, to unpack it on your local machine and open it in your IDE.
+1. You can choose to download a zip file of the repository, unpack it on your local machine, and open it in your IDE.
 1. Clone using HTTPS by copying the URL under the HTTPS tab.
-1. Open a terminal window, set current directory to the one you want to contain the clone from.
-1. Type `git clone` and paste the URL copied from the Github page.
+1. Open a terminal window, and set the current directory to the one you want to contain the clone from.
+1. Type `git clone` and paste the URL copied from the GitHub page.
 1. The repository clone will now be created on your machine.
  
-This instructions were taken from [Github - cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) (link).
+These instructions were taken from [Github - cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) (link).
  
 ### Heroku
  
@@ -846,10 +846,10 @@ Deploying a project using Heroku:
 * Click the `"Create App"` button.
 * Once redirected, proceed to the settings tab.
 * Click on the `"config vars"` button.
-* Supply a `KEY` of `PORT` and it's value of `8000`. Then click the `"add"` button. Do this with `Cloudinary, Database URL (from Heroku-Postgres) and your secret key`.
+* Supply a `KEY` of `PORT` and its value of `8000`. Then click the `"add"` button. Do this with `Cloudinary, Database URL (from Heroku-Postgres) and your secret key`.
 * Next step is to add `Buildpacks`, click the `"Add Buildpack"` button.
 * The `Heroku Postgress` buildpack need to be added.
-* Once the buildpack have completed, go to the deploy tab, once on the deploy screen, select GitHub as the deployment method and connect your GitHub profile.
+* Once the buildpack has been completed, go to the deploy tab, once on the deploy screen, select GitHub as the deployment method and connect your GitHub profile.
 * Search for the repository that you wish to deploy to `Heroku` and click `"connect"`.
 * Once your repository is connected to Heroku you can choose to either automatically or manually deploy your app. 
 * By selecting automatic deploy, Heroku will build a new version of the app each time a change has been made and pushed to the repository on `GitHub`.
@@ -858,19 +858,19 @@ Deploying a project using Heroku:
  
 If the `create app` process at `Heroku` website wouldn't work follow these steps:
 * When you want to deploy your project to `Heroku`.
-* Type `heroku login -i` to login to your existing account (if you have one) in the `Gitpod` terminal.
-* Then run the command `heroku create your_app_name_here` to create a new app (the name has to be uniqe).
-* Now you can see your new project at `Heroku` dashboard and set the config vars and buildpacks as the steps explained above.
+* Type `Heroku login -i` to log in to your existing account (if you have one) in the `Gitpod` terminal.
+* Then run the command `Heroku create your_app_name_here` to create a new app (the name has to be unique).
+* Now you can see your new project on the `Heroku` dashboard and set the config vars and buildpacks as the steps explained above.
 
 ### ElephantSQL
 
-Since `Heroku` now only offers paid plans for their service, the use of `ElephantSQL` exists as a free option to `Heroku Postgress`. For creating a `ElephantSQL` account these are the steps:
+Since `Heroku` now only offers paid plans for their service, the use of `ElephantSQL` exists as a free option for `Heroku Postgress`. For creating an `ElephantSQL` account these are the steps:
 
 **Create an account:**
 
 * Navigate to [ElephantSQL.com](https://www.elephantsql.com/) (link) and click on `Get a managed database today` (green button).
 * Then select `Try now for FREE` in the TINY TURTLE database plan.
-* Select `Log in with GitHub` and authorize ElephantSQL with your selected GitHub account.
+* Select `Login with GitHub` and authorize ElephantSQL with your selected GitHub account.
 * In the Create new team form:
   * Add a team name (your own name is fine)
   * Read and agree to the Terms of Service
