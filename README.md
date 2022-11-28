@@ -254,7 +254,7 @@ Create a website that allows users to create an account so they can see order hi
 <details>
 <summary>Logo Design</summary> 
 <br>
-I decided to go with `AndWatch's` beacuse I think it is simple and clean. But also since I namned my first-milestone project in this course to "Andersson's" and that site was related to wrist watches as well, I thought it was a little nostalgic to use something similar that relates to my name "Erik Andersson".
+I decided to go with `AndWatch's` because I think it is simple and clean. But also since I named my first-milestone project in this course "Andersson's" and that site was related to wristwatches as well, I thought it was a little nostalgic to use something similar that relates to my name "Erik Andersson".
 <br>
 
 Here you can take a look at [first-milestone](https://github.com/erikandersson96/first-milestone) (link).
@@ -265,7 +265,7 @@ Here you can take a look at [first-milestone](https://github.com/erikandersson96
 <details> 
 <summary>Background Image</summary>
 <br>
-I downloaded the background image/hero image from Unsplash which is a website with free images. I have used the background image at only the Home page of this project. The background color is set to black since no text on the whole website is black, and if the background image wouldn't load the text would still be visable.
+I downloaded the background image/hero image from Unsplash which is a website with free images. I have used the background image only on the Home page of this project. The background color is set to black since no text on the whole website is black, and if the background image wouldn't load the text would still be visible.
 <br>
 
 Here you can take a look at [Unsplash](https://unsplash.com/) (link).
@@ -277,7 +277,7 @@ Here you can take a look at [Unsplash](https://unsplash.com/) (link).
 <details>
 <summary>Navigation Bar</summary>
 <br>
-My navigation bar for this website is relative clean, with just the most necessary text/buttons/search bar/menus to give the website a overall clean look.
+My navigation bar for this website is relatively clean, with just the most necessary text/buttons/search bar/menus to give the website an overall clean look.
 <br>
 
 ![Screenshot of navigation bar](/readme_images/nav-bar.png)
@@ -286,7 +286,7 @@ My navigation bar for this website is relative clean, with just the most necessa
 <details>
 <summary>Headings</summary>
 <br>
-Almost all pages existing on this website uses the same design with a heading on top, a yellow line under, and then the relevant body of that page.
+Almost all pages existing on this website use the same design with a heading on top, a yellow line under, and then the relevant body of that page.
 <br>
 
 ![Screenshot of a page heading](/readme_images/heading.png)
@@ -295,7 +295,7 @@ Almost all pages existing on this website uses the same design with a heading on
 <details>
 <summary>Buttons</summary>
 <br>
-The design of the buttons on this webiste of course varies depending on the background and the surrounding (if the button is next to another button etc). Most of the buttons are black with with text and a white border around, but some buttons are white with black text, yellow with black text, white text, yellow text, blue text, red text. The buttons that are a solid color is not really buttons they are most often a link but they act like a button. Almost all buttons/links change their color when you hover over them give them an effect that makes the user aware of clicking. 
+The design of the buttons on this website of course varies depending on the background and the surrounding (if the button is next to another button etc). Most of the buttons are black with text and a white border around them, but some buttons are white with black text, yellow with black text, white text, yellow text, blue text, and red text. The buttons that are a solid color are not really buttons they are most often a link but they act like a button. Almost all buttons/links change their color when you hover over them giving them an effect that makes the user aware of clicking. 
 <br>
 **Remember:** All buttons/links that are colored with red is either a delete button or a remove button.   
 <br>
@@ -310,7 +310,7 @@ The design of the buttons on this webiste of course varies depending on the back
 <details>
 <summary>Footer</summary>
 <br>
-I choose a footer that would melt in to the rest of of the design theme (black/white/yellow). The footer holds the "Logo", "Newsletter link", "Contact link", "About us link", "social media links", "Privacy Policy link" and the "copyright information".
+I choose a footer that would melt into the rest of of the design theme (black/white/yellow). The footer holds the "Logo", "Newsletter link", "Contact link", "About us link", "social media links", "Privacy Policy link" and the "copyright information".
 <br>
 
 ![Screenshot of footer](/readme_images/footer.png)
@@ -329,7 +329,7 @@ I choose to go for dropdown menus for "Watches (products)" and "My profile" as i
 <details>
 <summary>My Profile</summary>
 <br>
-My profile page is the same layout as in Code Institute - Boutique Ado Walkthrough Project, but with the correct color theme for this website. This page holds all the saved delivery information of the user (if the user has made purchases before) where the user can update the infomration and the page also lists order history with all orders made with that user account.
+My profile page is the same layout as in Code Institute - Boutique Ado Walkthrough Project, but with the correct color theme for this website. This page holds all the saved delivery information of the user (if the user has made purchases before) where the user can update the information and the page also lists order history with all orders made with that user account.
 <br>
 
 ![Screenshot of profile page](/readme_images/profile.png)
@@ -338,7 +338,7 @@ My profile page is the same layout as in Code Institute - Boutique Ado Walkthrou
 <details>
 <summary>Register/Login/Log out</summary>
 <br>
-The register, login and logout pages holds the relevant input boxes for users to either cerate an account, login, log out. The styling for these are almost the same with the correct color sheme of the website with black/white/yellow.
+The register, login, and logout pages hold the relevant input boxes for users to either create an account, log in, or log out. The styling for these is almost the same with the correct color scheme of the website black/white/yellow.
 <br>
 
 ![Screenshot of register page](/readme_images/register.png)
@@ -349,7 +349,7 @@ The register, login and logout pages holds the relevant input boxes for users to
 <details>
 <summary>Wish list</summary>
 <br>
-The wish list have the same layout as the Watches/Blog posts pages. All the watches the user adds to the wish list will be displayed in the following order of newest first etc and the user can remove the watches from the list via the remove button. The user can click on the specific watch image and will then be displayed with the watch details.
+The wish list has the same layout as the Watches/Blog posts pages. All the watches the user adds to the wish list will be displayed in the following order newest first etc and the user can remove the watches from the list via the remove button. The user can click on the specific watch image and will then be displayed with the watch details.
 <br>
 
 ![Screenshot of wish list](/readme_images/wish-list.png)
@@ -358,7 +358,7 @@ The wish list have the same layout as the Watches/Blog posts pages. All the watc
 <details>
 <summary>Toasts (messages)</summary>
 <br>
-For each transaction made on the website, regardless of it is adding a watch to the shopping bag, edit a blog post or trigger an error the user/admin will get a message in the up right corner with the relevant information if the transaction was successfull or not. The different toasts used is success, info, warning, error with all of them waering it's own color relating to the message (like error = red, success = green). These toasts was taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project.
+For each transaction made on the website, regardless of whether it is adding a watch to the shopping bag, editing a blog post, or triggering an error the user/admin will get a message in the up-right corner with the relevant information if the transaction was successful or not. The different toasts used are success, info, warning, and error with all of them wearing it's own color relating to the message (like error = red, success = green). These toasts were taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project.
 <br>
 
 ![Screenshot of toast success](/readme_images/toast.png)
@@ -367,7 +367,7 @@ For each transaction made on the website, regardless of it is adding a watch to 
 <details>
 <summary>Shopping Bag pop-up</summary>
 <br>
-Every time when a user adds a watch to the shopping bag or when a user removes a watch from the bag if he or she has more then one in the bag. The user can use the button in this pop-up bag to get to the real shopping bag. This feature is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
+Every time when a user adds a watch to the shopping bag or when a user removes a watch from the bag if he or she has more than one in the bag. The user can use the button in this pop-up bag to get to the real shopping bag. This feature is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
 <br>
 
 ![Screenshot of pop-up bag](/readme_images/pop-up.png)
@@ -376,7 +376,7 @@ Every time when a user adds a watch to the shopping bag or when a user removes a
 <details>
 <summary>Shopping Bag</summary>
 <br>
-The shopping bag displays all the watches that has been added to the bag, the quantity of each watch, a update/remove quantity input, price, subtotal, bag total, grand total and buttons for shop more or secure checkout. This page is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
+The shopping bag displays all the watches that have been added to the bag, the quantity of each watch, an update/remove quantity input, price, subtotal, bag total, grand total, and buttons for shop more or secure checkout. This page is taken as inspiration from Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
 <br>
 
 ![Screenshot of shopping bag](/readme_images/bag.png)
@@ -385,7 +385,7 @@ The shopping bag displays all the watches that has been added to the bag, the qu
 <details>
 <summary>Checkout</summary>
 <br>
-The checkout page displays a form for submitting the delivery and billing information (this form can be pre filled if the user is logged in and has saved a past purchase info), a order summary which shows the watches the user has added, quantity, subtotal, order total, grand total and buttons for either adjusting the bag if the user want to add more watches or remove watches. The other button is for complete order (confirm the purchase!). This page is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
+The checkout page displays a form for submitting the delivery and billing information (this form can be pre-filled if the user is logged in and has saved past purchase info), an order summary that shows the watches the user has added, quantity, subtotal, order total, grand total and buttons for either adjusting the bag if the user wants to add more watches or remove watches. The other button is for complete orders (confirm the purchase!). This page is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
 <br>
 
 ![Screenshot of checkout page](/readme_images/checkout-1.png)
@@ -395,7 +395,7 @@ The checkout page displays a form for submitting the delivery and billing inform
 <details>
 <summary>Checkout Success/Order Information</summary>
 <br>
-When the user has clicked the button for complete order a new page will show up with the order information. This page displays order info, order details, delivering to, billing info and a button for shop for more watches. A success message will show up on this page after the purchase was completed with information about the order. This page is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
+When the user has clicked the button to complete the order a new page will show up with the order information. This page displays order info, order details, delivery to, billing info, and a button for shopping for more watches. A success message will show up on this page after the purchase was completed with information about the order. This page is taken as inspiration from the Code Institute - Boutique Ado Walkthrough Project but I have styled it to match the rest of this website.
 <br>
 
 ![Screenshot of checkout success page](/readme_images/checkout-success.png)
@@ -404,7 +404,7 @@ When the user has clicked the button for complete order a new page will show up 
 <details>
 <summary>Add/edit products/blog posts</summary>
 <br>
-The pages for add/edit products/blog posts are almost the same in layout as CI - Boutique Ado, but they follow the color theme of this website. With a form for either add or edit the related product/blog post.  
+The pages for add/edit products/blog posts are almost the same in layout as CI - Boutique Ado, but they follow the color theme of this website. With a form for either adding or editing the related product/blog post.  
 <br>
 
 ![Screenshot of add/edit products/blog posts](/readme_images/add-1.png)
@@ -420,7 +420,7 @@ The pages for add/edit products/blog posts are almost the same in layout as CI -
 <details>
 <summary>Add comments on blog posts</summary>
 <br>
-All registered and logged in users can add comments on blog posts, this is done by first see the details of a blog post details, scroll down, click the button for add comment, fill out the form on the new page with content for the comment and click on add comment. The user will be redirected to the blog post details and the comment will appear in an order of added first on top. Only admin/store owners can delete comments.
+All registered and logged-in users can add comments on blog posts, this is done by first seeing the details of a blog post details, scrolling down, clicking the button to add a comment, filling out the form on the new page with content for the comment and click on add a comment. The user will be redirected to the blog post details and the comment will appear in an order of added first on top. Only admin/store owners can delete comments.
 <br>
 
 ![Screenshot of add comments](/readme_images/add-comment.png)
@@ -430,7 +430,7 @@ All registered and logged in users can add comments on blog posts, this is done 
 <details>
 <summary>Delete watches/blog post/comments (Only admin/Store owner)</summary>
 <br>
-Only admin/Store owner of AndWatch's can delete watches, blog posts and comments. Important to remember here is that when deleting, the action can not be undone! The buttons for this looks like the images below. The delete button for watches is the same as used in Code Institute - Boutique Ado Walkthrough Project, the styling for the other two blog posts/comments are fairly the same in the looks.
+Only the admin/Store owner of AndWatch's can delete watches, blog posts, and comments. Important to remember here is that when deleting, the action can not be undone! The buttons for this look like the images below. The delete button for watches is the same as used in Code Institute - Boutique Ado Walkthrough Project, the styling for the other two blog posts/comments are fairly the same in the looks.
 <br>
 
 ![Screenshot of delete watches](/readme_images/delete-product.png)
@@ -441,17 +441,17 @@ Only admin/Store owner of AndWatch's can delete watches, blog posts and comments
 
 ### Color Scheme
   
-The main colors of this website is black, white and yellow but I have also used a variation of other colors as well. I have displayed them all underneath.
+The main colors of this website are black, white, and yellow but I have also used a variation of other colors as well. I have displayed them all underneath
 
-* The white color is used for allmost all text, the grey colors is used for the arrows used in the toast messages, the black color is used as background color, navigation bar, footer and on some of the buttons.
+* The white color is used for almost all text, the grey color is used for the arrows used in the toast messages, and the black color is used as the background color, navigation bar, footer, and on some of the buttons.
 
 ![Screenshot of white to black colors](/readme_images/white-black.png)
 
-* The first yellow color is used for the most on this website, such as the banner on top, all yellow text, buttons etc. The middle color is used for the yellow overlay that pops up before a user is directed to the checkout success page with spinning white arrows. The orange color is used for one of the arrows in the toast messages. 
+* The first yellow color is used the most on this website, such as the banner on top, all yellow text, buttons, etc. The middle color is used for the yellow overlay that pops up before a user is directed to the checkout success page with spinning white arrows. The orange color is used for one of the arrows in the toast messages. 
 
 ![Screenshot of yellow to orange colors](/readme_images/yellow-orange.png)
 
-* The first red color is used for some links such as `reset sorting` on the watches page, the second red color is used for an arrow in the toast messages and for the checkbox used on edit product page, the third red color is used as a hover effect to the delete button, the last red color is used for the delete button.
+* The first red color is used for some links such as `reset sorting` on the watches page, the second red color is used for an arrow in the toast messages and for the checkbox used on the edit product page, the third red color is used as a hover effect to the delete button, the last red color is used for the delete button.
 
 ![Screenshot of red colors](/readme_images/red.png)
 
@@ -463,13 +463,13 @@ The main colors of this website is black, white and yellow but I have also used 
 
 ![Screenshot of green color](/readme_images/green.png)
 
-* Darkblue for edit button on products page and blog page.
+* Darkblue for edit button on both products page and blog page.
 
 **rgb(0,0,139):**
 
 ![Screenshot of darkblue color](/readme_images/darkblue.png)
 
-* Bootstrap colors for edit/delete products/blog posts detail pages on black background and for delete comments on blog posts.
+* Bootstrap colors for editing/deleting products/blog posts detail pages on a black background and for deleting comments on blog posts.
 
 ![Screenshot of bootstrap colors](/readme_images/bootstrap-color-1.png)
 
@@ -479,7 +479,7 @@ I created these color paletts at [color-hex](https://www.color-hex.com/user/add-
  
 ### Fonts
  
-I choose two different fonts for my website, `"Comforter+Brush"` for my logo and `"Lato"` for all other text including all headings. I choose these two fonts because I thought they matched good togheter and for this website. The fonts were taken from [pairfonts.com](https://pairfonts.com/) (link).
+I choose two different fonts for my website, `"Comforter+Brush"` for my logo and `"Lato"` for all other text including all headings. I choose these two fonts because I thought they matched well together for this website. The fonts were taken from [pairfonts.com](https://pairfonts.com/) (link).
  
 **Comforter+Brush for my logo:**
  
