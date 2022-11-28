@@ -37,307 +37,105 @@ I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), 
  
 ### AndWatch's Main Project App
 
-<details>
-<summary>andwatch settings.py</summary>
-<br>
+No errors were found in the following file:
 
-**settings.py before:**
-<br>
+* urls.py
+
+The following errors were corrected in the following file: 
+
+* settings.py - The first test I did as you can see in the first image, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image I got four line too long so I solved that by adding a parentheses, break the line at the begginning of the parentheses and then add quotation around the string.
 
 ![Screenshot of settings.py before pep8ci](/testing_images/settings.png)
-<br>
-
-**settings.py after:**
-<br>
 
 ![Screenshot of settings.py after pep8ci](/testing_images/settings-finished.png)
-<br>
 
 ![Screenshot of fix for settings.py line too long](/testing_images/settings-linetoolong-fix.png)
-<br>
 
-##### Solution for settings.py
-
-The first test I did as you can see in the first image above, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image I got four line too long so I solved that by adding a parentheses, break the line at the begginning of the parentheses and then add quotation around the string.
-</details>
-
-<details>
-<summary>andwatch urls.py</summary>
-
-I got no errors found in this file.
-</details>
 
 ### bag app
 
-<details>
-<summary>bag_tools.py</summary>
-<br>
+No errors were found in the following files:
 
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>contexts.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>test_views.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>urls.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>views.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
+* bag_tools.py
+* contexts.py
+* test_views.py
+* urls.py
+* views.py
  
 
 ### blog app
 
-<details>
-<summary>admin.py</summary>
-<br>
+No errors were found in the following files:
 
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>forms.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>models.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>urls.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>views.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
+* admin.py
+* forms.py 
+* models.py
+* urls.py
+* views.py
 
 
 ### checkout app
 
-<details>
-<summary>admin.py</summary>
-<br>
+No errors were found in the following files:
 
-I got no errors found in this file.
-</details>
+* admin.py
+* forms.py
+* models.py
+* signals.py
+* urls.py
+* webhook_handler.py
 
-<details>
-<summary>forms.py</summary>
-<br>
+The following errors were corrected in the following files:
 
-I got no errors found in this file.
-</details>
+* test_views.py - I got one error here for no blank line at the end of the file, so I just added that.
 
-<details>
-<summary>models.py</summary>
-<br>
+* views.py - I got one error for whitespace at line 11, so I just got rid of that.
 
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>signals.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>test_views.py</summary>
-<br>
-
-I got one error here for no blank line at the end of the file, so I just added that.
-</details>
-
-<details>
-<summary>urls.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>views.py</summary>
-<br>
-
-I got one error for whitespace at line 11, so I just got rid of that.
-</details>
-
-<details>
-<summary>webhook_handler.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>webhooks.py</summary>
-<br>
-
-I got one error at line 45 for line too long, I tried to solve this with a backslash and start at a new line but I did not get it to work. So I tested by adding a parentheses around it and then break the line at the beginning of the parentheses and that solved it.
-</details>
+* webhooks.py - I got one error at line 45 for line too long, I tried to solve this with a backslash and start at a new line but I did not get it to work. So I tested by adding a parentheses around it and then break the line at the beginning of the parentheses and that solved it.
 
 
 ### home app
 
-<details>
-<summary>test_views.py</summary>
-<br>
+No errors were found in the following files:
 
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>urls.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>views.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
+* test_views.py
+* urls.py
+* views.py
 
 
 ### newsletter app
 
-<details>
-<summary>urls.py</summary>
-<br>
+No errors were found in the following files:
 
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>views.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
+* urls.py
+* views.py
 
 
 ### products app
 
-<details>
-<summary>admin.py</summary>
-<br>
+No errors were found in the following files:
 
-I got no errors found in this file.
-</details>
+* admin.py
+* forms.py
+* models.py
+* test_views.py
+* urls.py
+* views.py
 
-<details>
-<summary>forms.py</summary>
-<br>
+The following errors were corrected in the following file:
 
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>models.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>test_views.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>urls.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>views.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>widgets.py</summary>
-<br>
-
-I got one error in this file for line too long at line 9, so I fixed that by adding a parentheses around and then brake the line at the beginning of the parentheses.
-</details>
+* widgets.py - I got one error in this file for line too long at line 9, so I fixed that by adding a parentheses around and then brake the line at the beginning of the parentheses.
 
 
 ### profiles app
 
-<details>
-<summary>forms.py</summary>
-<br>
+No errors were found in the following files:
 
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>models.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>test_views.py</summary>
-<br>
-
-I got no errors found in this file. 
-</details>
-
-<details>
-<summary>urls.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
-
-<details>
-<summary>views.py</summary>
-<br>
-
-I got no errors found in this file.
-</details>
+* forms.py
+* models.py
+* test_views.py
+* urls.py 
+* views.py
 
  
 ---
