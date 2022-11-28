@@ -520,43 +520,43 @@ Before I started to write any code for this project I made sure to create an eas
 
 ### Profiles
 
-User managment is handled through the external package [django-allauth](https://django-allauth.readthedocs.io/en/latest/) (link). All user profiles are registered at AndWatch's website when the user has verified thier email address that was used when creating the account. When a user is doing a purcahse at the store all the information the user filled in to the checkout process will be saved to the user's profile (if the user leaves the "save info" checkbox as it is) for future purcahses. 
+User management is handled through the external package [django-allauth](https://django-allauth.readthedocs.io/en/latest/) (link). All user profiles are registered at AndWatch's website when the user has verified the email address that was used when creating the account. When a user is doing a purchase at the store all the information the user filled into the checkout process will be saved to the user's profile (if the user leaves the "save info" checkbox as it is) for future purchases. 
 The user will have access to a `My Profile` page where they can do the following:
 
 * Edit their delivery information.
-* View order history and click on a order number for past orders to view the details of that order.
+* View order history and click on an order number for past orders to view the details of that order.
 
 ### Products
 
-All watches is stored in a database within the products app models. All watches is stored with images, prices, description, watch brand, watch model, watch size, and their induvidual sku.  Admin/store owner can edit all watches via the front end instead of go via the standard admin panel that is provided by django. Admin/store owner can also add new watches to the website via the `Product Managment` page. Each watch can be clicked on for displaying the details of the selected watch. Admin/store owner can also delete watches from the website, but be careful because this action can not be undone. All watches have their own sku, which is the following: PP001, PP002, PP003, etc. So if a Admin/store owner want to add a new watch he or she should remember to follow that pattern.
+All watches are stored in a database within the product's app models. All watches are stored with images, prices, descriptions, watch brands, watch models, watch sizes, and their individual sku.  Admin/store owner can edit all watches via the front end instead of going via the standard admin panel that is provided by Django. Admin/store owner can also add new watches to the website via the `Product Managment` page. Each watch can be clicked on for displaying the details of the selected watch. Admin/store owner can also delete watches from the website, but be careful because this action can not be undone. All watches have their own sku, which is the following: PP001, PP002, PP003, etc. So if an Admin/store owner wants to add a new watch he or she should remember to follow that pattern.
 
 ### Newsletter
 
-The newsletter app for this project is set up with [mailchimp](https://mailchimp.com/) (link), I decided to use mailchimp because they have a already robust product with all sorts of templates etc for when signing up. So when a user decides to submit their email address to the newsletter, they will be added to the email list of AndWatch's and be sent a `Thank You` email to the provided email address. 
+The newsletter app for this project is set up with [Mailchimp](https://mailchimp.com/) (link), I decided to use Mailchimp because they have an already robust product with all sorts of templates, etc for when signing up. So when a user decides to submit their email address to the newsletter, they will be added to the email list of AndWatch's and be sent a `Thank You` email to the provided email address. 
 
 ### Home
 
-The home app holds the views for render the index page, the about us page and the contact us page templates. The home page is the page that the user will se first of all when visit AndWatch's also called the "hero image" with a call to action button for the all watches page. The about us page holds all the information about the AndWatch's company and the history behind, and with a call to action button here as well to direct the user to the all watches page. The contact us page holds information about AndWatch's FaceBook page, email and phone number.
+The home app holds the views for rendering the index page, the about us page, and the contact us page templates. The home page is the page that the user will see first of all when visiting AndWatch's also called the "hero image" with a call to action button for the all-watches page. The about us page holds all the information about AndWatch's company and the history behind it, and with a call to action button here as well to direct the user to the all watches page. The contact us page holds information about AndWatch's FaceBook page, email, and phone number.
 
 ### Checkout
 
-The checkout app has all of the database models for `Order` and `OrderLineitem` to store orders for users. Even if a user who makes a purchase at the website isn't a registered user a order will be saved, that admin/store owner can see at the django admin panel. The `Order` holds all of the order information and the `OrderLineItem` hold all the information about orders that have been made by a registered user, so users can see their history for old orders information. The checkout app also renders the checkout page and checkout success page.
+The checkout app has all of the database models for `Order` and `OrderLineitem` to store orders for users. Even if a user who makes a purchase at the website isn't a registered user the order will be saved, and the admin/store owner can see it in the Django admin panel. The `Order` holds all of the order information and the `OrderLineItem` hold all the information about orders that have been made by a registered user, so users can see their history for old order information. The checkout app also renders the checkout page and checkout success page.
 
 ### Blog 
 
-All blog pages and blog posts are stored in the blog app. The database models in the blog app holds `BlogPost` and `BlogComment` models for storing all the blog posts and the comments that are made on each blog post. Admin/store owner can edit blog posts and add new blog posts to the blog. Here the user can see all blog posts that has been created, click on a blog post to see the details or comment on blog posts (if the user is logged in). When the admin/store owner wants to add a blog post they can select an author in the add blog post form, the author list is of all users but only the admin/store owner one will be displayed on the blog post as the author. Admin/store owner can delete both blog posts and comments that have been made by users, but be careful because this action can not be undone.
+All blog pages and blog posts are stored in the blog app. The database models in the blog app hold `BlogPost` and `BlogComment` models for storing all the blog posts and the comments that are made on each blog post. Admin/store owner can edit blog posts and add new blog posts to the blog. Here the user can see all blog posts that have been created, click on a blog post to see the details, or comment on blog posts (if the user is logged in). When the admin/store owner wants to add a blog post they can select an author in the add blog post form, the author list is of all users but only the admin/store owner will be displayed on the blog post as the author. Admin/store owner can delete both blog posts and comments that have been made by users but be careful because this action can not be undone.
 
 ### Bag
 
-The bag app is for render the bag page template so the user can see all of the watches that has been added to the shopping bag before checkout. Here the user can update the quantity via the `blue` update link of the selected watches or remove watches from the bag via the `red` remove link.
+The bag app is for rendering the bag page template so the user can see all of the watches that have been added to the shopping bag before checkout. Here the user can update the quantity via the `blue` update link of the selected watches or remove watches from the bag via the `red` remove link.
 
 ### Wish list
 
-The wish list (favourite watches) doesn't have it's own app, it is included in the profiles app for storing the selected watches to be add to the user's wish list. There is a database model for adding watches to the wish list of `FavouriteWatch` that stores the user and the selected watch.
+The wish list (favorite watches) doesn't have its own app, it is included in the profiles app for storing the selected watches to be added to the user's wish list. There is a database model for adding watches to the wish list of `FavouriteWatch` that stores the user and the selected watch.
 
 ### Responsive Layout and Design
 
-Using Bootstrap 4, the project has been designed to be fully responsive on most viewports, ensuring all functionality is maintained from 320px width and up. The targeted media queries are custom made to make the website look good on most screen devices. All features have been developed with most viewports in mind.
+Using Bootstrap 4, the project has been designed to be fully responsive on most viewports, ensuring all functionality is maintained from 320px width and up. The targeted media queries are custom-made to make the website look good on most screen devices. All features have been developed with most viewports in mind.
  
 ---
 ## Future Features
