@@ -1,6 +1,6 @@
 # Testing
  
-During my development for this project each function were tested to work as expected. Each section in this file describes all of the different tests.
+During my development for this project, each function was tested to work as expected. Each section in this file describes all of the different tests.
  
 ### HINT:
 **Remember that all links in this Testing file does not open in a new tab. They open in the same window (I have marked them with "(link)").**
@@ -33,17 +33,17 @@ During my development for this project each function were tested to work as expe
  
 ### Python (PEP8) Validation
  
-I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), I will show my results below with images and then a short description below each image of my solution. And I have seperated each django file to their respective django application within the project, to demonstrate for you down below.
+I have tested my python code at [PEP8ci](https://pep8ci.herokuapp.com/) (link), I will show my results below with images and then a short description below each image of my solution. And I have separated each Django file into its respective Django application within the project, to demonstrate for you down below.
  
 ### AndWatch's Main Project App
 
-No errors were found in the following file:
+**No errors were found in the following file:**
 
 * urls.py
 
-The following errors were corrected in the following file: 
+**The following errors were corrected in the following file:**
 
-* settings.py - The first test I did as you can see in the first image, I got some spacing errors that I solved by just adding those spaces. Line too long at 86 I just solved by removing a comment that I had missed to remove and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image I got four line too long so I solved that by adding a parentheses, break the line at the begginning of the parentheses and then add quotation around the string.
+* settings.py - The first test I did as you can see in the first image, I got some spacing errors that I solved by just adding those spaces. The line was too long at 86 I just solved by removing a comment that I had missed removing and the last error is for not having a blank line at the bottom which I just added. As you can see in the second image I got four lines too long so I solved that by adding parentheses, breaking the line at the beginning of the parentheses, and then adding quotations around the string.
 
 ![Screenshot of settings.py before pep8ci](/testing_images/settings.png)
 
@@ -54,7 +54,7 @@ The following errors were corrected in the following file:
 
 ### bag app
 
-No errors were found in the following files:
+**No errors were found in the following files:**
 
 * bag_tools.py
 * contexts.py
@@ -65,7 +65,7 @@ No errors were found in the following files:
 
 ### blog app
 
-No errors were found in the following files:
+**No errors were found in the following files:**
 
 * admin.py
 * forms.py 
@@ -76,7 +76,7 @@ No errors were found in the following files:
 
 ### checkout app
 
-No errors were found in the following files:
+**No errors were found in the following files:**
 
 * admin.py
 * forms.py
@@ -85,18 +85,18 @@ No errors were found in the following files:
 * urls.py
 * webhook_handler.py
 
-The following errors were corrected in the following files:
+**The following errors were corrected in the following files:**
 
 * test_views.py - I got one error here for no blank line at the end of the file, so I just added that.
 
 * views.py - I got one error for whitespace at line 11, so I just got rid of that.
 
-* webhooks.py - I got one error at line 45 for line too long, I tried to solve this with a backslash and start at a new line but I did not get it to work. So I tested by adding a parentheses around it and then break the line at the beginning of the parentheses and that solved it.
+* webhooks.py - I got one error at line 45 for the line was too long, I tried to solve this with a backslash and start at a new line but I did not get it to work. So I tested by adding parentheses around it and then breaking the line at the beginning of the parentheses and that solved it.
 
 
 ### home app
 
-No errors were found in the following files:
+**No errors were found in the following files:**
 
 * test_views.py
 * urls.py
@@ -105,7 +105,7 @@ No errors were found in the following files:
 
 ### newsletter app
 
-No errors were found in the following files:
+**No errors were found in the following files:**
 
 * urls.py
 * views.py
@@ -113,7 +113,7 @@ No errors were found in the following files:
 
 ### products app
 
-No errors were found in the following files:
+**No errors were found in the following files:**
 
 * admin.py
 * forms.py
@@ -122,14 +122,14 @@ No errors were found in the following files:
 * urls.py
 * views.py
 
-The following errors were corrected in the following file:
+**The following errors were corrected in the following file:**
 
-* widgets.py - I got one error in this file for line too long at line 9, so I fixed that by adding a parentheses around and then brake the line at the beginning of the parentheses.
+* widgets.py - I got one error in this file for the line too long at line 9, so I fixed that by adding parentheses around and then brake the line at the beginning of the parentheses.
 
 
 ### profiles app
 
-No errors were found in the following files:
+**No errors were found in the following files:**
 
 * forms.py
 * models.py
