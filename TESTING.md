@@ -380,26 +380,11 @@ I got 1 error for skipping heading level, I fixed this one by adding a h1 instea
 I got 2 errors for skipping heading level, I solved these by adding a h1 for the page title and a h2 for the watch title on the product card.
 </details>
 
-<details>
-<summary>Register page</summary>
-<br>
+No errors were found on the following pages:
 
-I got no errors for this page.
-</details>
-
-<details>
-<summary>Login page</summary>
-<br>
-
-I got no errors for this page.
-</details>
-
-<details>
-<summary>Logout page</summary>
-<br>
-
-I got no errors for this page.
-</details>
+* Register page
+* Login page
+* Logout page
 
 <details>
 <summary>Newsletter page</summary>
