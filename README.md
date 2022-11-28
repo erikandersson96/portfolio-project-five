@@ -755,15 +755,15 @@ When editing a blog post, if there is an image added to the blog post before (be
  
 #### Media
  
-All images for this project was taken from []() (link).
+All images for this project were taken from [Unsplash](https://unsplash.com/) (link).
  
 #### Inspiration for this project
  
 [Code Institute](https://codeinstitute.net/) (link) - I took inspiration to this project from the `Code Institute` walkthrough videos of `Boutique Ado`.
 
-#### Add newsletter - mailchimp guide
+#### Add newsletter - Mailchimp guide
  
-[Python stacks](https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/) (link) - I used this guide to implement the functionality of `mailchimp` to my newsletter.
+[Python stacks](https://www.pythonstacks.com/blog/post/integrating-mailchimp-django/) (link) - I used this guide to implement the functionality of `Mailchimp` to my newsletter.
 
 #### Tutors
 
@@ -772,7 +772,7 @@ All images for this project was taken from []() (link).
   
 #### Help from Stack Overflow
 
-I used this [post](https://stackoverflow.com/questions/346467/format-numbers-in-django-templates) (link) for adding a `floatformat:2|intcomma` with django [humanize](https://docs.djangoproject.com/en/4.1/ref/contrib/humanize/) (link) added to the relevant templates where I wanted to use `intcomma` on prices to get the human way of writing prices in the correct way.
+I used this [post](https://stackoverflow.com/questions/346467/format-numbers-in-django-templates) (link) for adding a `floatformat:2|intcomma` with Django [humanize](https://docs.djangoproject.com/en/4.1/ref/contrib/humanize/) (link) added to the relevant templates where I wanted to use `intcomma` on prices to get the human way of writing prices in the correct way.
 Like `$30,000.00` instead of `30000.00`. 
  
  
