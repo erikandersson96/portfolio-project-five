@@ -730,7 +730,7 @@ I could not add the `humanize` intcomma to all prices of the website like for `p
 
 ![Screenshot of invalid filter: intcomma](/readme_images/bug-4.png)
 
-**Solution:**
+**Solution bug 4:**
 
 I added `{% load humanize %}` in the top of my `bag-total.html` template, and the error was fixed and now I got intcomma on `bag total and grand total` as well. At first I had just tried to have the `{% load humanize %}` in my `bag.html` template but I got this error for that too so then I tried this method and it worked.
 
@@ -797,7 +797,7 @@ For this project I used Code Institutes Python template that can be found [here]
 1. Sign in or sign up to [GitHub](https://github.com) (link).
 1. When you have done that, you will see `"new"` up in the left corner.
 **Like this:**
-![Screenshot new repository button github](/assets/readme/github.png)
+![Screenshot new repository button github](/readme_images/github.png)
 1. Select in the dropdown menu under `Repository template` if you for example would like to use the template provided by `Code Institute` that I did for this project. If you don't see it in the dropdown menu click this [link](https://github.com/Code-Institute-Org/python-essentials-template) (link) to get to the one provided by `Code Institute` and click `Use this template` to the left of the green Gitpod button.
 1. When you have done that, give the repository a name. Leave it public if you want anyone on the internet to see your repository (I always do).
 1. Click create repository.
