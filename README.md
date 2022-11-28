@@ -563,19 +563,19 @@ Using Bootstrap 4, the project has been designed to be fully responsive on most 
 
 #### Django admin panel to Front end
 
-I would like to add a better and more robust Managament panel for admin/store owner to check orders, see user's that has made accounts, and essentially everything that has to be done via the django admin panel at this stage would be nice to have on the front end. This would make the website easier to maintain by all the staff at AndWatch's, with a nice looking and easy to understand interface. 
+I would like to add a better and more robust Management panel for the admin/store owner to check orders, see users that have made accounts, and essentially everything that has to be done via the Django admin panel at this stage would be nice to have on the front end. This would make the website easier to maintain by all the staff at AndWatch's, with a nice looking and easy-to-understand interface. 
 
-I would also like to add a page for admin/store owners to see the profits and income of the store, to get a understanding of what the team at AndWatchs should focus more on in their marketing to gain more customers.  
+I would also like to add a page for admin/store owners to see the profits and income of the store, to get an understanding of what the team at AndWatchs should focus more on in their marketing to gain more customers. 
 
 
 ---
 ## Marketing Strategy
 
-The business model of `AndWatch's` is B2C (Business to Customer), this website sells wrist watches from all kind of brands in a price range of $90 - $50.000. The main focus with this website is to educate users via our blog, where we post blog posts regarding watches we sell or watches that we are about to add to our store so user's can gain a bigger understanding of which wrist watch to buy since we have a big variation of watches in all kind of price ranges. The goal is to sell as many watches as possible.
+The business model of `AndWatch's` is B2C (Business to Customer), this website sells wristwatches from all kinds of brands in a price range of $90 - $50.000. The main focus of this website is to educate users via our blog, where we post blog posts regarding watches we sell or watches that we are about to add to our store so the users can gain a bigger understanding of which wristwatch to buy since we have a big variation of watches in all kind of price ranges. The goal is to sell as many watches as possible.
 
-The marketing aspect of AndWatch's has been done via creating a real [FaceBook](https://www.facebook.com/profile.php?id=100088231741635) (link) page that you can take a look at. Creating a newsletter via [mailchimp](https://mailchimp.com/) (link) for storing email addresses from users and visitors at `AndWatch's` mailchimp email list so we can send email campaigns to these subscribers like new watches or nice deals on watches. I used a paid version of mailchimp to access their automation tool for subscribers. I have added `rel` attributes to all external links on the website, added a `robots.txt` file and a `sitemap.xml` file, descriptive meta tags and `alt` on all images.
+The marketing aspect of AndWatch's has been done via creating a real [FaceBook](https://www.facebook.com/profile.php?id=100088231741635) (link) page that you can take a look at. Creating a newsletter via [mailchimp](https://mailchimp.com/) (link) for storing email addresses from users and visitors at `AndWatch's` Mailchimp email list so we can send email campaigns to these subscribers like new watches or nice deals on watches. I used a paid version of Mailchimp to access their automation tool for subscribers. I have added `rel` attributes to all external links on the website, added a `robots.txt` file and a `sitemap.xml` file, descriptive meta tags, and `alt` on all images.
 
-The marketing strategy of `AndWatch's` is to post posts on our FaceBook page, send emails to our email subscribers and post informative blog posts on our blog at the website. 
+The marketing strategy of `AndWatch's` is to post posts on our FaceBook page, send emails to our email subscribers and post informative blog posts on our blog on the website.
 
 ### FaceBook page of AndWatch's
 
@@ -583,14 +583,14 @@ The marketing strategy of `AndWatch's` is to post posts on our FaceBook page, se
 
 ### Mailchimp
 
-The thank you for subscribing email that is being sent from mailchimp to users who submits their emailaddress looks like this:
+The thank you for subscribing email that is being sent from Mailchimp to users who submits their email address looks like this:
 
 ![Screenshot of AndWatchs mailchimp thank you email](/readme_images/email-1.png) 
 ![Screenshot of AndWatchs mailchimp thank you email footer part](/readme_images/email-2.png) 
 
 ### robots.txt
 
-`Robots.txt` is a text file webmasters create to instruct web robots (typically search engine robots) how to crawl pages on their website. The robots.txt file is part of the the robots exclusion protocol (REP), a group of web standards that regulate how robots crawl the web, access and index content, and serve that content up to users.
+`Robots.txt` is a text file webmasters create to instruct web robots (typically search engine robots) how to crawl pages on their websites. The robots.txt file is part of the robots exclusion protocol (REP), a group of web standards that regulate how robots crawl the web, access, and index content, and serve that content up to users.
 
 This description of `robots.txt` was taken from [moz](https://moz.com/learn/seo/robotstxt) (link).
 
@@ -602,7 +602,7 @@ This description of `sitemap.xml` was taken from [yoast](https://yoast.com/what-
 
 ### Privacy Policy
 
-I have added an external link for `AndWatch's` Privacy Policy, that I generated with a free online tool that you can check out [here](https://www.privacypolicygenerator.info/) (link). The actual link to `AndWatch's` Privacy Policys, you can find [here](https://www.privacypolicygenerator.info/live.php?token=2r3kttLY1iBeLBY32YwFSRImjgB0unCt) (link).
+I have added an external link for `AndWatch's` Privacy Policy, which I generated with a free online tool that you can check out [here](https://www.privacypolicygenerator.info/) (link). The actual link to `AndWatch's` Privacy Policy, you can find [here](https://www.privacypolicygenerator.info/live.php?token=2r3kttLY1iBeLBY32YwFSRImjgB0unCt) (link).
 
 
 ---
