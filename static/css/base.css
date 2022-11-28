@@ -510,6 +510,14 @@ footer {
     .order-number-small {
         font-size: 12px;
     }
+
+    .newsletter-title {
+        font-size: 23px;
+    }
+
+    .newsletter-text {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 348px) {
