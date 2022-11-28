@@ -629,7 +629,7 @@ Technologies that I used for `AndWatch's` website project is the following down 
  
 * [Heroku](https://www.heroku.com) (link): Heroku is a container-based cloud Platform as a Service `(PaaS)`. Developers use Heroku to deploy, manage, and scale modern apps.
 
-* [ElephantSQL](https://www.elephantsql.com/) (link): I used ElephantSQL as my database for this project since Heroku Postgress has become a paid service only.
+* [ElephantSQL](https://www.elephantsql.com/) (link): I used ElephantSQL as my database for this project since Heroku has become a paid service only.
 
 * [LucidChart](https://www.lucidchart.com/pages/) (link): Lucidchart is the intelligent diagramming application that empowers teams to clarify complexity, logic and more. To get a better visual understanding about how an application work.
  
