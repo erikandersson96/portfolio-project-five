@@ -169,7 +169,7 @@ If you want to visit my trello board you can do so by visit this [link](https://
  
 ![Screenshot of trello board](/readme_images/trelloboard.png)
 
-Instead of including each `user story` card here, I will explain how these cards are set up by demonstrate one `user story` for users and one for `admin`.
+Instead of including each `user story` card here, I will explain how these cards are set up by demonstrate one `user story`.
 But if you wish to see all of the cards you can then just visit the link to the board above.
 
 Each `user story` are grouped togheter with other cards that they are relevant by with an `EPIC - Heading` and a unique label color.
