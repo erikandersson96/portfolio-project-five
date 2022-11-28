@@ -33,25 +33,21 @@ The main goal of this project was to test my new knowledge in Building an E-comm
 ---
 ## How To Navigate The Website
 
-At the very top is a `banner` with text containg that AndWatches provides `Free shipping on all order worldwide!`.
+At the very top is a `banner` with text containg that AndWatches provides `Free shipping worldwide!`.
 
 The website of AndWatch's features a Navigation bar on top underneath the banner that exists on all pages with the following content: 
 `Logo, Search Bar, Home link button, Watches dropdown menu, Blog link button, My account dropdown menu, and a Shopping Bag`. The logo acts like a `back to home page` link.
-The dropdown menu of `Watches` features a selection between listing watches by their price or if the user wish to see all of the available watches by `All watches`.
+The dropdown menu of `Watches` features a selection between listing watches `By Price` or if the user wish to see all of the available watches by `All watches`.
 `Blog link button` will take the user to a seperate page with all of the blog posts that AndWatch's is publishing, here the user can select a post they want to read by clicking the 
-image of the selected blog post, and get directed to the details of that blog post. The user (both register users and non register users) can leave comments underneath the
+image of the selected blog post, and get directed to the details of that blog post. The user (only registered users) can leave comments underneath the
 blog post details page. But be aware of that the `Store Manager` might delete posts that are offensive or inappropriate. At the search bar a user can search for relevant names of wrist 
 watches amoung all of the available products in the store. The `My account dropdown menu` features register or login depending on if the user has an existing account or wish to become one.
-When the user is logged in they will see `My profile or Logout`, My profile is where the user can see their user information if they have submitted and order in the past or their order 
-history listed. At the `Shopping Bag` the user can click when they have added products to the bag or if they are just curios they can see the empty bag aswell, and inside the bag there is
-a button for be directed to all the watches if the user wish to do so.
+When the user is logged in they will see `My profile, Wish list or Logout`, My profile is where the user can see their user information if they have submitted and order in the past or their order history listed. The `Wish list` is a page where all of their choosen "favourite" watches are displayed. At the `Shopping Bag` the user can click when they have added products to the bag or if they are just curios they can see the empty bag as well, and inside the bag there is a button for be directed to all the watches if the user wish to do so.
 
 On smaller screen sizes the menu for `Home, Watches, Blog` will be in a `"hamburger menu"` on the left.
 
 At the bottom of the page is the footer that also exists on all pages with the following content `A "logo" that just acts like a logo for AndWatch's,`
-`A link for signup with the newsletter, Contact us page link, About us page link, Privacy Policy, and the social media icons`. The link to the newsletter will direct the user for signup as mentioned, the newsletter provider is [mailchimp](https://mailchimp.com/) (link). The contact us page link will direct the user to a seperate page with all of the contact information of AndWatch's.
-The about us page link works as the contact link but it will direct the user to a page of all the information about AndWatch's. The social media links will direct the user to each 
-seperate plattform, `GitHub, LinkedIn, and Facebook`. The GitHub link and LinkedIn link is directing to Erik Andersson (creator of this project) personal pages. The `FaceBook` link
+`A link for signup with the newsletter, Contact us page link, About us page link, Privacy Policy, and the social media icons`. The link to the newsletter will direct the user for signup as mentioned, the newsletter provider is [mailchimp](https://mailchimp.com/) (link). The contact us page link will direct the user to a seperate page with all of the contact information of AndWatch's. The about us page link works as the contact link but it will direct the user to a page of all the information about AndWatch's. The social media links will direct the user to each seperate plattform, `GitHub, LinkedIn, and Facebook`. The GitHub link and LinkedIn link is directing to Erik Andersson (creator of this project) personal pages. The `FaceBook` link
 on the other hand directs the user to the FaceBook page of `AndWatch's`. At the very bottom is the `Copyright of AndWatch's - Erik andersson`. 
 
 At the `home page` is a Hero image of a seiko watch, a text for the user to take action and press the `Shop Now` button to get to all watches page.
@@ -74,7 +70,7 @@ When the user has clicked the `Secure Checkout` button the user will get to the 
 At the `checkout page` the user will be asked to fill out the form of details, delivery info and payment card. If the user is logged in and never bought anything they can tick the 
 `Save info` checkbox underneath the form to save their information for future purchases. Now the user will need to cklick on `Complete Order` as a final step to process the purchase.
 A yellow transparent loading overlay (like in Boutique Ado) will pop up with two spinning arrows and a success message will pop up. The user will now see a thank you text above and
-the order, deliver to and billing information below. 
+the order, deliver to and billing information below. The user will get a confirmation email about their order.
 
 The user can update their information about delivery and so on on their `Profile` page.
 
@@ -88,8 +84,8 @@ As well as there is success messages for every successfull transaction on the si
 
 ### For Store Managers Only!
 
-If you are logged in as a store manager (admin) on AndWatch's you can then manage all products, blog posts by edit or deleting them, comments can only be deleted. 
-You can add new products or blog posts by clicking on `Product Managment/Blog Managment` on the profile. As an adim you can edit/delete products and blog posts, commnets you can only delete. 
+If you are logged in as a store manager (admin) on AndWatch's you can then manage all products, blog posts by edit or deleting them, comments can be deleted. 
+You can add new products or blog posts by clicking on `Product Managment/Blog Managment` on the profile. As an admin you can edit/delete products and blog posts, commnets you can only delete. 
 
 **Important! Be aware of:** if you press delete on a product, blog post or comment they will be deleted and this action cannot be undone!
 
