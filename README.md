@@ -145,6 +145,7 @@ You can add new products or blog posts by clicking on `Product Managment/Blog Ma
   * [Forking GitHub Repository](#forking-github-repository)
   * [Cloning GitHub Repository](#cloning-github-repository)
   * [Heroku](#heroku)
+  * [ElephantSQL](#elephantsql)
  
 * [Support](#support)
  
