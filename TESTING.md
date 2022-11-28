@@ -300,7 +300,7 @@ I got one error for no heading where the price is and one error for no label on 
 <summary>Shopping bag page</summary>
 <br>
 
-I got errors for skipped heading levels for bag total and grand total, and an empty table. I added h2 headings for bag total and grand total, and I removed the empty table.
+I got errors for skipped heading levels for bag total and grand total. I added h2 headings for bag total and grand total, and I removed the empty table.I got an error for using a empty table header. The empty table header is because I wanted the tables for `Product Info, Price, Quantity, and Subtotal` to be moved to the rigth to be in line with each content for these so I will leave this empty table header to get my design correct.
 </details>
 
 <details>
