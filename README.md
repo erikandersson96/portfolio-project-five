@@ -659,13 +659,13 @@ The technologies that I used for `AndWatch's` website project are the following 
 ---
 ## Testing
  
-All testing of this project has been documented in a seperate file called `TESTING.md` and you can find it [here](TESTING.md) (internal link).
+All testing of this project has been documented in a separate file called `TESTING.md` and you can find it [here](TESTING.md) (internal link).
  
 ### Bugs
 
 #### Bug 1
 
-I noticed that my footer wasn't at the bottom at my watches page, it was amoung the watches like seen in the screenshot below. You can see the name of AndWatch's between the two images in the middle. The screenshot is taken of another page that hasn't been implemented in the final version.
+I noticed that my footer wasn't at the bottom of my watches page, it was among the watches as seen in the screenshot below. You can see the name of AndWatch's between the two images in the middle. The screenshot is taken of another page that hasn't been implemented in the final version.
  
 **Screenshot bug:**
  
@@ -673,14 +673,14 @@ I noticed that my footer wasn't at the bottom at my watches page, it was amoung 
  
 **Solution Bug 1:**
 
-The solution to this bug was that I had set the height of my products template to a bootstrap class of `min-vh-100` and in my base template I had did the same. I will show a screenshot of the problem down below. So I just made sure I didn't used that bootstrap class anywhere else then in my base temaplate. And in my base template I changed to just `vh-100`.
+The solution to this bug was that I had set the height of my products template to a bootstrap class of `min-vh-100` and in my base template I had done the same. I will show a screenshot of the problem down below. So I just made sure I didn't use that bootstrap class anywhere else than in my base template. And in my base template, I changed to just `vh-100`.
 
 ![Screenshot bug 1 - problem](/readme_images/bug-1-problem.png)
 
 
 #### Bug 2
 
-My sorting for products on the all watches page for `"Brand"` (Brand A-Z, Brand Z-A etc) which I have namned `"watch_make"` in my database for products wasn't working and I got an error for `FieldError at /products/` `Cannot resolve keyword 'name' into field.`. My goal was to get the sorting for A - Z or Z - A working properly.
+My sorting for products on the all watches page for `"Brand"` (Brand A-Z, Brand Z-A, etc) which I have named `"watch_make"` in my database for products wasn't working and I got an error for `FieldError at /products/` `Cannot resolve keyword 'name' into field.`. My goal was to get the sorting for A - Z or Z - A working properly.
 
 **Error message:**
 
@@ -692,7 +692,7 @@ My sorting for products on the all watches page for `"Brand"` (Brand A-Z, Brand 
 
 **Solution Bug 2:**
 
-After I had tried different methods of tweaking the `JavaScript` of this sorting selector I decided to take some help from the Tutors at Code Institute. I got some amazing help from a guy namned `Ed`. After some minutes spent by Ed he discovered that my `JavaScript` function was searching for the underscore to decide what I was trying to do when selecting the A - Z etc, and since I had namned the watch make of brand in my database model to watch_make instead of something like brand the `JavaScript` function was trying to execute at the first underscore in `watch_make_asc` & `watch_make_desc` when it was supposed to execute at the underscore before `asc` or `desc` so therfore I got that error. `Ed` was kind to help my rewrite the `JavaScript` function to execute at correct underscore. I will show two images below with my old function and the new one that `Ed` helped me with.
+After I had tried different methods of tweaking the `JavaScript` of this sorting selector I decided to take some help from the Tutors at Code Institute. I got some amazing help from a guy named `Ed`. After some minutes spent by Ed he discovered that my `JavaScript` function was searching for the underscore to decide what I was trying to do when selecting the A - Z etc, and since I had named the watchmakers of the brand in my database model to watch_make instead of something like the brand the `JavaScript` function was trying to execute at the first underscore in `watch_make_asc` & `watch_make_desc` when it was supposed to execute at the underscore before `asc` or `desc` so, therefore, I got that error. `Ed` was kind to help me rewrite the `JavaScript` function to execute at the correct underscore. I will show two images below with my old function and the new one that `Ed` helped me with.
 
 **Wrong JavaScript Function:**
 
@@ -705,7 +705,7 @@ After I had tried different methods of tweaking the `JavaScript` of this sorting
 
 #### Bug 3
 
-When I was submitting an order at `AndWatch's` development website, I was getting an error for placing an order as a logged in user, but not as a random user (not logged in). I did not get a confirmation email when submitting the order at the live heroku website either.
+When I was submitting an order at `AndWatch's` development website, I was getting an error for placing an order as a logged-in user, but not as a random user (not logged in). I did not get a confirmation email when submitting the order on the live Heroku website either.
 
 **Screenshot error:**
 
@@ -715,7 +715,7 @@ When I was submitting an order at `AndWatch's` development website, I was gettin
 
 **Solution bug 3:**
 
-The problem was related to my `webhook_handler.py` file for saving the user's profile information again in the checkout process, a lot of thanks to `Alex` at the tutor support for helping me find this issue. I had used `commas` seperating the lines and backslash for some reason when I was setting up this function. I removed these and made sure that everything looked good, saved, added to git and pushed. First problem solved. The other problem with me not getting any confirmation emails when submitting an order at the live heroku website was related to me for not adding a `webhook endpoint` in Stripe for my deployed website at heroku. I added this and then this problem was also solved. I will provide images of the first problem, but the second problem I can't share any images of since I would expose my Stripe account for webhooks then.
+The problem was related to my `webhook_handler.py` file for saving the user's profile information again in the checkout process, a lot of thanks to `Alex` at the tutor support for helping me find this issue. I used `commas` to separate the lines and backslash for some reason when I was setting up this function. I removed these and made sure that everything looked good, saved, added to git, and pushed. The first problem was solved. The other problem with me not getting any confirmation emails when submitting an order at the live Heroku website was related to me not adding a `webhook endpoint` in Stripe for my deployed website at Heroku. I added this and then this problem was also solved. I will provide images of the first problem, but for the second problem, I can't share any images of them since I would expose my Stripe account for webhooks then.
 
 **Problem regarding webhook_handler.py file:**
 
@@ -734,18 +734,18 @@ I could not add the `humanize` intcomma to all prices of the website like for `p
 
 **Solution bug 4:**
 
-I added `{% load humanize %}` in the top of my `bag-total.html` template, and the error was fixed and now I got intcomma on `bag total and grand total` as well. At first I had just tried to have the `{% load humanize %}` in my `bag.html` template but I got this error for that too so then I tried this method and it worked.
+I added `{% load humanize %}` at the top of my `bag-total.html` template, and the error was fixed now I got intcomma on `bag total and grand total` as well. At first, I had just tried to have the `{% load humanize %}` in my `bag.html` template but I got this error for that too so then I tried this method and it worked.
 
  
 ### Unfixed Bugs
 
 **Bug 1:**
 
-Since I have set my background color to all black and for my navigation bar, my `"Hamburger menu"` for smaller screen devices wasn't showing. I tried to style the css for the `css` for my `navbar-toggler` and `navbar-toggler-icon` to set the correct value so the `navbar-toggler` would have a white background color and the `navbar-toggler-icon` would have a black color but this didn't work out for me. So I decided to add a `Font awesome` icon of that exact look to go around this problem an then set the `margin-top` to 4px so it would be centered in the white `navbar-toggler`. I have checked so it looks good on smaller screen devices with the chrome developer tool set to responsive, so remember that I haven't had access to test this on real devices.
+Since I have set my background color to all black and for my navigation bar, my `"Hamburger menu"` for smaller screen devices wasn't showing. I tried to style the CSS for the `CSS` for my `navbar-toggler` and `navbar-toggler-icon` to set the correct value so the `navbar-toggler` would have a white background color and the `navbar-toggler-icon` would have a black color but this didn't work out for me. So I decided to add a `Font awesome` icon of that exact look to go around this problem and then set the `margin-top` to 4px so it would be centered in the white `navbar-toggler`. I have checked and it looks good on smaller screen devices with the chrome developer tool set to responsive, so remember that I haven't had access to test this on real devices.
 
 **Bug 2:**
 
-When edit a blog post, if there is an image added to the blog post before (before starting to edit). The admin/store owner can't use the `clear` box shown in the image shown below to delete the existing image. But if the admin/store owner intend to do so they can just click `Add image` and the new image will replace the old one when they hit `save`.
+When editing a blog post, if there is an image added to the blog post before (before starting to edit). The admin/store owner can't use the `clear` box shown in the image shown below to delete the existing image. But if the admin/store owner intends to do so they can just click `Add image` and the new image will replace the old one when they hit `save`.
 
 ![Screenshot of clear box not working while edit blog post](/readme_images/unfixed-bug.png) 
 
