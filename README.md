@@ -463,6 +463,10 @@ The main colors of this website are black, white, and yellow but I have also use
 
 ![Screenshot of green color](/readme_images/green.png)
 
+* Stripe colors from checkout.css.
+
+![Screenshot of stripe checkout colors](/readme_images/stripe-colors.png)
+
 * Darkblue for edit button on both products page and blog page.
 
 **rgb(0,0,139):**
