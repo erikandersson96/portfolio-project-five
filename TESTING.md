@@ -490,25 +490,25 @@ As you can see I mostly got `skipping heading level` as an error, but I also got
 Something that's worth mentioning is that I've tested the majority of these devices within Chrome dev tool, I have not had physical access to test these devices. I have tested the responsiveness and aesthetics on the following devices and browsers:
  
 * Apple
- * iPhone SE
- * iPhone XR
- * iPhone 12 Pro
- * iPhone 6/7/8
- * iPhone 6/7/8 Plus
- * iPad
+  * iPhone SE
+  * iPhone XR
+  * iPhone 12 Pro
+  * iPhone 6/7/8
+  * iPhone 6/7/8 Plus
+  * iPad
  
 * Android
- * Samsung Galaxy S8+
- * Samsung Galaxy S20 Ultra
+  * Samsung Galaxy S8+
+  * Samsung Galaxy S20 Ultra
  
 * Moto G4
  
 * Desktops/laptops/monitor
- * MacBook Pro 13"
- * Lenovo 24" monitor
+  * MacBook Pro 13"
+  * Lenovo 24" monitor
  
 * Browsers
- * Chrome
+  * Chrome
  
  
 ---
