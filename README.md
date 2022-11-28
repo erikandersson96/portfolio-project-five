@@ -608,7 +608,7 @@ I have added an external link for `AndWatch's` Privacy Policy, which I generated
 ---
 ## Technologies
  
-Technologies that I used for `AndWatch's` website project is the following down below.
+The technologies that I used for `AndWatch's` website project are the following down below.
  
 #### Programming Languages
  
@@ -623,37 +623,37 @@ Technologies that I used for `AndWatch's` website project is the following down 
 * [GitHub](https://github.com) (link): GitHub is used to store all data from the project after it has been pushed using the
 `git add . | git commit -m "message here" | git push` command in the GitPod terminal.
  
-* [GitPod](https://www.gitpod.io) (link): I used `GitPod` as my `IDE` that stands for `An integrated development environment (IDE) is a software for building applications that combines common developer tools into a single graphical user interface (GUI)`. You can read more about this [here](https://www.gitpod.io/blog/gitpod-launch) (link).
+* [GitPod](https://www.gitpod.io) (link): I used `GitPod` as my `IDE` which stands for `An integrated development environment (IDE) is a software for building applications that combines common developer tools into a single graphical user interface (GUI)`. You can read more about this [here](https://www.gitpod.io/blog/gitpod-launch) (link).
  
-* `Git`: This is used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. Incase someting unexpected happens to your gitpod workspace, everything is committed to your GitHub repository.
+* `Git`: This is used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. In case something unexpected happens to your gitpod workspace, everything is committed to your GitHub repository.
  
 * [Heroku](https://www.heroku.com) (link): Heroku is a container-based cloud Platform as a Service `(PaaS)`. Developers use Heroku to deploy, manage, and scale modern apps.
 
 * [ElephantSQL](https://www.elephantsql.com/) (link): I used ElephantSQL as my database for this project since Heroku has become a paid service only.
 
-* [LucidChart](https://www.lucidchart.com/pages/) (link): Lucidchart is the intelligent diagramming application that empowers teams to clarify complexity, logic and more. To get a better visual understanding about how an application work.
+* [LucidChart](https://www.lucidchart.com/pages/) (link): Lucidchart is an intelligent diagramming application that empowers teams to clarify complexity, logic, and more. To get a better visual understanding of how an application work.
  
-* [PEP8ci](https://pep8ci.herokuapp.com/) (link): Is a validation tool that was used to validate my python code.
+* [PEP8ci](https://pep8ci.herokuapp.com/) (link): This is a validation tool that was used to validate my python code.
  
 * [Techsini](https://techsini.com/multi-mockup/index.php) (link). Used to create the mockup image.
  
 * [Font Awesome](https://fontawesome.com/) (link). Was used to add icons for my social media links.
  
-* [Pair Fonts](https://pairfonts.com/) (link). I used Pair Fonts to add custome fonts for the aesthetic and UX purposes.
+* [Pair Fonts](https://pairfonts.com/) (link). I used Pair Fonts to add custom fonts for aesthetic and UX purposes.
  
 * [Balsamiq](https://balsamiq.com/) (link). Balsamiq was used to create my wireframe for my design process.
  
-* [dbdiagram](https://dbdiagram.io/home) (link). dbdiagram was used to create my database schema before I started to code my project.
+* [dbdiagram](https://dbdiagram.io/home) (link). DB diagram was used to create my database schema before I started to code my project.
  
 * [Trello](https://trello.com/) (link). Trello was used for creating my board for mapping my user stories in this project.
  
-* [Favicon](https://favicon.io/) (link). Favicon was used to create the little icon that is showing in the browser adress bar to make the user experience more professional for the website.
+* [Favicon](https://favicon.io/) (link). Favicon was used to create the little icon that is showing in the browser address bar to make the user experience more professional for the website.
 
-* [Stripe](https://stripe.com/) (link). Stripe was used for my checkout functionality in this project so visitors and users can make successfull payments at the store.
+* [Stripe](https://stripe.com/) (link). Stripe was used for my checkout functionality in this project so visitors and users can make successful payments at the store.
 
 * [Mailchimp](https://mailchimp.com/) (link). Mailchimp was used for my newsletter.
 
-* [Unsplash](https://unsplash.com/) (link). Unsplash was used for downloading all of the products images and hero image on the home page.
+* [Unsplash](https://unsplash.com/) (link). Unsplash was used for downloading all of the product images/blog images, and the hero image.
  
  
 ---
