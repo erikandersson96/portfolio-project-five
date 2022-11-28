@@ -380,18 +380,18 @@ I got 1 error for skipping the heading level, I fixed this one by adding an h1 i
 I got 2 errors for skipping the heading level, I solved these by adding an h1 for the page title and an h2 for the watch title on the product card.
 </details>
 
-**No errors were found on the following pages:**
-
-* Register page
-* Login page
-* Logout page
-
 <details>
 <summary>Newsletter page</summary>
 <br>
 
 I got 1 error for skipping the heading level, I solved this one by changing the h2 for h1 for the title on the page.
 </details>
+
+**No errors were found on the following pages:**
+
+* Register page
+* Login page
+* Logout page
 
 #### Summary of wave reports
 
